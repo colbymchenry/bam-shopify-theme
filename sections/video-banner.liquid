@@ -87,6 +87,23 @@
       {%- endfor -%}
     </div>
   </div>
+    {%- for block in section.blocks -%}
+        {%- case block.type -%}
+            {%- when 'info_labels' -%}
+                <div class="hero__underwrap__info">
+                    {% if block.settings.left_text != blank %}
+                        <div>
+                            <span>{{ block.settings.left_text }}</span>
+                        </div>
+                    {% endif %}
+                    {% if block.settings.right_text != blank %}
+                        <div>
+                            <span>{{ block.settings.right_text }}</span>
+                        </div>
+                    {% endif %}
+                </div>
+        {%- endcase -%}
+    {%- endfor -%}
 </div>
 
 
@@ -367,6 +384,35 @@
           "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
         }
       ]
+    },
+    {
+    "type": "info_labels",
+    "name": "Info Labels",
+    "limit": 1,
+    "settings": [
+        {
+            "type": "text",
+            "id": "left_text",
+            "label": "Text Left",
+            "default": "Discover our Membership Program."
+        },
+        {
+            "type": "color",
+            "id": "left_color",
+            "label": "Color Left"
+        },
+        {
+            "type": "text",
+            "id": "right_text",
+            "label": "Text Right",
+            "default": "Discover our Mission Statement."
+        },
+        {
+            "type": "color",
+            "label": "Color Right",
+            "id": "right_color"
+        }
+    ]
     }
   ],
   "presets": [
@@ -381,6 +427,9 @@
         },
         {
           "type": "buttons"
+        },
+        {
+          "type": "info_labels"
         }
       ]
     }

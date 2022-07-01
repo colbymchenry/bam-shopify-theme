@@ -1,5 +1,17 @@
 /* Color custom properties */
 
+.hero__underwrap__info {
+  display: flex;
+  width: 100%;
+}
+
+.hero__underwrap__info div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
