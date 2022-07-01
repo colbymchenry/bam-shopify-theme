@@ -94,13 +94,13 @@
         {%- when 'info_labels' -%}
             <div class="hero__underwrap__info">
                 {% if block.settings.left_text != blank %}
-                    <div>
-                        <span>{{ block.settings.left_text }}</span>
+                    <div style="background-color: {{ block.setting.left_color }};">
+                        <span data-aos="fade-left">{{ block.settings.left_text }}</span>
                     </div>
                 {% endif %}
                 {% if block.settings.right_text != blank %}
-                    <div>
-                        <span>{{ block.settings.right_text }}</span>
+                    <div style="background-color: {{ block.setting.right_color }};">
+                        <span data-aos="fade-right">{{ block.settings.right_text }}</span>
                     </div>
                 {% endif %}
             </div>
