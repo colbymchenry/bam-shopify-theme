@@ -87,24 +87,25 @@
       {%- endfor -%}
     </div>
   </div>
-    {%- for block in section.blocks -%}
-        {%- case block.type -%}
-            {%- when 'info_labels' -%}
-                <div class="hero__underwrap__info">
-                    {% if block.settings.left_text != blank %}
-                        <div>
-                            <span>{{ block.settings.left_text }}</span>
-                        </div>
-                    {% endif %}
-                    {% if block.settings.right_text != blank %}
-                        <div>
-                            <span>{{ block.settings.right_text }}</span>
-                        </div>
-                    {% endif %}
-                </div>
-        {%- endcase -%}
-    {%- endfor -%}
 </div>
+
+{%- for block in section.blocks -%}
+    {%- case block.type -%}
+        {%- when 'info_labels' -%}
+            <div class="hero__underwrap__info">
+                {% if block.settings.left_text != blank %}
+                    <div>
+                        <span>{{ block.settings.left_text }}</span>
+                    </div>
+                {% endif %}
+                {% if block.settings.right_text != blank %}
+                    <div>
+                        <span>{{ block.settings.right_text }}</span>
+                    </div>
+                {% endif %}
+            </div>
+    {%- endcase -%}
+{%- endfor -%}
 
 
 
