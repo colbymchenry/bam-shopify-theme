@@ -273,8 +273,8 @@
     {%- endif -%}
     
      <script src="{{ 'aos.js' | asset_url }}" defer="defer"></script>
-   	 <script>
-    	AOS.init();
-     </script>
+   	 {% comment %}<script>{% endcomment %}
+    	{% comment %}AOS.init();{% endcomment %}
+     {% comment %}</script>{% endcomment %}
   </body>
 </html>
