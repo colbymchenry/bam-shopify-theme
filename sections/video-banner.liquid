@@ -49,8 +49,7 @@
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
         assign sizes = "100vw"
       -%}
-      {{ hero_video.value | source_tag }}
-      {% comment %}<video autoplay="" muted="" loop="" preload="auto" style="object-fit:cover;min-width:100%;min-height:100%;">{{ file_reference }}</video>{% endcomment %}
+      {{ hero_video.value | video_tag: controls: false, autoplay: true, muted: true, loop: true }}
     </div>
   {%- else -%}
     <div class="banner__media media placeholder">
