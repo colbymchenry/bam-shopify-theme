@@ -274,7 +274,9 @@
     
      <script src="{{ 'aos.js' | asset_url }}" defer="defer"></script>
    	 <script>
-    	AOS.init();
+       setTimeout(() => {
+         AOS.init();
+       }, 500);
      </script>
   </body>
 </html>
