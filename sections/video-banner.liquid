@@ -35,8 +35,7 @@
   }
 {%- endstyle -%}
 <script type="text/javascript">
-  const tl = {{ pages.home.metafields.custom.hero_video.value | file_url }}
-console.log(tl)
+console.log({{ pages.home.metafields.custom.hero_video.value | file_url }})
 </script>
 
 <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and hero_video != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and hero_video != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
