@@ -1,6 +1,8 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
-{%- if section.settings.adapt_height_first_image and page.metafields.custom.hero_video != blank -%}
+{% assign hero_video = pages.home.metafields.custom.hero_video or page.metafields.custom.hero_video %}
+
+{%- if section.settings.adapt_height_first_image and hero_video != blank -%}
   {%- style -%}
   @media screen and (max-width: 749px) {
     #Banner-{{ section.id }}::before,
@@ -29,9 +31,9 @@
   }
 {%- endstyle -%}
 
-<div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
+<div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and hero_video != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and hero_video != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
   {%- if page.metafields.custom.hero_video != blank -%}
-    <div class="banner__media media{% if page.metafields.custom.hero_video == blank %} placeholder{% endif %}">
+    <div class="banner__media media{% if hero_video == blank %} placeholder{% endif %}">
       {%-liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
         if section.settings.image_2 != blank
@@ -45,10 +47,10 @@
           assign sizes = "100vw"
         endif
       -%}
-      <video autoplay="" muted="" loop="" preload="auto" style="object-fit:cover;min-width:100%;min-height:100%;width:auto;height:auto"><source src="{{ page.metafields.custom.hero_video | file_url }}" type="video/mp4"></video>
+      <video autoplay="" muted="" loop="" preload="auto" style="object-fit:cover;min-width:100%;min-height:100%;width:auto;height:auto"><source src="{{ hero_video | file_url }}" type="video/mp4"></video>
     </div>
   {%- else -%}
-    <div class="banner__media media{% if page.metafields.custom.hero_video == blank %} placeholder{% endif %}">
+    <div class="banner__media media{% if hero_video == blank %} placeholder{% endif %}">
       {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
     </div>
   {%- endif -%}
