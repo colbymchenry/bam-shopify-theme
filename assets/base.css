@@ -13,6 +13,11 @@
   font-weight: bold;
 }
 
+.hero__underwrap__info div a,a:visited,a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
