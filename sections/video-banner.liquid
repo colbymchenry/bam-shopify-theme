@@ -95,12 +95,12 @@
             <div class="hero__underwrap__info">
                 {% if block.settings.left_text != blank %}
                     <div style="background-color: {{ block.settings.left_color }};">
-                        <span data-aos="fade-right">{{ block.settings.left_text }}</span>
+                        <a href="{{ block.settings.left_url }}" data-aos="fade-right">{{ block.settings.left_text }}</a>
                     </div>
                 {% endif %}
                 {% if block.settings.right_text != blank %}
                     <div style="background-color: {{ block.settings.right_color }};">
-                        <span data-aos="fade-left">{{ block.settings.right_text }}</span>
+                        <a href="{{ block.settings.right_url }}" data-aos="fade-left">{{ block.settings.right_text }}</a>
                     </div>
                 {% endif %}
             </div>
@@ -398,6 +398,11 @@
             "default": "Discover our Membership Program."
         },
         {
+            "type": "url",
+            "id": "left_url",
+            "label": "Left URL"
+        },
+        {
             "type": "color",
             "id": "left_color",
             "label": "Color Left"
@@ -407,6 +412,11 @@
             "id": "right_text",
             "label": "Text Right",
             "default": "Discover our Mission Statement."
+        },
+        {
+            "type": "url",
+            "id": "right_url",
+            "label": "Left URL"
         },
         {
             "type": "color",
