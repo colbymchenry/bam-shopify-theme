@@ -32,6 +32,9 @@
 {%- endstyle -%}
 
 <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and hero_video != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and hero_video != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
+  <p>{{ pages.home.metafields.custom.hero_video.value | file_url }}</p>
+  <p>{{ pages.home.metafields.custom.hero_video.value }}</p>
+  <p>{{ pages.home.metafields.custom.hero_video }}</p>
   {%- if page.metafields.custom.hero_video != blank -%}
     <div class="banner__media media{% if hero_video == blank %} placeholder{% endif %}">
       {%-liquid
@@ -47,7 +50,7 @@
           assign sizes = "100vw"
         endif
       -%}
-      <video autoplay="" muted="" loop="" preload="auto" style="object-fit:cover;min-width:100%;min-height:100%;width:auto;height:auto"><source src="{{ hero_video | file_url }}" type="video/mp4"></video>
+      <video autoplay="" muted="" loop="" preload="auto" style="object-fit:cover;min-width:100%;min-height:100%;width:auto;height:auto"><source src="{{ hero_video.value | file_url }}" type="video/mp4"></video>
     </div>
   {%- else -%}
     <div class="banner__media media{% if hero_video == blank %} placeholder{% endif %}">
