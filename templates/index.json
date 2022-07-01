@@ -27,12 +27,22 @@
             "button_link_2": "",
             "button_style_secondary_2": true
           }
+        },
+        "f2c59075-dc40-409a-9d3b-6f98b5ee03d4": {
+          "type": "info_labels",
+          "settings": {
+            "left_text": "Discover our Membership Program.",
+            "left_color": "#cacaeb",
+            "right_text": "Discover our Mission Statement.",
+            "right_color": "#c4c4c4"
+          }
         }
       },
       "block_order": [
         "heading",
         "text",
-        "button"
+        "button",
+        "f2c59075-dc40-409a-9d3b-6f98b5ee03d4"
       ],
       "settings": {
         "image_overlay_opacity": 40,
