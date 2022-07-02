@@ -279,7 +279,7 @@
         "title": "BAMFAM Membership",
         "body": "<p>For only $100 per month, start your membership today and begin enjoying all of the benefits of becoming part of the BAMFAM! Receive monthly, complimentary BAM Signature Facial treatments, discounts on retail products, and more.<\/p>",
         "signup_url": "shopify:\/\/pages\/contact",
-        "gap": 20
+        "gap": 0
       }
     }
   },
