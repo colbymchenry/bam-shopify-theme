@@ -1,0 +1,70 @@
+<style>
+    .video_with_text__container {
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .video_with_text__container .left,.right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video_with_text__container .left {
+        justify-content: space-evenly;
+    }
+</style>
+
+
+<div class="video_with_text__container">
+    <div class="left">
+        {% if section.settings.heading_logo != blank %}
+            <img loading="lazy" src="{{ section.settings.heading_logo | img_url: "master" }}" alt="heading-logo" />
+        {% endif %}
+        {% if section.settings.heading != blank %}
+            <h5>{{ section.settings.heading }}</h5>
+        {% endif %}
+        {% if section.settings.title != blank %}
+            <h3>{{ sectiong.settings.title }}</h3>
+        {% endif %}
+        {% if section.settings.body %}
+            {{ section.settings.body }}
+        {% endif %}
+    </div>
+    <div class="right">
+
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Video with text",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "heading_logo",
+            "label": "Heading Logo"
+        },
+        {
+            "type": "text",
+            "id": "heading",
+            "default": "OUR STORY",
+            "label": "Heading"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "default": "Balanced Aesthetics' Unique Model Created For You",
+            "label": "Title"
+        },
+        {
+            "type": "richtext",
+            "id": "body",
+            "label": "Body"
+        }
+    ]
+}
+{% endschema %}
