@@ -18,18 +18,6 @@
   text-decoration: none;
 }
 
-.link-with-icon,.link-with-icon:hover,.link-with-icon:visited {
-  font-family: "Montserrat", Sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 28px;
-  letter-spacing: 0.3px;
-  fill: #DFB67A;
-  color: #DFB67A;
-  text-decoration: none;
-}
-
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
