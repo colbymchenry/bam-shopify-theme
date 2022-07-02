@@ -253,6 +253,26 @@
     },
     "16567772570432eb69": {
       "type": "membership",
+      "blocks": {
+        "f10fab8d-8f4b-4034-9457-e3fbcf0ba0be": {
+          "type": "link",
+          "settings": {
+            "url": "shopify:\/\/pages\/contact",
+            "label": "VIEW OUR MONTHLY PROMOTIONS"
+          }
+        },
+        "114cb9cc-b165-4f13-9ed0-2404fded74ed": {
+          "type": "link",
+          "settings": {
+            "url": "shopify:\/\/pages\/contact",
+            "label": "BAM GIFT CARDS AVAILABLE"
+          }
+        }
+      },
+      "block_order": [
+        "f10fab8d-8f4b-4034-9457-e3fbcf0ba0be",
+        "114cb9cc-b165-4f13-9ed0-2404fded74ed"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2022-07-02_114435.png",
         "heading": "SKILLED, CARING PROFESSIONALS",
