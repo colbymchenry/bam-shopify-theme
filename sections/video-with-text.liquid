@@ -62,7 +62,9 @@
         {% endif %}
     </div>
     <div class="right">
-
+        {% if section.settings.video_url != blank %}
+            {{ section.settings.video_url | video_tag: controls: false, autoplay: true, muted: true, loop: true }}
+        {% endif %}
     </div>
 </div>
 
@@ -93,6 +95,12 @@
             "type": "richtext",
             "id": "body",
             "label": "Body"
+        },
+        {
+            "type": "text",
+            "id": "video_url",
+            "label": "Video File URL",
+            "info": "Upload video to theme files then copy link and paste here."
         }
     ]
 }
