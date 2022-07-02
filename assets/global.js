@@ -1,7 +1,4 @@
 function triggerAccordion(e) {
-  // close others
-  Array.from(e.target.parentNode.getElementsByClassName("open")).forEach((elem) => elem.classList.remove("open"));
-
   const answerElem = e.target.querySelector(".answer");
   if (answerElem) {
     if (answerElem.classList.contains("open")) {
@@ -10,6 +7,9 @@ function triggerAccordion(e) {
       answerElem.classList.add("open");
     }
   }
+
+  // close others
+  Array.from(e.target.parentNode.getElementsByClassName("open")).filter((elem) => elem !== e.target).forEach((elem) => elem.classList.remove("open"));
 }
 
 function getFocusableElements(container) {
