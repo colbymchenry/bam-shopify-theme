@@ -66,7 +66,7 @@
 
 
 <div class="video_with_text__container">
-    <div class="left">
+    <div class="left" data-aos="fade-up">
         {% if section.settings.heading_logo != blank %}
             <img class="heading-logo" loading="lazy" src="{{ section.settings.heading_logo | img_url: "master" }}" alt="heading-logo" />
         {% endif %}
@@ -80,7 +80,7 @@
             {{ section.settings.body }}
         {% endif %}
     </div>
-    <div class="right">
+    <div class="right" data-aos="fade-up">
         {% if section.settings.video_url != blank %}
             <video autoplay="" muted="" loop="" preload="auto"><source src="{{ section.settings.video_url }}" type="video/mp4"></video>
         {% endif %}
