@@ -61,7 +61,7 @@
     "spacer": {
       "type": "spacer",
       "settings": {
-        "height": 13
+        "height": 9.5
       }
     },
     "video_with_text": {
