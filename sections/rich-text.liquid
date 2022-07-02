@@ -16,6 +16,29 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .rich-text__logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rich-text__logo h5 {
+    text-align: center;
+    color: #DFB67A;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+  }
+
+  .rich-text__heading {
+    color: #77A5BE;
+    font-family: "Antic Didone", Sans-serif;
+    font-size: 38px;
+    line-height: 1.26em;
+  }
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
@@ -24,6 +47,11 @@
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
+            {%- when 'logo' -%}
+              <div class="rich-text__logo">
+                <img src="{{ block.settings.logo | img_url: "master" }}" alt="rich-text-logo" />
+                <h5>{{ block.settings.label }}</h5>
+              </div>
             {%- when 'heading' -%}
               <h2 class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | replace: 'p>', 'span>' }}
@@ -159,6 +187,23 @@
     }
   ],
   "blocks": [
+    {
+      "type": "logo",
+      "name": "Logo",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label"
+        }
+      ]
+    },
     {
       "type": "heading",
       "name": "t:sections.rich-text.blocks.heading.name",
