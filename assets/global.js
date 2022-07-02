@@ -1,3 +1,14 @@
+function triggerAccordion(e) {
+  const answerElem = e.target.nextElementSibling;
+  if (answerElem) {
+    if (answerElem.classList.contains("open")) {
+      answerElem.classList.remove("open");
+    } else {
+      answerElem.classList.add("open");
+    }
+  }
+}
+
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(

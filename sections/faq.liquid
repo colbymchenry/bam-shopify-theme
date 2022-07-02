@@ -1,0 +1,78 @@
+{% style %}
+
+  .faq__container {
+    display: flex;
+    background-color: white;
+    padding: 30px 40px 120px 40px;
+    flex-direction: column;
+  }
+
+  .faq__container .faq {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faq__container .answer {
+    max-height: 1000px;
+    height: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .faq__container .answer.open {
+    transition: all 0.3s ease;
+    height: 100%;
+  }
+
+{% endstyle %}
+
+
+<div class="faq__container">
+  {%- for block in section.blocks -%}
+    <div class="faq">
+      <div class="question" onclick="triggerAccordion(event);">
+        <h5>{{ block.settings.question }}</h5>
+      </div>
+      <div class="answer">
+        {{ block.settings.answer }}
+      </div>
+    </div>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "max_blocks": 20,
+  "presets": [{
+    "name": "FAQ",
+    "category": "Text"
+  }],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "Question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "default": "Type your question here"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Type your answer here.</p>"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "question"
+      }
+    ]
+  }
+}
+{% endschema %}
