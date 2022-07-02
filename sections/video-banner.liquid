@@ -1,10 +1,6 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
-{% assign hero_video = page.metafields.custom.hero_video %}
-
-{% if hero_video == blank %}
-  {% assign hero_video = pages.home.metafields.custom.hero_video %}
-{% endif %}
+{% assign hero_video = section.settings.video_url %}
 
 {%- if section.settings.adapt_height_first_image and hero_video != blank -%}
   {%- style -%}
@@ -48,13 +44,12 @@
 
 <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and hero_video != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and hero_video != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
   {%- if hero_video != blank -%}
-    {% assign file_reference = hero_video.value | video_tag %}
     <div class="banner__media media">
       {%-liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
         assign sizes = "100vw"
       -%}
-      {{ hero_video.value | video_tag: controls: false, autoplay: true, muted: true, loop: true }}
+      <video autoplay="" muted="" loop="" preload="auto"><source src="{{ hero_video }}" type="video/mp4"></video>
     </div>
   {%- else -%}
     <div class="banner__media media placeholder">
@@ -115,6 +110,12 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video File URL",
+      "info": "Upload video to theme files then copy link and paste here. *MUST BE MP4*"
+    },
     {
       "type": "range",
       "id": "image_overlay_opacity",

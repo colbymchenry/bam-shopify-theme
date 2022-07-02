@@ -43,6 +43,11 @@
         font-weight: 400;
         line-height: 28px;
     }
+
+    .video_with_text__container .right video {
+        max-width: 100%;
+        object-fit:cover;
+    }
 </style>
 
 
@@ -63,7 +68,7 @@
     </div>
     <div class="right">
         {% if section.settings.video_url != blank %}
-            <video autoplay="" muted="" loop="" preload="auto" style="object-fit:cover;min-width:100%;min-height:100%;width:auto;height:auto"><source src="{{ section.settings.video_url }}" type="video/mp4"></video>
+            <video autoplay="" muted="" loop="" preload="auto"><source src="{{ section.settings.video_url }}" type="video/mp4"></video>
         {% endif %}
     </div>
 </div>
