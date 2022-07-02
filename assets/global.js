@@ -1,5 +1,5 @@
 function triggerAccordion(e) {
-  const answerElem = e.target.nextElementSibling;
+  const answerElem = e.target.querySelector(".answer");
   if (answerElem) {
     if (answerElem.classList.contains("open")) {
       answerElem.classList.remove("open");

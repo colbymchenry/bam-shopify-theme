@@ -36,8 +36,8 @@
 
 <div class="faq__container">
   {%- for block in section.blocks -%}
-    <div class="faq">
-      <div class="question" onclick="triggerAccordion(event);">
+    <div class="faq" onclick="triggerAccordion(event);">
+      <div class="question">
         <h5>{{ block.settings.question }}</h5>
       </div>
       <div class="answer">
