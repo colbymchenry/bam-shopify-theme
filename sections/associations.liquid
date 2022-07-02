@@ -9,7 +9,7 @@
   }
 </style>
 
-<div class="associations__container">
+<div class="associations__container" data-aos="fade-up">
   {%- for block in section.blocks -%}
     <img src="{{ block.settings.image | img_url: "master" }}" alt="association-img" />
   {%- endfor -%}
