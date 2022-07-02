@@ -11,6 +11,25 @@
     }
   }
 
+  .mega-services__container {
+    width: 100%;
+    padding: 0 8%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .mega-services__container .left,.right,.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mega-services__container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
 {%- endstyle -%}
 
@@ -33,7 +52,7 @@
   </div>
 
   {% if section.settings.image != blank %}
-    {{ section.settings.image | img_tag }}
+    <img src="{{ section.settings.image | img_url: "master" }}" loading="lazy" alt="services" />
   {% endif %}
 
   <div class="right">
