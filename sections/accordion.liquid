@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    border-bottom: 1px solid #d4d4d4;
   }
 
   .accordion__container .question {
@@ -18,17 +19,15 @@
   }
 
   .accordion__container .answer {
-    max-height: 1000px;
-    height: 0;
-    opacity: 0;
+    max-height: 0;
+    height: 100%;
     visibility: hidden;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
   }
 
   .accordion__container .answer.open {
-    transition: all 0.3s ease;
-    height: 100%;
-    opacity: 1;
+    transition: all 1s ease;
+    max-height: 1000px;
     visibility: visible;
   }
 
