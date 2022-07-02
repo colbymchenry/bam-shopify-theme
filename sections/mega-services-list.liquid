@@ -85,9 +85,9 @@
 {% assign step = 1 %}
 
 <div class="mega-services__container">
-  <div class="left">
+  <div class="left" data-aos="fade-right" data-aos-easing="ease-in-sine">
     {%- for block in section.blocks limit:4 -%}
-      <div class="service" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="{{ step | times: 250 }}" data-aos-duration="750">
+      <div class="service">
         <h5>{{ step }}<br />{{ block.settings.label }}</h5>
         <span>{{ block.settings.content }}</span>
         {% if block.settings.url != blank %}
@@ -103,9 +103,9 @@
     <img src="{{ section.settings.image | img_url: "master" }}" loading="lazy" alt="services" data-aos="fade" data-aos-duration="5000" />
   {% endif %}
 
-  <div class="right">
+  <div class="right" data-aos="fade-left" data-aos-easing="ease-in-sine">
     {%- for block in section.blocks offset:4 -%}
-      <div class="service" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="{{ step | times: 250 }}" data-aos-duration="750">
+      <div class="service">
         <h5>{{ step }}<br />{{ block.settings.label }}</h5>
         <span>{{ block.settings.content }}</span>
         {% if block.settings.url != blank %}
