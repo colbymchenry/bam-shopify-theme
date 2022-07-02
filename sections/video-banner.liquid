@@ -40,6 +40,11 @@
     background-color: var(--gradient-base-accent-1) !important;
     color:
   }
+
+  .banner__heading {
+    font-family: "Antic Didone", Sans-serif;
+    font-size: 60px;
+  }
 {%- endstyle -%}
 
 <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and hero_video != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and hero_video != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
