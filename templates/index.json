@@ -74,6 +74,9 @@
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1dbf8e7550f04844ba976e2e785480da.mp4"
       }
     },
+    "associations": {
+      "type": "associations"
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -240,6 +243,7 @@
     "video_banner",
     "spacer",
     "video_with_text",
+    "associations",
     "rich_text",
     "featured_collection",
     "collage",

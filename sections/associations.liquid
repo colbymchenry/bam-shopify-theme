@@ -1,0 +1,36 @@
+<style>
+  .associations__container {
+    width: 100%;
+    display: flex;
+    padding: 0 8%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+</style>
+
+<div class="associations__container">
+  {%- for block in section.blocks -%}
+    <img src="{{ block.settings.image | img_url: "master" }}" alt="association-img" />
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Associations",
+  "max_blocks": 12,
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Image Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
