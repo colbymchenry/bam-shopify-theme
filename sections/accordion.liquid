@@ -1,22 +1,23 @@
 {% style %}
 
-  .faq__container {
+  .accordion__container {
     display: flex;
-    background-color: white;
+    background-color: {{ section.settings.background_color }};
     padding: 30px 40px 120px 40px;
     flex-direction: column;
   }
 
-  .faq__container .faq {
+  .accordion__container .accordion {
     display: flex;
     flex-direction: column;
-  }
-
-  .faq__container .question {
     cursor: pointer;
   }
 
-  .faq__container .answer {
+  .accordion__container .question {
+    pointer-events: none;
+  }
+
+  .accordion__container .answer {
     max-height: 1000px;
     height: 0;
     opacity: 0;
@@ -24,7 +25,7 @@
     transition: all 0.3s ease;
   }
 
-  .faq__container .answer.open {
+  .accordion__container .answer.open {
     transition: all 0.3s ease;
     height: 100%;
     opacity: 1;
@@ -34,9 +35,9 @@
 {% endstyle %}
 
 
-<div class="faq__container">
+<div class="accordion__container">
   {%- for block in section.blocks -%}
-    <div class="faq" onclick="triggerAccordion(event);">
+    <div class="accordion" onclick="triggerAccordion(event);">
       <div class="question">
         <h5>{{ block.settings.question }}</h5>
       </div>
@@ -49,10 +50,18 @@
 
 {% schema %}
 {
-  "name": "FAQ",
+  "name": "Accordion",
   "max_blocks": 20,
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FFF"
+    }
+  ],
   "presets": [{
-    "name": "FAQ",
+    "name": "Accordion",
     "category": "Text"
   }],
   "blocks": [
