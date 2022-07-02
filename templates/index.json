@@ -58,7 +58,10 @@
       }
     },
     "spacer": {
-      "type": "spacer"
+      "type": "spacer",
+      "settings": {
+        "height": 0
+      }
     },
     "video_with_text": {
       "type": "video-with-text",
