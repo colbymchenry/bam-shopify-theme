@@ -8,8 +8,8 @@
   }
 
   .membership__container img {
-    max-height: 100%;
-    width: auto;
+    height: 100%;
+    width: 50%;
     border-top-left-radius: 60px !important;
   }
 
@@ -29,7 +29,14 @@
     line-height: 1.16em;
   }
 
-  .membership__container
+  .membership__container .content {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    height: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+  }
 
 {% endstyle %}
 
