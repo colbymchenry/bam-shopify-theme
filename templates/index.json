@@ -287,38 +287,38 @@
         "signup_url": "shopify:\/\/pages\/contact"
       }
     },
-    "16567801366f63f905": {
-      "type": "faq",
+    "1656781329ced14cae": {
+      "type": "accordion",
       "blocks": {
-        "7d3dd462-d8de-4c99-a487-6f1f078b028f": {
+        "0170d3c8-71c6-4d90-b4da-b862aa4be06a": {
           "type": "question",
           "settings": {
             "question": "How can I book an appointment today?",
             "answer": "<p>To book an appointment, call our office at <a href=\"tel:+4702262390\">(470) 226-2390<\/a>. You may also fill out the form on this page or click the button below to book your appointment today<\/p>"
           }
         },
-        "c6ea0f49-f4c3-4e52-a818-5f3d137c0cf4": {
+        "d795f392-e957-4ef4-a0ec-a750c84c6d89": {
           "type": "question",
           "settings": {
             "question": "Where is the office located?",
             "answer": "<p>Our office is located in the Macquarium Building at <a href=\"https:\/\/goo.gl\/maps\/hhq77ZaW7SrG9EBj6\">1800 Peachtree St., Ste. 855, Atlanta, GA 30309<\/a>. We validate your parking!<\/p>"
           }
         },
-        "a1648893-8990-49fb-986d-f456b03c0bed": {
+        "ded9c73a-b018-4e9f-853e-96b49e7dac49": {
           "type": "question",
           "settings": {
             "question": "Are you currently accepting new patients?",
             "answer": "<p>Yes! New patients are always welcome at our practice. We are committed to making your visits pleasant and stress-free.<\/p>"
           }
         },
-        "36fa85d5-dc90-4f8b-8e0f-329278f585db": {
+        "2c01fa60-35b1-4b96-866b-831151762547": {
           "type": "question",
           "settings": {
             "question": "What are your payment options?",
             "answer": "<p>We are a concierge medicine facility, so we promise the best, most affordable rate. We currently do not accept insurance or HSA. Please see our packages under our services to learn how to get the biggest bang for your buck! We offer payment plans for packages and bundles.<\/p>"
           }
         },
-        "50be1ff6-df71-4ccc-ad69-85d073e51c23": {
+        "f8730a84-c0a4-4ef6-9453-42dfd72745a8": {
           "type": "question",
           "settings": {
             "question": "What sets your clinic apart from the rest?",
@@ -327,13 +327,14 @@
         }
       },
       "block_order": [
-        "7d3dd462-d8de-4c99-a487-6f1f078b028f",
-        "c6ea0f49-f4c3-4e52-a818-5f3d137c0cf4",
-        "a1648893-8990-49fb-986d-f456b03c0bed",
-        "36fa85d5-dc90-4f8b-8e0f-329278f585db",
-        "50be1ff6-df71-4ccc-ad69-85d073e51c23"
+        "0170d3c8-71c6-4d90-b4da-b862aa4be06a",
+        "d795f392-e957-4ef4-a0ec-a750c84c6d89",
+        "ded9c73a-b018-4e9f-853e-96b49e7dac49",
+        "2c01fa60-35b1-4b96-866b-831151762547",
+        "f8730a84-c0a4-4ef6-9453-42dfd72745a8"
       ],
       "settings": {
+        "background_color": "#FFF"
       }
     }
   },
@@ -348,6 +349,6 @@
     "mega_services_list",
     "16567787339c7171bb",
     "16567772570432eb69",
-    "16567801366f63f905"
+    "1656781329ced14cae"
   ]
 }
