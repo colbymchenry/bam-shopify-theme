@@ -75,7 +75,48 @@
       }
     },
     "associations": {
-      "type": "associations"
+      "type": "associations",
+      "blocks": {
+        "1187d937-beea-4e20-81e4-085b399b1440": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AmSpa-02.png"
+          }
+        },
+        "47e53bb7-b8eb-4775-bcdc-c221da0ddf88": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AAFE-03.png"
+          }
+        },
+        "06bc6d29-0366-4056-8a6d-493f8a4f318c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AMS-04.png"
+          }
+        },
+        "185cad65-db92-4546-9554-5de8c4bd6deb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A4M-05.png"
+          }
+        },
+        "438f8f24-2019-4a8a-b6d0-45dfd48a4085": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SIA-06.png"
+          }
+        }
+      },
+      "block_order": [
+        "1187d937-beea-4e20-81e4-085b399b1440",
+        "47e53bb7-b8eb-4775-bcdc-c221da0ddf88",
+        "06bc6d29-0366-4056-8a6d-493f8a4f318c",
+        "185cad65-db92-4546-9554-5de8c4bd6deb",
+        "438f8f24-2019-4a8a-b6d0-45dfd48a4085"
+      ],
+      "settings": {
+      }
     },
     "rich_text": {
       "type": "rich-text",
