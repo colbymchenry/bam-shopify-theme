@@ -2,7 +2,7 @@
     .video_with_text__container {
         width: 100%;
         display: flex;
-        gap: 6rem;
+        gap: {{ section.settings.gap }}rem;
         padding: 0 8% 0 8%;
     }
 
@@ -60,7 +60,7 @@
         object-fit:cover;
         min-height: 580px !important;
         border-top-right-radius: 60px !important;
-        box-shadow: -40px 70px rgb(125 125 125 / 20%);
+        box-shadow: -40px 50px rgb(125 125 125 / 20%);
     }
 </style>
 
@@ -124,6 +124,15 @@
             "id": "video_url",
             "label": "Video File URL",
             "info": "Upload video to theme files then copy link and paste here. *MUST BE MP4*"
+        },
+        {
+            "type": "range",
+            "id": "gap",
+            "label": "Gap",
+            "min": 0,
+            "max": 50,
+            "step": 0.5,
+            "default": 20
         }
     ]
 }
