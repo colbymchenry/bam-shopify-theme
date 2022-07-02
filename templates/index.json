@@ -55,6 +55,9 @@
         "show_text_below": false
       }
     },
+    "video_with_text": {
+      "type": "video-with-text"
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -219,6 +222,7 @@
   },
   "order": [
     "video_banner",
+    "video_with_text",
     "rich_text",
     "featured_collection",
     "collage",
