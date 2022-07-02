@@ -170,7 +170,86 @@
       }
     },
     "mega_services_list": {
-      "type": "mega-services-list"
+      "type": "mega-services-list",
+      "blocks": {
+        "ff031655-d1ac-4d79-b500-9c3d5b6f9617": {
+          "type": "service",
+          "settings": {
+            "label": "IPL Facial",
+            "content": "Effective facial for anti-aging and blemish control.",
+            "url": "shopify:\/\/pages\/contact"
+          }
+        },
+        "92f5978e-a162-4858-92c7-3389f47d8258": {
+          "type": "service",
+          "settings": {
+            "label": "Peptide Therapy",
+            "content": "Celebrity secret to feeling and looking young.",
+            "url": "shopify:\/\/pages\/contact"
+          }
+        },
+        "dad88850-d142-45c8-ba7a-2cf21898183f": {
+          "type": "service",
+          "settings": {
+            "label": "Radio Frequency Microneedling",
+            "content": "Noninvasive and effective face and neck skin firming treatment.",
+            "url": "shopify:\/\/pages\/contact"
+          }
+        },
+        "6b6170ff-9ea5-4995-92a2-33347cef3377": {
+          "type": "service",
+          "settings": {
+            "label": "Laser Genesis",
+            "content": "Stimulates the skin’s natural processes to diminish the signs of aging and sun damage.",
+            "url": "shopify:\/\/pages\/contact"
+          }
+        },
+        "f90ddee0-8688-44fa-9cf7-52b0e47d2d49": {
+          "type": "service",
+          "settings": {
+            "label": "truSculpt® Flex Muscle Toning",
+            "content": "See significant results after just 4 treatments.",
+            "url": "shopify:\/\/pages\/contact"
+          }
+        },
+        "8c74d354-c01c-4473-acc3-2383938ae1e1": {
+          "type": "service",
+          "settings": {
+            "label": "truSculpt® ID Fat Reduction",
+            "content": "Thermal fat reduction results unmatched.",
+            "url": "shopify:\/\/pages\/contact"
+          }
+        },
+        "7c252be4-beac-4a4c-a04d-5495f177eb9e": {
+          "type": "service",
+          "settings": {
+            "label": "Botox®",
+            "content": "Corrects fine lines and wrinkles for a youthful appearance.",
+            "url": "shopify:\/\/pages\/contact"
+          }
+        },
+        "8b295a88-c889-43e8-9df4-a1010efd7faf": {
+          "type": "service",
+          "settings": {
+            "label": "Dermal Fillers",
+            "content": "Adds volume and hydration to the face for a youthful appearance.",
+            "url": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "ff031655-d1ac-4d79-b500-9c3d5b6f9617",
+        "92f5978e-a162-4858-92c7-3389f47d8258",
+        "dad88850-d142-45c8-ba7a-2cf21898183f",
+        "6b6170ff-9ea5-4995-92a2-33347cef3377",
+        "f90ddee0-8688-44fa-9cf7-52b0e47d2d49",
+        "8c74d354-c01c-4473-acc3-2383938ae1e1",
+        "7c252be4-beac-4a4c-a04d-5495f177eb9e",
+        "8b295a88-c889-43e8-9df4-a1010efd7faf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AdobeStock_271408073-1-scaled.jpg"
+      }
     }
   },
   "order": [
