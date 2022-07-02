@@ -27,6 +27,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
   }
 
   .mega-services__container img {
@@ -36,6 +37,37 @@
     flex-basis: 40%;
   }
 
+  .mega-services__container h5 {
+    text-align: center;
+    color: #77A5BE;
+    font-family: "Antic Didone", Sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .mega-services__container span {
+    text-align: center;
+    color: #54595F;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+  }
+
+  .mega-services__container a {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+    fill: #DFB67A;
+    color: #DFB67A;
+  }
+
+
 {%- endstyle -%}
 
 {% assign step = 1 %}
@@ -44,9 +76,8 @@
   <div class="left">
     {%- for block in section.blocks limit:4 -%}
       <div class="service">
-        {{ step }}
-        <h5>{{ block.settings.label }}</h5>
-        {{ block.settings.content }}
+        <h5>{{ step }}<br />{{ block.settings.label }}</h5>
+        <span>{{ block.settings.content }}</span>
         {% if block.settings.url != blank %}
           <a href="{{ block.settings.url }}">LEARN MORE</a>
         {% endif %}
@@ -63,9 +94,8 @@
   <div class="right">
     {%- for block in section.blocks offset:step -%}
       <div class="service">
-        {{ step }}
-        <h5>{{ block.settings.label }}</h5>
-        {{ block.settings.content }}
+        <h5>{{ step }}<br />{{ block.settings.label }}</h5>
+        <span>{{ block.settings.content }}</span>
         {% if block.settings.url != blank %}
           <a href="{{ block.settings.url }}">LEARN MORE</a>
         {% endif %}
