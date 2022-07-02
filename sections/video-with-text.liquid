@@ -63,7 +63,7 @@
     </div>
     <div class="right">
         {% if section.settings.video_url != blank %}
-            {{ section.settings.video_url | video_tag: controls: false, autoplay: true, muted: true, loop: true }}
+            <video autoplay="" muted="" loop="" preload="auto" style="object-fit:cover;min-width:100%;min-height:100%;width:auto;height:auto"><source src="{{ section.settings.video_url }}" type="video/mp4"></video>
         {% endif %}
     </div>
 </div>
@@ -100,7 +100,7 @@
             "type": "text",
             "id": "video_url",
             "label": "Video File URL",
-            "info": "Upload video to theme files then copy link and paste here."
+            "info": "Upload video to theme files then copy link and paste here. *MUST BE MP4*"
         }
     ]
 }
