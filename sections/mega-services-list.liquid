@@ -26,7 +26,8 @@
   }
 
   .mega-services__container .service {
-    gap: 1rem;
+    height: 100%;
+    justify-content: space-evenly;
   }
 
   .mega-services__container .left,.right,.service {
@@ -88,7 +89,7 @@
   <div class="left" data-aos="fade-right" data-aos-easing="ease-in-sine">
     {%- for block in section.blocks limit:4 -%}
       <div class="service">
-        <h5>{{ step }}<br />{{ block.settings.label }}</h5>
+        <h5>0{{ step }}<br />{{ block.settings.label }}</h5>
         <span>{{ block.settings.content }}</span>
         {% if block.settings.url != blank %}
           <a href="{{ block.settings.url }}">LEARN MORE</a>
@@ -106,7 +107,7 @@
   <div class="right" data-aos="fade-left" data-aos-easing="ease-in-sine">
     {%- for block in section.blocks offset:4 -%}
       <div class="service">
-        <h5>{{ step }}<br />{{ block.settings.label }}</h5>
+        <h5>0{{ step }}<br />{{ block.settings.label }}</h5>
         <span>{{ block.settings.content }}</span>
         {% if block.settings.url != blank %}
           <a href="{{ block.settings.url }}">LEARN MORE</a>
