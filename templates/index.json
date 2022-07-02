@@ -162,6 +162,9 @@
         "padding_top": 40,
         "padding_bottom": 0
       }
+    },
+    "mega_services_list": {
+      "type": "mega-services-list"
     }
   },
   "order": [
@@ -170,6 +173,7 @@
     "video_with_text",
     "16567243330cc4a75b",
     "associations",
-    "rich_text"
+    "rich_text",
+    "mega_services_list"
   ]
 }
