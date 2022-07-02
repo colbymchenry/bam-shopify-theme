@@ -286,6 +286,55 @@
         "body": "<p>For only $100 per month, start your membership today and begin enjoying all of the benefits of becoming part of the BAMFAM! Receive monthly, complimentary BAM Signature Facial treatments, discounts on retail products, and more.<\/p>",
         "signup_url": "shopify:\/\/pages\/contact"
       }
+    },
+    "16567801366f63f905": {
+      "type": "faq",
+      "blocks": {
+        "7d3dd462-d8de-4c99-a487-6f1f078b028f": {
+          "type": "question",
+          "settings": {
+            "question": "How can I book an appointment today?",
+            "answer": "<p>To book an appointment, call our office at <a href=\"tel:+4702262390\">(470) 226-2390<\/a>. You may also fill out the form on this page or click the button below to book your appointment today<\/p>"
+          }
+        },
+        "c6ea0f49-f4c3-4e52-a818-5f3d137c0cf4": {
+          "type": "question",
+          "settings": {
+            "question": "Where is the office located?",
+            "answer": "<p>Our office is located in the Macquarium Building at <a href=\"https:\/\/goo.gl\/maps\/hhq77ZaW7SrG9EBj6\">1800 Peachtree St., Ste. 855, Atlanta, GA 30309<\/a>. We validate your parking!<\/p>"
+          }
+        },
+        "a1648893-8990-49fb-986d-f456b03c0bed": {
+          "type": "question",
+          "settings": {
+            "question": "Are you currently accepting new patients?",
+            "answer": "<p>Yes! New patients are always welcome at our practice. We are committed to making your visits pleasant and stress-free.<\/p>"
+          }
+        },
+        "36fa85d5-dc90-4f8b-8e0f-329278f585db": {
+          "type": "question",
+          "settings": {
+            "question": "What are your payment options?",
+            "answer": "<p>We are a concierge medicine facility, so we promise the best, most affordable rate. We currently do not accept insurance or HSA. Please see our packages under our services to learn how to get the biggest bang for your buck! We offer payment plans for packages and bundles.<\/p>"
+          }
+        },
+        "50be1ff6-df71-4ccc-ad69-85d073e51c23": {
+          "type": "question",
+          "settings": {
+            "question": "What sets your clinic apart from the rest?",
+            "answer": "<p>Balanced Aesthetics is your one-stop shop for all of your wellness needs, from nutrition plans, peptide regimens, and HRT\/TRT to advanced laser services, effective aesthetic services, and filler and neurotoxin services.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7d3dd462-d8de-4c99-a487-6f1f078b028f",
+        "c6ea0f49-f4c3-4e52-a818-5f3d137c0cf4",
+        "a1648893-8990-49fb-986d-f456b03c0bed",
+        "36fa85d5-dc90-4f8b-8e0f-329278f585db",
+        "50be1ff6-df71-4ccc-ad69-85d073e51c23"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -298,6 +347,7 @@
     "rich_text",
     "mega_services_list",
     "16567787339c7171bb",
-    "16567772570432eb69"
+    "16567772570432eb69",
+    "16567801366f63f905"
   ]
 }
