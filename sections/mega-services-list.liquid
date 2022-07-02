@@ -100,7 +100,7 @@
   {% endif %}
 
   <div class="right">
-    {%- for block in section.blocks offset:step -%}
+    {%- for block in section.blocks offset:4 -%}
       <div class="service">
         <h5>{{ step }}<br />{{ block.settings.label }}</h5>
         <span>{{ block.settings.content }}</span>
