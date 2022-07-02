@@ -32,8 +32,10 @@
           "type": "info_labels",
           "settings": {
             "left_text": "Discover our Membership Program.",
+            "left_url": "",
             "left_color": "#cacaeb",
             "right_text": "Discover our Mission Statement.",
+            "right_url": "",
             "right_color": "#c4c4c4"
           }
         }
@@ -56,7 +58,13 @@
       }
     },
     "video_with_text": {
-      "type": "video-with-text"
+      "type": "video-with-text",
+      "settings": {
+        "heading_logo": "shopify:\/\/shop_images\/BalancedAestheticsLogo_Color2_2020-01-3.png",
+        "heading": "OUR STORY",
+        "title": "Balanced Aesthetics' Unique Model Created For You",
+        "body": "<p>Let’s be honest, Atlanta has plenty of great medical spas. You don’t need just another medspa—so we didn’t give you one. Instead, we are a one-stop-shop where you can achieve all of your wellness and aesthetic goals under the same umbrella. We are the only medspa of its kind…Balanced Aesthetics Medspa!<\/p>"
+      }
     },
     "rich_text": {
       "type": "rich-text",
