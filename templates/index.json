@@ -74,6 +74,12 @@
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1dbf8e7550f04844ba976e2e785480da.mp4"
       }
     },
+    "16567243330cc4a75b": {
+      "type": "spacer",
+      "settings": {
+        "height": 7
+      }
+    },
     "associations": {
       "type": "associations",
       "blocks": {
@@ -284,6 +290,7 @@
     "video_banner",
     "spacer",
     "video_with_text",
+    "16567243330cc4a75b",
     "associations",
     "rich_text",
     "featured_collection",
