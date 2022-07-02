@@ -30,6 +30,16 @@
     justify-content: space-evenly;
   }
 
+  .mega-services__container .service:before {
+    content : "";
+    position: absolute;
+    left    : 0;
+    bottom  : 0;
+    height  : 1px;
+    width   : 50%;  /* or 100px */
+    border-bottom:1px solid magenta;
+  }
+
   .mega-services__container .left,.right,.service {
     display: flex;
     justify-content: center;
