@@ -57,6 +57,9 @@
         "show_text_below": false
       }
     },
+    "spacer": {
+      "type": "spacer"
+    },
     "video_with_text": {
       "type": "video-with-text",
       "settings": {
@@ -230,6 +233,7 @@
   },
   "order": [
     "video_banner",
+    "spacer",
     "video_with_text",
     "rich_text",
     "featured_collection",

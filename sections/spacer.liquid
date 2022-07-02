@@ -1,0 +1,38 @@
+<div class="video_with_text__container">
+    <div class="left">
+        {% if section.settings.heading_logo != blank %}
+            <img class="heading-logo" loading="lazy" src="{{ section.settings.heading_logo | img_url: "master" }}" alt="heading-logo" />
+        {% endif %}
+        {% if section.settings.heading != blank %}
+            <h5>{{ section.settings.heading }}</h5>
+        {% endif %}
+        {% if section.settings.title != blank %}
+            <h3>{{ sectiong.settings.title }}</h3>
+        {% endif %}
+        {% if section.settings.body %}
+            {{ section.settings.body }}
+        {% endif %}
+    </div>
+    <div class="right">
+
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Spacer",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "range",
+            "id": "height",
+            "label": "Height",
+            "step": 0.5,
+            "min": 0,
+            "max": 50,
+            "unit": "rem"
+        }
+    ]
+}
+{% endschema %}
