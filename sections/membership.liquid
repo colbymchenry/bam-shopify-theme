@@ -43,7 +43,7 @@
     min-width: 300px;
     background-color: white;
     padding: 55px 40px 55px 40px;
-    gap: {{ section.settings.gap }}rem;
+    justify-content: space-between;
   }
 
   .membership__container .content .links {
@@ -123,15 +123,6 @@
       "type": "url",
       "id": "signup_url",
       "label": "Signup URL"
-    },
-    {
-      "type": "range",
-      "id": "gap",
-      "label": "Gap",
-      "min": 0,
-      "max": 50,
-      "step": 0.5,
-      "default": 20
     }
   ],
   "blocks": [
