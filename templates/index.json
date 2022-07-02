@@ -71,7 +71,8 @@
         "heading": "OUR STORY",
         "title": "Balanced Aesthetics' Unique Model Created For You",
         "body": "<p>Let’s be honest, Atlanta has plenty of great medical spas. You don’t need just another medspa—so we didn’t give you one. Instead, we are a one-stop-shop where you can achieve all of your wellness and aesthetic goals under the same umbrella. We are the only medspa of its kind…Balanced Aesthetics Medspa!<\/p>",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1dbf8e7550f04844ba976e2e785480da.mp4"
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1dbf8e7550f04844ba976e2e785480da.mp4",
+        "gap": 20
       }
     },
     "16567243330cc4a75b": {
@@ -127,21 +128,29 @@
     "rich_text": {
       "type": "rich-text",
       "blocks": {
+        "b207dd4c-ede4-4e25-9071-43d7899a46b3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
+            "label": "INDIVIDUALIZED CARE"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Services Personalized For You<\/p>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>We pride ourselves in providing a wide range of aesthetic and wellness services at our medspa. You will always feel warm and welcome while in our care.<\/p>"
           }
         }
       },
       "block_order": [
+        "b207dd4c-ede4-4e25-9071-43d7899a46b3",
         "heading",
         "text"
       ],
