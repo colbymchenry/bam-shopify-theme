@@ -10,11 +10,21 @@
     margin: 0 auto;
   }
 
+  {% if section.settings.wrapWidth != blank %}
   @media screen and (max-width: {{ section.settings.wrapWidth }}px) {
     #shopify-section-{{ section.id }} {
       flex-wrap: wrap !important;
     }
+
+    #shopify-section-{{ section.id }} > *:first-child {
+      flex-basis: 100% !important;
+    }
+
+    #shopify-section-{{ section.id }} > *:last-child {
+      flex-basis: 100% !important;
+    }
   }
+  {% endif %}
 
   #shopify-section-{{ section.id }} > *:first-child {
     flex-basis: {{ section.settings.widthFirstChild }}%;
@@ -124,7 +134,7 @@
     {
       "type": "number",
       "id": "wrapWidth",
-      "label": "Trigger Wrap (px)",
+      "label": "Force Trigger Wrap(px)",
       "info": "Wrap content at this many pixels."
       "default": 500
     },
