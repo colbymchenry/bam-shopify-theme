@@ -10,9 +10,16 @@
 {% endstyle %}
 
 
-<div class="two-column__container">
+<div class="two-column__container" id="{{ section.id }}">
 
 </div>
+
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', () => {
+    const sectionId = {{ section.id | json }};
+    console.log(sectionId);
+  }, false);
+</script>
 
 {% schema %}
 {
