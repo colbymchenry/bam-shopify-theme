@@ -33,7 +33,7 @@
   line-height: 1.17em;
 }
 
-html {
+html,body {
   overflow-x: hidden;
 }
 
