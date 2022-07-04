@@ -3,13 +3,17 @@
   .accordion__container {
     display: flex;
     background-color: {{ section.settings.background_color }};
-    padding: 30px 40px 120px 40px;
+    padding: 70px 40px 120px 40px;
     flex-direction: column;
   }
 
   @media screen and (max-width: 500px) {
     .accordion__container {
       padding: 30px 0 !important;
+    }
+
+    .accordion__container .title {
+      margin-left: 2rem !important;
     }
   }
 
