@@ -307,7 +307,7 @@
       "type": "two-column",
       "settings": {
         "justifyContent": "space-between",
-        "alignItems": "center",
+        "alignItems": "flex-start",
         "wrap": "wrap",
         "wrapWidth": 1100,
         "gap": 0,
@@ -367,6 +367,7 @@
         "f8730a84-c0a4-4ef6-9453-42dfd72745a8"
       ],
       "settings": {
+        "title": "FAQ",
         "background_color": "#e5f8ff"
       }
     },
