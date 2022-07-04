@@ -33,6 +33,10 @@
   line-height: 1.17em;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
