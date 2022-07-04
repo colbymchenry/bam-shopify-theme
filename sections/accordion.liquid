@@ -5,6 +5,7 @@
     background-color: {{ section.settings.background_color }};
     padding: 30px 40px 120px 40px;
     flex-direction: column;
+    height: 600px;
   }
 
   .accordion__container .accordion {
@@ -12,7 +13,8 @@
     flex-direction: column;
     cursor: pointer;
     border-bottom: 1px solid #d4d4d4;
-    height: 600px;
+    height: auto;
+    flex: 1;
   }
 
   .accordion__container .question {
@@ -22,7 +24,6 @@
   .accordion__container .answer {
     overflow: hidden;
     transition: all 0.3s ease-out;
-    height: auto;
     flex: 0;
   }
 
