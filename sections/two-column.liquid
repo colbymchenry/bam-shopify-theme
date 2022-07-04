@@ -1,11 +1,11 @@
 {% style %}
 
-  .two-column__container {
+  #shopify-section-{{ section.id }} {
     display: flex;
-    background-color: {{ section.settings.background_color }};
+    justify-content: center;
     gap: 4rem;
+    width: 100%;
   }
-
 
 {% endstyle %}
 
@@ -17,7 +17,12 @@
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', () => {
     const sectionId = {{ section.id | json }};
-    console.log(sectionId);
+    const sectionElem = document.getElementById(`shopify-section-${sectionId}`);
+    const nextElem = sectionElem.nextElementSibling;
+    const nextNextElem = nextElem.nextElementSibling;
+
+    sectionElem.insertAdjacentHTML("afterbegin", nextElem.outerHTML);
+    sectionElem.insertAdjacentHTML("beforeend", nextNextElem.outerHTML);
   }, false);
 </script>
 
