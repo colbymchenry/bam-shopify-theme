@@ -3,8 +3,10 @@ function triggerAccordion(e) {
   if (answerElem) {
     if (answerElem.classList.contains("open")) {
       answerElem.classList.remove("open");
+      answerElem.style.maxHeight = "0px";
     } else {
       answerElem.classList.add("open");
+      answerElem.style.maxHeight = answerElem.scrollHeight + "px";
     }
   }
 }

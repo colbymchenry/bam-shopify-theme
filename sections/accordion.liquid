@@ -16,21 +16,16 @@
 
   .accordion__container .question {
     pointer-events: none;
-    flex: 1;
   }
 
   .accordion__container .answer {
     overflow: hidden;
-    transition: all 0.3s ease-out;
-    flex: 0;
+    transition: all 1s ease-out;
     max-height: 0;
   }
 
   .accordion__container .answer.open {
-    transition: all 0.3s ease-out;
-    flex: 1;
-    height: auto;
-    max-height: 100vh;
+    transition: all 1s ease-out;
     overflow: auto;
   }
 
