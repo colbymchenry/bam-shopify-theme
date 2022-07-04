@@ -20,28 +20,17 @@
 
   .accordion__container .answer {
     height: 100%;
-    visibility: hidden;
     overflow-x: hidden;
     overflow-y: hidden;
     max-height: 0;
-    animation: open 1000ms forwards;
-    animation-direction: reverse;
+    visibility: hidden;
+    transition: all 1s ease;
   }
 
   .accordion__container .answer.open {
-    animation: open 1000ms forwards;
-    visibility: visible;
-  }
-
-  @keyframes open {
-    from {
-      max-height: 0;
-      visibility: hidden;
-    }
-
-    to {
-      max-height: 400px;
-      overflow-y: auto;
+    max-height: 400px;
+    overflow-y: auto;
+    transition: all 1s ease;
   }
 
 {% endstyle %}
