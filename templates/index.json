@@ -315,7 +315,7 @@
         "maxWidth": 1500,
         "minWidthFirstChild": 300,
         "widthFirstChild": 50,
-        "minWidthLastChild": 465,
+        "minWidthLastChild": 345,
         "widthLastChild": 50
       }
     },
