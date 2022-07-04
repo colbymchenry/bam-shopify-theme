@@ -296,7 +296,17 @@
     "16569535500d6ede54": {
       "type": "two-column",
       "settings": {
-        "background_color": "#FFF"
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "wrap": "wrap",
+        "gap": 0,
+        "minWidth": 300,
+        "width": 90,
+        "maxWidth": 1500,
+        "minWidthFirstChild": 300,
+        "widthFirstChild": 50,
+        "minWidthLastChild": 465,
+        "widthLastChild": 50
       }
     },
     "1656781329ced14cae": {
