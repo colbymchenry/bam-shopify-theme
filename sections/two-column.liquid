@@ -35,7 +35,7 @@
     const nextElem = sectionElem.nextElementSibling;
     const nextNextElem = nextElem.nextElementSibling;
 
-    sectionElem.insertAdjacentHTML("afterbegin", nextElem.outerHTML);
+    sectionElem.insertAdjacentHTML("beforeend", nextElem.outerHTML);
     sectionElem.insertAdjacentHTML("beforeend", nextNextElem.outerHTML);
 
     nextElem.remove();
