@@ -1,4 +1,4 @@
-<div style="width: 100%;height: {{ section.settings.height }}vw;">
+<div style="width: 100%;height: clamp({{ section.settings.min_height }}px, {{ section.settings.height }}vw, {{ section.settings.max_height }}px);">
 
 </div>
 
@@ -14,6 +14,16 @@
     "settings": [
         {
             "type": "range",
+            "id": "min_height",
+            "label": "Min Height",
+            "step": 5,
+            "min": 0,
+            "max": 200,
+            "unit": "px",
+            "default": 40
+        },
+        {
+            "type": "range",
             "id": "height",
             "label": "Height",
             "step": 0.5,
@@ -21,6 +31,12 @@
             "max": 50,
             "unit": "%",
             "default": 0
+        },
+        {
+            "type": "number",
+            "id": "max_height",
+            "label": "Max Height",
+            "default": 1200
         }
     ]
 }
