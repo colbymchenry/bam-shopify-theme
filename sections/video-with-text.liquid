@@ -27,7 +27,7 @@
     .video_with_text__container .left h3 {
         color: #77A5BE;
         font-family: "Antic Didone", Sans-serif, serif;
-        font-size: 38px;
+        font-size: clamp(30px, 2vw, 38px);
         line-height: 1.26em;
     }
 
@@ -52,6 +52,14 @@
 
         .video_with_text__container .left {
             flex-basis: 100%;
+        }
+
+        .video_with_text__container h3 {
+            margin: 0 !important;
+        }
+
+        .video_with_text__container h5 {
+            margin: 2rem 0 !important;
         }
     }
 
