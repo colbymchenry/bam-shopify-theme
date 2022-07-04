@@ -22,13 +22,15 @@
   .accordion__container .answer {
     overflow: hidden;
     transition: all 0.3s ease-out;
-    height: auto;
     flex: 0;
+    max-height: 0;
   }
 
   .accordion__container .answer.open {
     transition: all 0.3s ease-out;
     flex: 1;
+    height: auto;
+    max-height: unset;
   }
 
 {% endstyle %}
