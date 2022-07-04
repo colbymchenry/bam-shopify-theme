@@ -33,6 +33,10 @@
   line-height: 1.17em;
 }
 
+.rich-text__heading {
+  font-size: clamp(30px, 2vw, 38px) !important;
+}
+
 html,body {
   overflow-x: hidden;
 }
