@@ -76,6 +76,9 @@
 
 
 <div class="accordion__container">
+  {% if section.settings.title != blank %}
+  <h2 class="title title-wrapper--no-top-margin h1">{{ section.settings.title }}</h2>
+  {% endif %}
   {%- for block in section.blocks -%}
     <div class="accordion" onclick="triggerAccordion(event);">
       <div class="question">
@@ -94,6 +97,12 @@
   "name": "Accordion",
   "max_blocks": 20,
   "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "FAQ"
+    },
     {
       "type": "color",
       "id": "background_color",
