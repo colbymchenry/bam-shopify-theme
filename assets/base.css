@@ -23,7 +23,7 @@
 }
 
 .button {
-  color: #fff;
+  color: #fff !important;
 }
 
 .title {

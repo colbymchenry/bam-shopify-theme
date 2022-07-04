@@ -1,0 +1,33 @@
+{% style %}
+
+  .two-column__container {
+    display: flex;
+    background-color: {{ section.settings.background_color }};
+    gap: 4rem;
+  }
+
+
+{% endstyle %}
+
+
+<div class="two-column__container">
+
+</div>
+
+{% schema %}
+{
+  "name": "Two column",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FFF"
+    }
+  ],
+  "presets": [{
+    "name": "Two column",
+    "category": "Text"
+  }]
+}
+{% endschema %}
