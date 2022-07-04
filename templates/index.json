@@ -304,9 +304,9 @@
         "width": 90,
         "maxWidth": 1500,
         "minWidthFirstChild": 300,
-        "widthFirstChild": 40,
+        "widthFirstChild": 50,
         "minWidthLastChild": 300,
-        "widthLastChild": 40
+        "widthLastChild": 50
       }
     },
     "1656781329ced14cae": {
