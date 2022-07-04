@@ -19,7 +19,17 @@
 }
 
 .button--primary {
-  color: #fff !important;
+  color: #fff;
+}
+
+.button {
+  color: #fff;
+}
+
+.title {
+  font-family: "Antic Didone", Sans-serif, serif;
+  font-size: 28px;
+  line-height: 1.17em;
 }
 
 :root,
