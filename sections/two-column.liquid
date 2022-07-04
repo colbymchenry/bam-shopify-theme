@@ -9,11 +9,6 @@
 
 {% endstyle %}
 
-
-<div class="two-column__container" id="{{ section.id }}">
-
-</div>
-
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', () => {
     const sectionId = {{ section.id | json }};
@@ -23,6 +18,9 @@
 
     sectionElem.insertAdjacentHTML("afterbegin", nextElem.outerHTML);
     sectionElem.insertAdjacentHTML("beforeend", nextNextElem.outerHTML);
+
+    nextElem.remove();
+    nextNextElem.remove();
   }, false);
 </script>
 
