@@ -19,17 +19,13 @@
   }
 
   .accordion__container .answer {
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
     max-height: 0;
-    transition: all 1s ease;
+    visibility: hidden;
   }
 
   .accordion__container .answer.open {
-    max-height: 400px;
-    overflow-y: auto;
-    transition: all 1s ease;
+    max-height: unset !important;
+    visibility: visible !important;
   }
 
 {% endstyle %}
@@ -41,7 +37,7 @@
       <div class="question">
         <h5>{{ block.settings.question }} <i class="fa-solid fa-user"></i></h5>
       </div>
-      <div class="answer">
+      <div class="answer" data-aos="fade-right">
         {{ block.settings.answer }}
       </div>
     </div>
