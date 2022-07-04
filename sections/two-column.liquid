@@ -2,9 +2,28 @@
 
   #shopify-section-{{ section.id }} {
     display: flex;
-    justify-content: center;
-    gap: 4rem;
-    width: 100%;
+    justify-content: {{ section.settings.justifyContent }};
+    align-items: {{ section.settings.alignItems }};
+    gap: {{ section.settings.gap }}rem;
+    width: clamp({{ section.settings.minWidth }}, {{ section.settings.width }}%, {{ section.settings.maxWidth }});
+    flex-wrap: {{ section.settings.wrap }};
+    margin: 0 auto;
+  }
+
+  #shopify-section-{{ section.id }} > *:first-child {
+    flex-basis: {{ section.settings.widthFirstChild }}%;
+
+    {% if section.settings.minWidthFirstChild != blank %}
+    min-width: {{ section.settings.minWidthFirstChild }}px;
+    {% endif %}
+  }
+
+  #shopify-section-{{ section.id }} > *:last-child {
+    flex-basis: {{ section.settings.widthLastChild }}%;
+
+    {% if section.settings.minWidthLastChild != blank %}
+      min-width: {{ section.settings.minWidthLastChild }}px;
+    {% endif %}
   }
 
 {% endstyle %}
@@ -29,10 +48,151 @@
   "name": "Two column",
   "settings": [
     {
-      "type": "color",
-      "id": "background_color",
-      "label": "Background Color",
-      "default": "#FFF"
+      "type": "select",
+      "id": "justifyContent",
+      "label": "Justify Content",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Start"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "flex-end",
+          "label": "End"
+        },
+        {
+          "value": "space-around",
+          "label": "Space-Around"
+        },
+        {
+          "value": "space-between",
+          "label": "Space-Between"
+        },
+        {
+          "value": "space-evenly",
+          "label": "Space-Evenly"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "alignItems",
+      "label": "Align Items",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Start"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "flex-end",
+          "label": "End"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "label": "Gap",
+      "min": 0,
+      "max": 50,
+      "step": 0.5,
+      "unit": "rem",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "minWidth",
+      "label": "Min Width",
+      "min": 1,
+      "max": 1000,
+      "step": 25,
+      "unit": "px",
+      "default": 300
+    },
+    {
+      "type": "text",
+      "id": "width",
+      "label": "Width",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 50
+    },
+    {
+      "type": "number",
+      "id": "maxWidth",
+      "label": "Max Width",
+      "min": 1,
+      "max": 10000,
+      "unit": "px",
+      "default": 1500
+    },
+    {
+      "type": "text",
+      "id": "wrap",
+      "label": "Wrap",
+      "options": [
+      {
+        "value": "wrap",
+        "label": "Yes"
+      },
+      {
+        "value": "nowrap",
+        "label": "No"
+      }
+      ],
+      "default": "wrap"
+    },
+    {
+      "type": "text",
+      "id": "minWidthFirstChild",
+      "label": "Min Width First Element",
+      "min": 1,
+      "max": 1000,
+      "step": 20,
+      "unit": "px",
+      "default": 300
+    },
+    {
+      "type": "text",
+      "id": "widthFirstChild",
+      "label": "Width First Element",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 50
+    }
+    {
+      "type": "text",
+      "id": "minWidthLastChild",
+      "label": "Min Width Last Element",
+      "min": 1,
+      "max": 1000,
+      "step": 20,
+      "unit": "px",
+      "default": 300
+    },
+    {
+      "type": "text",
+      "id": "widthLastChild",
+      "label": "Width Last Element",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 50
     }
   ],
   "presets": [{
