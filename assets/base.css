@@ -37,10 +37,6 @@
   font-size: clamp(30px, 2vw, 38px) !important;
 }
 
-html,body {
-  overflow-x: hidden;
-}
-
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
