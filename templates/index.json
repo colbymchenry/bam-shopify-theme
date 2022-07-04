@@ -309,6 +309,7 @@
         "justifyContent": "space-between",
         "alignItems": "center",
         "wrap": "wrap",
+        "wrapWidth": 1100,
         "gap": 0,
         "minWidth": 300,
         "width": 90,
