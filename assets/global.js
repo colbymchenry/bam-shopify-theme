@@ -1,13 +1,16 @@
 function triggerAccordion(e) {
-  const answerElem = e.target.querySelector(".answer");
-  if (answerElem) {
-    if (answerElem.classList.contains("open")) {
-      answerElem.classList.remove("open");
-      answerElem.style.maxHeight = "0px";
-    } else {
-      answerElem.classList.add("open");
-      answerElem.style.maxHeight = answerElem.scrollHeight + "px";
-    }
+  const wasOpen = e.target.classList.contains("open");
+
+  Array.from(e.target.parentElement.getElementsByClassName("accordion")).forEach((accordion) => {
+    accordion.classList.remove("open");
+    const answer = accordion.querySelector(".answer");
+    answer.style.maxHeight = "0px";
+  });
+
+  if (!wasOpen) {
+    e.target.classList.add("open");
+    const answer = e.target.querySelector(".answer");
+    answer.style.maxHeight = answer.scrollHeight + "px";
   }
 }
 

@@ -24,7 +24,7 @@
     max-height: 0;
   }
 
-  .accordion__container .answer.open {
+  .accordion__container .accordion.open .answer {
     transition: all 0.3s ease-out;
   }
 
@@ -35,7 +35,7 @@
   {%- for block in section.blocks -%}
     <div class="accordion" onclick="triggerAccordion(event);">
       <div class="question">
-        <h5>{{ block.settings.question }} <i class="fa-solid fa-user"></i></h5>
+        <h5>{{ block.settings.question }} <i class="fa-solid fa-chevron-up"></i></h5>
       </div>
       <div class="answer">
         {{ block.settings.answer }}
