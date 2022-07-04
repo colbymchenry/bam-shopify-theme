@@ -19,18 +19,32 @@
   }
 
   .accordion__container .answer {
-    max-height: 0;
     height: 100%;
     visibility: hidden;
-    transition: all 0.4s ease;
     overflow-x: hidden;
-    overflow-y: auto;
   }
 
   .accordion__container .answer.open {
-    transition: all 1s ease;
-    max-height: 400px;
-    visibility: visible;
+    animation: open 1000ms forwards;
+  }
+
+  @keyframes open {
+    from {
+      max-height: 0;
+      visibility: hidden;
+    }
+
+    1% {
+      visibility: visible;
+    }
+
+    99% {
+      overflow-y: auto;
+    }
+
+    to {
+      max-height: 400px;
+    }
   }
 
 {% endstyle %}
