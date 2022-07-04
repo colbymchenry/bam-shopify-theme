@@ -27,7 +27,8 @@
 }
 
 .title {
-  font-family: "Antic Didone", Sans-serif, serif;
+  color: #77A5BE !important;
+  font-family: "Antic Didone", Sans-serif, serif !important;
   font-size: 28px;
   line-height: 1.17em;
 }
