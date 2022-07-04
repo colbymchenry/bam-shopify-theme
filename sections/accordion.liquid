@@ -16,6 +16,9 @@
 
   .accordion__container .question {
     pointer-events: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .accordion__container .answer {
@@ -28,6 +31,16 @@
     transition: all 0.3s ease-out;
   }
 
+  .accordion__container .accordion .question i {
+    transform: rotateZ(0deg);
+    transition: all 0.3s ease-out;
+  }
+
+  .accordion__container .accordion.open .question i {
+   transform: rotateZ(180deg);
+   transition: all 0.3s ease-out;
+  }
+
 {% endstyle %}
 
 
@@ -35,7 +48,8 @@
   {%- for block in section.blocks -%}
     <div class="accordion" onclick="triggerAccordion(event);">
       <div class="question">
-        <h5>{{ block.settings.question }} <i class="fa-solid fa-chevron-up"></i></h5>
+        <h5>{{ block.settings.question }}</h5>
+        <i class="fa-solid fa-chevron-down"></i>
       </div>
       <div class="answer">
         {{ block.settings.answer }}
