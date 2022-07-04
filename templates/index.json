@@ -294,7 +294,7 @@
           "type": "question",
           "settings": {
             "question": "How can I book an appointment today?",
-            "answer": "<p>To book an appointment, call our office at <a href=\"tel:+4702262390\">(470) 226-2390<\/a>. You may also fill out the form on this page or click the button below to book your appointment today<\/p>"
+            "answer": "<p>To book an appointment, call our office at <a href=\"tel:+4702262390\">(470) 226-2390<\/a>. You may also fill out the form on this page or click the button below to book your appointment today<\/p><p><\/p><p>To book an appointment, call our office at <a href=\"tel:+4702262390\">(470) 226-2390<\/a>. You may also fill out the form on this page or click the button below to book your appointment today<\/p><p><\/p><p>To book an appointment, call our office at <a href=\"tel:+4702262390\">(470) 226-2390<\/a>. You may also fill out the form on this page or click the button below to book your appointment today<\/p><p><\/p><p>To book an appointment, call our office at <a href=\"tel:+4702262390\">(470) 226-2390<\/a>. You may also fill out the form on this page or click the button below to book your appointment today<\/p>"
           }
         },
         "d795f392-e957-4ef4-a0ec-a750c84c6d89": {
@@ -334,7 +334,7 @@
         "f8730a84-c0a4-4ef6-9453-42dfd72745a8"
       ],
       "settings": {
-        "background_color": "#FFF"
+        "background_color": "#ffffff"
       }
     }
   },
