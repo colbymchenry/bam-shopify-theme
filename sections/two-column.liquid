@@ -12,7 +12,7 @@
 
   #shopify-section-{{ section.id }} > *:first-child {
     flex-basis: {{ section.settings.widthFirstChild }}%;
-
+    flex-grow: 1;
     {% if section.settings.minWidthFirstChild != blank %}
     min-width: {{ section.settings.minWidthFirstChild }}px;
     {% endif %}
@@ -20,7 +20,7 @@
 
   #shopify-section-{{ section.id }} > *:last-child {
     flex-basis: {{ section.settings.widthLastChild }}%;
-
+    flex-grow: 1;
     {% if section.settings.minWidthLastChild != blank %}
       min-width: {{ section.settings.minWidthLastChild }}px;
     {% endif %}
