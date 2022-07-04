@@ -10,6 +10,12 @@
     margin: 0 auto;
   }
 
+  @media screen and (max-width: {{ section.settings.wrapWidth }}px) {
+    #shopify-section-{{ section.id }} {
+      flex-wrap: wrap !important;
+    }
+  }
+
   #shopify-section-{{ section.id }} > *:first-child {
     flex-basis: {{ section.settings.widthFirstChild }}%;
     flex-grow: 1;
@@ -114,6 +120,13 @@
       }
     ],
     "default": "wrap"
+    },
+    {
+      "type": "number",
+      "id": "wrapWidth",
+      "label": "Trigger Wrap (px)",
+      "info": "Wrap content at this many pixels."
+      "default": 500
     },
     {
       "type": "range",
