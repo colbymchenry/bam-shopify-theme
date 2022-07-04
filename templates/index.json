@@ -296,7 +296,7 @@
     "16569535500d6ede54": {
       "type": "two-column",
       "settings": {
-        "justifyContent": "center",
+        "justifyContent": "space-between",
         "alignItems": "center",
         "wrap": "wrap",
         "gap": 2,
@@ -304,9 +304,9 @@
         "width": 90,
         "maxWidth": 1500,
         "minWidthFirstChild": 300,
-        "widthFirstChild": 50,
+        "widthFirstChild": 40,
         "minWidthLastChild": 300,
-        "widthLastChild": 50
+        "widthLastChild": 40
       }
     },
     "1656781329ced14cae": {
