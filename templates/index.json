@@ -61,7 +61,9 @@
     "spacer": {
       "type": "spacer",
       "settings": {
-        "height": 9.5
+        "min_height": 40,
+        "height": 9.5,
+        "max_height": 1200
       }
     },
     "video_with_text": {
@@ -78,7 +80,9 @@
     "16567243330cc4a75b": {
       "type": "spacer",
       "settings": {
-        "height": 7
+        "min_height": 40,
+        "height": 7,
+        "max_height": 1200
       }
     },
     "associations": {
@@ -128,7 +132,9 @@
     "165672529014d74e76": {
       "type": "spacer",
       "settings": {
-        "height": 4.5
+        "min_height": 40,
+        "height": 4.5,
+        "max_height": 1200
       }
     },
     "rich_text": {
@@ -254,7 +260,9 @@
     "16567787339c7171bb": {
       "type": "spacer",
       "settings": {
-        "height": 8
+        "min_height": 40,
+        "height": 8,
+        "max_height": 1200
       }
     },
     "16567772570432eb69": {
@@ -290,7 +298,9 @@
     "1656953531d9475a74": {
       "type": "spacer",
       "settings": {
-        "height": 5
+        "min_height": 100,
+        "height": 5,
+        "max_height": 1200
       }
     },
     "16569535500d6ede54": {
