@@ -93,7 +93,7 @@
             <video autoplay="" muted="" loop="" preload="auto"><source src="{{ section.settings.video_url }}" type="video/mp4"></video>
         {% endif %}
         {% if section.settings.image != blank %}
-            <img src="{{ section.settings.image | image_url: 'master' }}" alt="{{ section.settings.heading }}" loading="lazy" />
+            <img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.heading }}" loading="lazy" />
         {% endif %}
     </div>
 </div>
