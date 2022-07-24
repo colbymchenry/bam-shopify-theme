@@ -16,11 +16,23 @@
             "text": "When finding a single medspa that addressed body nourishment, aesthetic goals, peptide needs, and HRT\/TRT therapy proved impossible, we created one. One place for total Aesthetics and Wellness – Balanced Aesthetics Medspa.",
             "text_style": "body"
           }
+        },
+        "877a24cf-ce23-41dd-b10c-b64d51fe217f": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "MEET THE TEAM",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "4d3d67d5-6ddf-4191-ba80-ea5b26d2f809",
-        "6311d78b-a7ee-4102-ba0e-3e7bdba6017b"
+        "6311d78b-a7ee-4102-ba0e-3e7bdba6017b",
+        "877a24cf-ce23-41dd-b10c-b64d51fe217f"
       ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01803244b2514563a21ce96d42cf14b7.mp4",
