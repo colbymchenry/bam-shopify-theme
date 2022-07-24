@@ -63,7 +63,7 @@
         }
     }
 
-    .video_with_text__container .right video {
+    .video_with_text__container .right video,.video_with_text__container .right img {
         max-width: 100%;
         object-fit:cover;
         min-height: 580px !important;
@@ -91,6 +91,9 @@
     <div class="right" data-aos="fade-left">
         {% if section.settings.video_url != blank %}
             <video autoplay="" muted="" loop="" preload="auto"><source src="{{ section.settings.video_url }}" type="video/mp4"></video>
+        {% endif %}
+        {% if section.settings.image != blank %}
+            <img src="{{ section.settings.image | image_url: 'master' }}" alt="{{ section.settings.heading }}" loading="lazy" />
         {% endif %}
     </div>
 </div>
@@ -132,6 +135,12 @@
             "id": "video_url",
             "label": "Video File URL",
             "info": "Upload video to theme files then copy link and paste here. *MUST BE MP4*"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "If using photo select one here."
         },
         {
             "type": "range",
