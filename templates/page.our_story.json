@@ -66,6 +66,67 @@
         "gap": 20
       }
     },
+    "16586771185e4b3bb3": {
+      "type": "two-column",
+      "settings": {
+        "justifyContent": "center",
+        "alignItems": "center",
+        "wrap": "wrap",
+        "wrapWidth": 500,
+        "gap": 2,
+        "minWidth": 300,
+        "width": 50,
+        "maxWidth": 1500,
+        "minWidthFirstChild": 300,
+        "widthFirstChild": 50,
+        "minWidthLastChild": 300,
+        "widthLastChild": 50
+      }
+    },
+    "165867713473068510": {
+      "type": "rich-text",
+      "blocks": {
+        "16586771343b6d563b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>So we created it! We turned the concept of a one-stop-shop clinic for Wellness and Aesthetics into Balanced Aesthetics Medspa!<\/p><p>As the founding partners—Dr. Anthony Didato, Elliot Campbell, and Richelle Brooks—we developed a passion for the Health & Wellness and Aesthetics industries through personal experience and dedication to helping others.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16586771343b6d563b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1658677176ffb523c7": {
+      "type": "rich-text",
+      "blocks": {
+        "1658677176127e58c4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each of us brings extensive business, research, and medical expertise to our partnership for a patient-centric clinical model designed to give you world-class, cutting-edge treatments with incredible results in a luxurious and welcoming atmosphere. We view our patients as family, and we believe in treating whole health, not pieces, for better emotional and physical balance overall. For us at Balanced Aesthetics Medspa, it’s not what we treat—it’s how we treat it.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658677176127e58c4-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -81,6 +142,9 @@
     "main",
     "16586746580789233c",
     "16586750024a3f2e52",
+    "16586771185e4b3bb3",
+    "165867713473068510",
+    "1658677176ffb523c7",
     "form"
   ]
 }
