@@ -71,7 +71,7 @@
       "settings": {
         "justifyContent": "center",
         "alignItems": "center",
-        "wrap": "wrap",
+        "wrap": "nowrap",
         "wrapWidth": 500,
         "gap": 2,
         "minWidth": 300,
