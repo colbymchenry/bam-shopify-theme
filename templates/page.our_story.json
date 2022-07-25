@@ -189,7 +189,8 @@
         "c4018b95-97d0-4fde-a056-00578390ec1b"
       ],
       "settings": {
-        "animation": "fade"
+        "animation": "fade",
+        "gap": 22
       }
     }
   },
