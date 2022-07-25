@@ -2,6 +2,27 @@
 .percentage-bar {
   transition: all 0.3s ease;
   transition-delay: var(--animation_delay)s;
+  border: 1px solid black;
+  position: relative;
+  height: 2rem;
+  width: 100%;
+}
+
+.percentage-bar overlay {
+  animation-name: fill;
+  animation-duration: 0.3s;
+  animation-delay: var(--animation_delay)s;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+@keyframes fill {
+  from {width: 0%;}
+  to {width: 100%;}
 }
 {% endstyle %}
 
@@ -9,7 +30,7 @@
   <div data-aos="{{ section.settings.animation }}" class="percentage-bars">
     {% for block in section.blocks %}
     <div class="percentage-bar" style="--animation_delay: {{ block.settings.animation_delay }};">
-    
+      <overlay />
     </div>
     {% endfor %}
   </div>
