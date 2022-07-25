@@ -51,6 +51,7 @@
     const nextElem = sectionElem.nextElementSibling;
     const nextNextElem = nextElem.nextElementSibling;
 
+    sectionElem.classList.add("two-column")
     sectionElem.insertAdjacentHTML("afterbegin", nextElem.outerHTML);
     sectionElem.insertAdjacentHTML("beforeend", nextNextElem.outerHTML);
 
