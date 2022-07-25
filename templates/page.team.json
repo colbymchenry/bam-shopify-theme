@@ -48,6 +48,35 @@
         "show_text_below": true
       }
     },
+    "1658787989f2554069": {
+      "type": "team-member",
+      "blocks": {
+        "0efb359a-2570-4648-b58c-65fa5a5a505a": {
+          "type": "member",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Group-16.png",
+            "name": "Dr. Alexander Moore",
+            "position": "Medical Director",
+            "description": "<p>Dr. Alexander Moore is a board-certified Emergency Medicine physician– and Atlanta native– with over a decade’s experience practicing medicine. After receiving his undergraduate degree in Chemistry from Howard University in Washington, D.C., Dr. Moore returned to Atlanta to attend medical school at Morehouse School of Medicine, graduating in 2011. Dr. Moore completed his residency at Emory University, working in both the Emory and Grady hospital systems, and is a current Emergency Medicine physician here in the metro area.<\/p>"
+          }
+        },
+        "5162e094-4d5d-4d22-bff2-ad349a7157a2": {
+          "type": "member",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Group-15.png",
+            "name": "Dr. Anthony Didato",
+            "position": "Director of Clinical Operations",
+            "description": "<p>With nearly a decade of experience as a successful entrepreneur, Dr. Anthony Didato started his career in the Endodontics field. He has a well-respected multi-office, multi-doctor practice in and around the Atlanta area. Aside from his Endodontic practice, Dr. Didato has many other business ventures, including a CBD-product focused wellness company and an oral strip company. His personal journey with anti-aging and HRT ignited a new passion in him for the industry, thus solidifying his decision to partner with like-minded individuals in the creation of Balanced Aesthetics.<\/p><p><\/p><p>He is a board-certified Endodontist and an AAFE level 3 certified injector for filler and neurotoxins<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0efb359a-2570-4648-b58c-65fa5a5a505a",
+        "5162e094-4d5d-4d22-bff2-ad349a7157a2"
+      ],
+      "settings": {
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -70,6 +99,7 @@
   },
   "order": [
     "1658785877fc134759",
+    "1658787989f2554069",
     "form",
     "main"
   ]
