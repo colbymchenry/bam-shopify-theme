@@ -336,6 +336,7 @@
       "type": "contact-form",
       "settings": {
         "heading": "Contact Us",
+        "message": "<p>Call us at <a href=\"tel:4702262390\">(470) 226-2390<\/a> for a free consultation with our team.<\/p>",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "padding_top": 36,
