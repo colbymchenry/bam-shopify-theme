@@ -33,6 +33,11 @@
     {{ section.settings.message }}
      <br />
    {%- endif -%}
+
+    <hr style="
+        height: 1px;
+        background-color: #ccc;
+        border: none;" />
     
     {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
       {%- if form.posted_successfully? -%}
