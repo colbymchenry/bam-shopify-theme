@@ -17,7 +17,8 @@
 }
 
 .rich-text__buttons .button.button--secondary:after {
-  border-opacity: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .hero__underwrap__info {
