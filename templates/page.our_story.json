@@ -164,7 +164,7 @@
         "wrapWidth": 500,
         "gap": 2,
         "minWidth": 300,
-        "width": 50,
+        "width": 100,
         "maxWidth": 1500,
         "minWidthFirstChild": 300,
         "widthFirstChild": 50,
