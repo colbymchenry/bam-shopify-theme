@@ -1,6 +1,17 @@
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div data-aos="{{ section.settings.animation }}">
+{% style %}
+.percentage-bar {
+  transition: all 0.3s ease;
+  transition-delay: var(--animation_delay)s;
+}
+{% endstyle %}
 
+<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+  <div data-aos="{{ section.settings.animation }}" class="percentage-bars">
+    {% for block in section.blocks %}
+    <div class="percentage-bar" style="--animation_delay: {{ block.settings.animation_delay }};">
+    
+    </div>
+    {% endfor %}
   </div>
 </div>
 
