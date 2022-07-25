@@ -74,6 +74,14 @@
         "gap": 20
       }
     },
+    "1658707353034ac05f": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 40,
+        "height": 0,
+        "max_height": 1200
+      }
+    },
     "16586771185e4b3bb3": {
       "type": "two-column",
       "settings": {
@@ -89,14 +97,6 @@
         "widthFirstChild": 50,
         "minWidthLastChild": 300,
         "widthLastChild": 50
-      }
-    },
-    "1658707353034ac05f": {
-      "type": "spacer",
-      "settings": {
-        "min_height": 40,
-        "height": 0,
-        "max_height": 1200
       }
     },
     "165867713473068510": {
@@ -161,8 +161,8 @@
     "16586746580789233c",
     "165870710599d3b629",
     "16586750024a3f2e52",
-    "16586771185e4b3bb3",
     "1658707353034ac05f",
+    "16586771185e4b3bb3",
     "165867713473068510",
     "1658677176ffb523c7",
     "form"
