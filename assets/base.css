@@ -1,5 +1,11 @@
 /* Color custom properties */
 
+@media screen and (min-width: 750px) {
+  .rich-text__blocks {
+    max-width: unset !important;
+  }
+}
+
 .two-column .rich-text__wrapper {
   padding: 0 !important;
 }
