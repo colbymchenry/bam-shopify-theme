@@ -6,7 +6,7 @@
   }
 }
 
-.two-column .rich-text__wrapper {
+.two-column .rich-text__wrapper,.two-column .page-width {
   padding: 0 !important;
 }
 
