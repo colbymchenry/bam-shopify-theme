@@ -8,7 +8,9 @@
 
 .two-column .rich-text__wrapper,.two-column .page-width {
   padding: 0 !important;
+  width: 100% !important;
 }
+
 
 .rich-text__buttons .button.button--secondary {
   color: #77a5be !important;
