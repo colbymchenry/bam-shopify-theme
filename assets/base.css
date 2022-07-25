@@ -16,6 +16,10 @@
   color: #fff !important;
 }
 
+.rich-text__buttons .button.button--secondary:after {
+  border-opacity: 0 !important;
+}
+
 .hero__underwrap__info {
   display: flex;
   width: 100%;
