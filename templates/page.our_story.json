@@ -231,6 +231,23 @@
         "gap": 22
       }
     },
+    "16587611567be52d12": {
+      "type": "two-column",
+      "settings": {
+        "justifyContent": "center",
+        "alignItems": "center",
+        "wrap": "nowrap",
+        "wrapWidth": 500,
+        "gap": 2,
+        "minWidth": 300,
+        "width": 50,
+        "maxWidth": 1680,
+        "minWidthFirstChild": 300,
+        "widthFirstChild": 50,
+        "minWidthLastChild": 300,
+        "widthLastChild": 50
+      }
+    },
     "1658760636346212d6": {
       "type": "rich-text",
       "blocks": {
@@ -240,6 +257,34 @@
             "button_label": "CALL US",
             "button_link": "tel:4702262390",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1658760636fb0b21bf-2"
+      ],
+      "settings": {
+        "animation": "fade",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165876116423315305": {
+      "type": "rich-text",
+      "blocks": {
+        "165876116433de27af-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
             "button_label_2": "INFO@BALANCEDAESTHETICSMEDSPA.COM",
             "button_link_2": "mailto:info@balancedaestheticsmedspa.com",
             "button_style_secondary_2": true
@@ -247,7 +292,7 @@
         }
       },
       "block_order": [
-        "1658760636fb0b21bf-2"
+        "165876116433de27af-2"
       ],
       "settings": {
         "animation": "fade",
@@ -282,7 +327,9 @@
     "165875903113600ba3",
     "1658758961e8e56720",
     "1658755988022a04f0",
+    "16587611567be52d12",
     "1658760636346212d6",
+    "165876116423315305",
     "form"
   ]
 }
