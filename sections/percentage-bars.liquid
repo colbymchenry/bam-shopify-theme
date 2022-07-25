@@ -19,6 +19,7 @@
 }
 
 .percentage-bar overlay {
+
   position: absolute;
   width: 0%;
   height: 100%;
@@ -46,12 +47,7 @@
 }
 
 [data-aos="fill"].aos-animate {
-  width: 100%;
-}
-
-@keyframes fill {
-  from {width: 0%;}
-  to {width: var(--animation_fill, 100%);}
+  width: var(--animation_fill, 100%);
 }
 
 @keyframes color-fill {
@@ -63,8 +59,10 @@
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div data-aos="{{ section.settings.animation }}" class="percentage-bars">
     {% for block in section.blocks %}
-    <div class="percentage-bar">
-      <overlay data-aos="fill" data-aos-delay="{{ block.settings.animation_delay }}" data-aos-duration="1000"></overlay>
+    <div class="percentage-bar" style="
+      --animation_delay: {{ block.settings.animation_delay }};
+      --animation_fill: {{ block.settings.value }}%;">
+      <overlay data-aos="fill" data-aos-delay="{{ block.settings.animation_delay }}" data-aos-duration="1000" data-aos-easing="ease-in-out"></overlay>
         <span>{{ block.settings.label }}</span>
         <span>{{ block.settings.value }}%</span>
     </div>
