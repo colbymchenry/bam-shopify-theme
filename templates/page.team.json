@@ -77,12 +77,62 @@
             "position": "Director of Marketing and Business Development",
             "description": "<p><\/p><p>Elliot Campbell has been an Atlanta native for over 20 years. He graduated from Georgia Southern in 2013 with a Bachelor’s degree in Marketing and minors in Business Management and Health and Nutrition. Elliot began his business career in college, owning a bar and restaurant. Upon graduation, he left the hospitality industry and transitioned into the technology industry, where he excelled in both inside and outside sales. Elliot is a firm believer in anti-aging medicines and techniques. His extensive social network, experience as a business owner, and his passion for the anti-aging and HRT industry led to the perfect career fit: the opening of Balanced Aesthetics MedSpa with his trusted partners, Dr. Anthony Didato and Richelle Brooks.<\/p><p><\/p>"
           }
+        },
+        "5c6d8790-e183-4a0f-b8e8-91678c0f0fe2": {
+          "type": "member",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Group-19.png",
+            "name": "Bethany Struckmeyer, PA-C",
+            "position": "Certified Physician Assistant \/ Certified Injector",
+            "description": "<p>Bethany was born and raised in a suburb of Atlanta and always knew she wanted to go into the medical field. She obtained her Bachelor’s Degree in Clinical Exercise Science at Georgia Gwinnett College, which furthered her interests in health and the human body. She obtained her Master’s degree in Physician Assistant Studies at Francis Marion University in Florence, South Carolina, where she also completed an internship in Clinical Dermatology. Bethany is a licensed Physician Assistant by the Georgia Medical Board and is also a member of the American Academy of Physician Assistants. She has a diverse background of experience, having worked as a Physician Assistant in inpatient and outpatient Psychiatry while furthering her expertise in Aesthetic Medicine. Bethany is a certified Aesthetic Medical Injector in Neurotoxins and Dermal Fillers. She loves helping individuals reach their own unique goals while building personal connections with her clients, making them feel welcomed, accepted, and valued.<\/p>"
+          }
+        },
+        "71f73cba-e6e7-4f22-aad8-b6869026e4f1": {
+          "type": "member",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Group-21.png",
+            "name": "Ashley Quinn",
+            "position": "Medical Aesthetician \/ Certified Cosmetic Laser Practitioner",
+            "description": "<p>Meet Ashley, our licensed aesthetician. She is your go-to for all things skincare, offering various services such as microneedling, HydraFacials®, chemical peels, and more here at Balanced. She graduated from Georgia Beauty School and hasn’t stopped furthering her education since, adding certifications and listening to educational seminars any chance she gets. She is passionate about making others feel great about themselves from the inside out. It shows through her work ethic and bubbly personality. Her favorite part about her job is making a difference for her clients through results-driven treatments and personalizing each visit to fit the client.<\/p>"
+          }
+        },
+        "d4733aba-5b51-4400-8048-463b90e3075a": {
+          "type": "member",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/kara-sewell-profile.png",
+            "name": "Kara Sewell",
+            "position": "Office Manager",
+            "description": "<p>Kara is originally from Birmingham, Alabama where she graduated from Troy University with a Fine Arts degree with a minor in Communication. She grew up performing all over the Southeast, most notably with Dolly Parton at Dollywood. She moved to Atlanta after marrying her husband and has worked in many different industries, including the event industry, legal industry, and now aesthetics. Having danced her whole life, she has always had a passion for health and wellness. She loves sharing her passion with others and constantly strives to be her best self. On the side, she performs in a band, Tall as Pine, with her husband. She lives to brighten someone’s day each day.<\/p>"
+          }
+        },
+        "1355a398-27b2-4c05-82b1-935e42670307": {
+          "type": "member",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Felicia-Meet-the-Team.jpg",
+            "name": "Felicia Burzotta",
+            "position": "Social Media Director",
+            "description": "<p>Felicia Burzotta was born and raised in Atlanta and graduated from the University of Georgia with a degree in Public Relations. Prior to becoming interested in PR, she majored in biology with a concentration in neuroscience and neuropsychology. Felicia’s interests are diverse, including science, aesthetics, beauty, and travel. She’s also the owner of her own social media agency, The Misfit Creative, with clients from the aesthetics, hospitality, and food & beverage industries. Her passion is to help others grow while also learning new things from her clients. She’s been a member of the Balanced Aesthetics Medspa family since October 2020, and she feels like she’s found her second home.<\/p>"
+          }
+        },
+        "1ba65511-3fb3-4671-83ac-7e6d8e33167c": {
+          "type": "member",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/katie.png",
+            "name": "Katie Smith",
+            "position": "Front Desk Coordinator",
+            "description": "<p>Katie is a North Georgia native, born and raised in Dawsonville. She graduated from the University of North Georgia with a dental assisting certificate. After working in the dental field for 3 years, Katie moved to the big city to pursue her passion for working in the health and wellness industry. Her interests include shopping, spending time with family, trying new restaurants, and long walks on the beltline with her golden retriever, Fin. Katie is ecstatic to join the #BAMFam and strives to ensure that each patient has an unforgettable experience.<\/p>"
+          }
         }
       },
       "block_order": [
         "0efb359a-2570-4648-b58c-65fa5a5a505a",
         "5162e094-4d5d-4d22-bff2-ad349a7157a2",
-        "06f09155-55f2-4db2-a184-417040956716"
+        "06f09155-55f2-4db2-a184-417040956716",
+        "5c6d8790-e183-4a0f-b8e8-91678c0f0fe2",
+        "71f73cba-e6e7-4f22-aad8-b6869026e4f1",
+        "d4733aba-5b51-4400-8048-463b90e3075a",
+        "1355a398-27b2-4c05-82b1-935e42670307",
+        "1ba65511-3fb3-4671-83ac-7e6d8e33167c"
       ],
       "settings": {
       }
