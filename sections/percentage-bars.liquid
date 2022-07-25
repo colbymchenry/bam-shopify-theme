@@ -28,7 +28,7 @@
 
 @keyframes fill {
   from {width: 0%;}
-  to {width: 100%;}
+  to {width: var(--animation_fill)%;}
 }
 
 @keyframes color-fill {
@@ -40,8 +40,11 @@
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div data-aos="{{ section.settings.animation }}" class="percentage-bars">
     {% for block in section.blocks %}
-    <div class="percentage-bar" style="--animation_delay: {{ block.settings.animation_delay }};">
+    <div class="percentage-bar" style="
+      --animation_delay: {{ block.settings.animation_delay }};
+      --animation_fill: {{ block.settings.value }};">
       <overlay />
+        <span>{{ block.settings.label }}</span>
     </div>
     {% endfor %}
   </div>

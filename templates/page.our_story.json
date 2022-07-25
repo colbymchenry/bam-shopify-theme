@@ -162,21 +162,24 @@
           "type": "bar",
           "settings": {
             "label": "Patient Satisfaction",
-            "value": 99
+            "value": 79,
+            "animation_delay": "1s"
           }
         },
         "aca6e1f7-e7c1-4f70-878f-9d6ca98e59aa": {
           "type": "bar",
           "settings": {
             "label": "Experienced and Professional",
-            "value": 100
+            "value": 100,
+            "animation_delay": "1s"
           }
         },
         "c4018b95-97d0-4fde-a056-00578390ec1b": {
           "type": "bar",
           "settings": {
             "label": "Dedication to You",
-            "value": 100
+            "value": 100,
+            "animation_delay": "1s"
           }
         }
       },
