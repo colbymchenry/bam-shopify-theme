@@ -1,11 +1,15 @@
 {% style %}
 .percentage-bar {
-  transition: all 0.3s ease;
-  transition-delay: var(--animation_delay);
-  border: 1px solid black;
+  animation-name: color-fill;
+  animation-duration: 1s;
+  animation-delay: var(--animation_delay);
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  border: 1px solid #77a5b7;
   position: relative;
   height: 2rem;
   width: 100%;
+  color: #77a5b7;
 }
 
 .percentage-bar overlay {
@@ -19,12 +23,17 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #77a5b7;
 }
 
 @keyframes fill {
   from {width: 0%;}
   to {width: 100%;}
+}
+
+@keyframes color-fill {
+  from {color: #77a5b7;}
+  to {color: white;}
 }
 {% endstyle %}
 
