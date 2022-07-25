@@ -68,11 +68,21 @@
             "position": "Director of Clinical Operations",
             "description": "<p>With nearly a decade of experience as a successful entrepreneur, Dr. Anthony Didato started his career in the Endodontics field. He has a well-respected multi-office, multi-doctor practice in and around the Atlanta area. Aside from his Endodontic practice, Dr. Didato has many other business ventures, including a CBD-product focused wellness company and an oral strip company. His personal journey with anti-aging and HRT ignited a new passion in him for the industry, thus solidifying his decision to partner with like-minded individuals in the creation of Balanced Aesthetics.<\/p><p><\/p><p>He is a board-certified Endodontist and an AAFE level 3 certified injector for filler and neurotoxins<\/p>"
           }
+        },
+        "06f09155-55f2-4db2-a184-417040956716": {
+          "type": "member",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Group-16-1-1.png",
+            "name": "Elliot Campbell",
+            "position": "Director of Marketing and Business Development",
+            "description": "<p><\/p><p>Elliot Campbell has been an Atlanta native for over 20 years. He graduated from Georgia Southern in 2013 with a Bachelor’s degree in Marketing and minors in Business Management and Health and Nutrition. Elliot began his business career in college, owning a bar and restaurant. Upon graduation, he left the hospitality industry and transitioned into the technology industry, where he excelled in both inside and outside sales. Elliot is a firm believer in anti-aging medicines and techniques. His extensive social network, experience as a business owner, and his passion for the anti-aging and HRT industry led to the perfect career fit: the opening of Balanced Aesthetics MedSpa with his trusted partners, Dr. Anthony Didato and Richelle Brooks.<\/p><p><\/p>"
+          }
         }
       },
       "block_order": [
         "0efb359a-2570-4648-b58c-65fa5a5a505a",
-        "5162e094-4d5d-4d22-bff2-ad349a7157a2"
+        "5162e094-4d5d-4d22-bff2-ad349a7157a2",
+        "06f09155-55f2-4db2-a184-417040956716"
       ],
       "settings": {
       }
