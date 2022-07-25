@@ -21,6 +21,28 @@
     }
   }
   {%- endstyle -%}
+
+  {%- style -%}
+  #Banner-{{ section.id }}::after {
+    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+  }
+
+  .banner__media video {
+    object-fit:cover;
+    min-width:100%;
+    min-height:100%;
+  }
+
+  .button--primary {
+    background-color: var(--gradient-base-accent-1) !important;
+    color:
+  }
+
+  .banner__heading {
+    font-family: "Antic Didone", Sans-serif;
+    font-size: clamp(12px, 8vw, 60px);
+  }
+  {%- endstyle -%}
 {%- endif -%}
 
 {%- style -%}
