@@ -40,6 +40,10 @@
   font-size: 12px;
 }
 
+.percentage-bar span:last-of-type {
+  right: 1rem !important;
+}
+
 @keyframes fill {
   from {width: 0%;}
   to {width: var(--animation_fill, 100%);}
@@ -59,6 +63,7 @@
       --animation_fill: {{ block.settings.value }}%;">
       <overlay></overlay>
         <span>{{ block.settings.label }}</span>
+        <span>{{ block.settings.value }}%</span>
     </div>
     {% endfor %}
   </div>
