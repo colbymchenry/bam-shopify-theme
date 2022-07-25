@@ -1,7 +1,39 @@
+<di
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Percentage Bars",
+    "settings": [
+        {
+          "type": "select",
+          "id": "animation",
+          "options": [
+            {
+              "value": "fade",
+              "label": "Fade"
+            },
+            {
+              "value": "fade-up",
+              "label": "Fade Up"
+            },
+            {
+              "value": "fade-down",
+              "label": "Fade Down"
+            },
+            {
+              "value": "fade-left",
+              "label": "Fade Left"
+            },
+            {
+              "value": "fade-right",
+              "label": "Fade Right"
+            }
+          ],
+          "default": "fade",
+          "label": "Animation"
+        }
+    ]
   }
 {% endschema %}
 
