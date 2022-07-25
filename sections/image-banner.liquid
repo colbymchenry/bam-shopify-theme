@@ -22,6 +22,9 @@
   }
   {%- endstyle -%}
 
+
+{%- endif -%}
+
   {%- style -%}
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
@@ -42,7 +45,6 @@
     font-size: clamp(12px, 8vw, 60px);
   }
   {%- endstyle -%}
-{%- endif -%}
 
 {%- style -%}
   #Banner-{{ section.id }}::after {
