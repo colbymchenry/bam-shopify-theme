@@ -12,8 +12,8 @@
 
 .rich-text__buttons .button.button--secondary:hover {
   transition: all 0.3s ease;
-  background-color: #77a5be;
-  color: #fff;
+  background-color: #77a5be !important;
+  color: #fff !important;
 }
 
 .hero__underwrap__info {
