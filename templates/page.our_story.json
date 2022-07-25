@@ -162,7 +162,7 @@
           "type": "bar",
           "settings": {
             "label": "Patient Satisfaction",
-            "value": 79,
+            "value": 99,
             "animation_delay": "1s"
           }
         },
