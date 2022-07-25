@@ -32,7 +32,7 @@
 <div class="members">
   {% for block in section.blocks %}
   <div class="member">
-    <div class="profile-container" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-offset="200" data-aos-delay="{{ forloop.index0 | times: 100 }}">
+    <div class="profile-container" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-offset="200">
       <div class="avatar">
         <img src="{{ block.settings.avatar | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.name }} profile image" />
       </div>
