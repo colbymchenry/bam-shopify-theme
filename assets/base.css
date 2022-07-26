@@ -100,6 +100,16 @@
   box-sizing: border-box;
 }
 
+.modal__close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+}
+
 @media screen and (max-width: 500px) {
   .modal__container {
     max-width: 90vw;
