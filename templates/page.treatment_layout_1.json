@@ -47,6 +47,17 @@
         "show_text_below": true
       }
     },
+    "165886873165e4dfff": {
+      "type": "video-with-text",
+      "settings": {
+        "heading_logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
+        "heading": "OUR STORY",
+        "title": "Balanced Aesthetics' Unique Model Created For You",
+        "body": "",
+        "video_url": "",
+        "gap": 20
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -69,6 +80,7 @@
   },
   "order": [
     "1658867721db60d9c1",
+    "165886873165e4dfff",
     "form",
     "main"
   ]
