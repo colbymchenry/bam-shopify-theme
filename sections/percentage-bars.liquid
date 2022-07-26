@@ -21,9 +21,9 @@
 .percentage-bar overlay {
   position: absolute;
   width: 0%;
-  height: 100%;
-  top: 0;
-  left: 0;
+  height: calc(100% + 1px);
+  top: -1px;
+  left: -1px;
   background-color: #77a5b7;
 }
 
@@ -33,11 +33,6 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 12px;
-}
-
-.percentage-bar span:last-of-type {
-  right: 1rem !important;
-  left: unset !important;
 }
 
 [data-aos="fill"] {
