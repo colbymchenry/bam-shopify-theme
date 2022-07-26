@@ -180,12 +180,12 @@
         "alignItems": "center",
         "wrap": "nowrap",
         "wrapWidth": 1200,
-        "gap": 2,
+        "gap": 5,
         "minWidth": 300,
         "width": 100,
         "maxWidth": 1680,
         "minWidthFirstChild": 300,
-        "widthFirstChild": 50,
+        "widthFirstChild": 40,
         "minWidthLastChild": 300,
         "widthLastChild": 50
       }
