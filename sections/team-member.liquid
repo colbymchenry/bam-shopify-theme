@@ -56,7 +56,7 @@
         <img src="{{ block.settings.avatar | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.name }} profile image" />
       </div>
       <h5><b>{{ block.settings.name }}</b></h5>
-      <button type="button" onclick="readMore('{{ block.settings.description }}')">READ MORE</button>
+      <button type="button" data-micromodal-trigger="modal-1">READ MORE</button>
     </div>
 
     <div class="credentials" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
