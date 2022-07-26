@@ -141,9 +141,9 @@
     to { transform: translateY(-10%); }
 }
 
-.micromodal-slide {
+/* .micromodal-slide {
   display: none;
-}
+} */
 
 .micromodal-slide.is-open {
   display: block;
