@@ -44,7 +44,7 @@
       ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01803244b2514563a21ce96d42cf14b7.mp4",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "middle-right",
         "show_text_box": false,
