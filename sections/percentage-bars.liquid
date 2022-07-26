@@ -58,7 +58,7 @@
       --animation_fill: {{ block.settings.value }}%;">
       <overlay data-aos="fill" data-aos-delay="{{ block.settings.animation_delay }}" data-aos-duration="1000" data-aos-easing="ease-in-out"></overlay>
         <span>{{ block.settings.label }}</span>
-        <span style="margin-left: {{ block.settings.value }}%;">{{ block.settings.value }}%</span>
+        <span style="margin-left: calc({{ block.settings.value }}% - 6rem);">{{ block.settings.value }}%</span>
     </div>
     {% endfor %}
   </div>
