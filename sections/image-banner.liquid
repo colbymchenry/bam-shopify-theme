@@ -83,6 +83,39 @@
       {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
     </div>
   {%- endif -%}
+
+  {%- if page.metafields.custom.hero_image != blank -%}
+    <div class="banner__media media{% if page.metafields.custom.hero_image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+      {%-liquid
+        assign image_height = page.metafields.custom.hero_image.value.width | divided_by: page.metafields.custom.hero_image.value.aspect_ratio
+        if section.settings.image_2 != blank
+          assign image_class = "banner__media-image-half"
+        endif
+        if section.settings.image_2 != blank and section.settings.stack_images_on_mobile
+          assign sizes = "(min-width: 750px) 50vw, 100vw"
+        elsif section.settings.image_2 != blank
+          assign sizes = "50vw"
+        else
+          assign sizes = "100vw"
+        endif
+      -%}
+      {{ page.metafields.custom.hero_image.value | image_url: width: 1500 | image_tag:
+        loading: 'lazy',
+        width: page.metafields.custom.hero_image.value.width,
+        height: image_height,
+        class: image_class,
+        sizes: sizes,
+        widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+        alt: page.metafields.custom.hero_image.value.alt | escape
+      }}
+    </div>
+  {%- elsif section.settings.image_2 == blank -%}
+    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+      {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+    </div>
+  {%- endif -%}
+
+  
   {%- if section.settings.image_2 != blank -%}
     <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}">
       {%-liquid
