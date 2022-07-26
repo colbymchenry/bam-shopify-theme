@@ -145,6 +145,92 @@
       "settings": {
       }
     },
+    "16588465351754fbe6": {
+      "type": "two-column",
+      "settings": {
+        "justifyContent": "center",
+        "alignItems": "center",
+        "wrap": "nowrap",
+        "wrapWidth": 1200,
+        "gap": 2,
+        "minWidth": 300,
+        "width": 100,
+        "maxWidth": 1680,
+        "minWidthFirstChild": 300,
+        "widthFirstChild": 50,
+        "minWidthLastChild": 300,
+        "widthLastChild": 50
+      }
+    },
+    "1658846577c8d077af": {
+      "type": "rich-text",
+      "blocks": {
+        "165884657668825771-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Your overall health... from the inside out!<\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "165884657668825771-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our team consists of dedicated individuals who are kind, friendly, and caring. Our staff is here to ensure a pleasant experience during your visit to our office.<\/p><p>Technology is constantly evolving. We do our best to anticipate and fulfill the needs of our patients using advanced technology that helps us better diagnose and treat conditions and diseases. Our office features innovative technology that makes it possible for us to provide unsurpassed patient care that wouldn’t have been possible just a few years ago.<\/p><p>We offer a wide range of services to provide our patients with long-lasting results with our medical-grade products and state-of-the-art technology.<\/p><p>Vendors we work with include Thorne, Ortho Molecular, Obagi, Image, Nutrafol, Monat, Skinmedica, Elume, & Neocutis. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165884657668825771-0",
+        "165884657668825771-1"
+      ],
+      "settings": {
+        "animation": "fade",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1658846620c334b4ac": {
+      "type": "percentage-bars",
+      "blocks": {
+        "d5c98f2e-297d-40a8-a28a-59730ce00eb0": {
+          "type": "bar",
+          "settings": {
+            "label": "Patient Satisfaction",
+            "value": 99,
+            "animation_delay": "1s"
+          }
+        },
+        "68294e09-ec82-44e3-a374-5c9e00655c4a": {
+          "type": "bar",
+          "settings": {
+            "label": "Experienced and Professional",
+            "value": 100,
+            "animation_delay": "1s"
+          }
+        },
+        "68b83378-b283-468a-bce2-b197f58da5c4": {
+          "type": "bar",
+          "settings": {
+            "label": "Dedication to You",
+            "value": 100,
+            "animation_delay": "1s"
+          }
+        }
+      },
+      "block_order": [
+        "d5c98f2e-297d-40a8-a28a-59730ce00eb0",
+        "68294e09-ec82-44e3-a374-5c9e00655c4a",
+        "68b83378-b283-468a-bce2-b197f58da5c4"
+      ],
+      "settings": {
+        "animation": "fade",
+        "gap": 22
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -169,6 +255,9 @@
     "1658785877fc134759",
     "1658788544072ef2ff",
     "1658787989f2554069",
+    "16588465351754fbe6",
+    "1658846577c8d077af",
+    "1658846620c334b4ac",
     "form",
     "main"
   ]
