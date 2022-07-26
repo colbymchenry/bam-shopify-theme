@@ -90,7 +90,7 @@
   <div class="modal micromodal-slide" id="modal-{{ forloop.index0 }}" aria-hidden="true">
     <div class="modal__overlay" tabindex="-1" data-micromodal-close>
       <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="{{ block.settings.name }}">
-        <button type="button" class="modal__close-btn"><i class="fa-solid fa-xmark"></i></button>
+        <button type="button" class="modal__close-btn" data-micromodal-close><i class="fa-solid fa-xmark"></i></button>
          <div class="credentials" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <h3><b>{{ block.settings.position }}</b></h3>
             <div>
