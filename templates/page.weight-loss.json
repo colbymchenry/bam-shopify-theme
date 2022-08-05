@@ -175,7 +175,7 @@
           "type": "question",
           "settings": {
             "question": "Is There Any Downtime?",
-            "answer": "<p>It’s normal to experience<strong>some injection site tenderness, swelling, or redness<\/strong>, but these typically fade on their own in a few hours.<\/p>"
+            "answer": "<p>It’s normal to experience <strong>some injection site tenderness, swelling, or redness<\/strong>, but these typically fade on their own in a few hours.<\/p>"
           }
         }
       },
