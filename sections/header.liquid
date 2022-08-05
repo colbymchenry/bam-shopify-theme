@@ -612,6 +612,9 @@
       {% if section.settings.social_twitter_link %}
          <a href="{{ section.settings.social_twitter_link }}" target="_blank">{% include 'svg-twitter' %}</a>
       {% endif %}
+      {% if section.settings.social_youtube_link %}
+         <a href="{{ section.settings.social_youtube_link }}" target="_blank">{% include 'svg-youtube' %}</a>
+      {% endif %}
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
