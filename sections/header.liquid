@@ -618,7 +618,7 @@
       {% endif %}
     </div>
     {% if section.settings.booking_url != blank %}
-    <a href="{{ section.settings.booking_url }}" target="_blank">{{ section.settings.booking_label }} {% include 'svg-book' %}</a>
+    <a href="{{ section.settings.booking_url }}" target="_blank" class="booking-url">{{ section.settings.booking_label }} {% include 'svg-book' %}</a>
     {% endif %}
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
