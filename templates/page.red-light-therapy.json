@@ -188,39 +188,12 @@
         "background_color": "#e5f8ff"
       }
     },
-    "16597020612ffe0cad": {
-      "type": "rich-text",
-      "blocks": {
-        "16597020611f0d1bb5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Don’t forget to use your Allē points to receive discounts on all of your neurotoxin and filler needs!<\/p><p><strong>Not a member?<\/strong> Join today to earn points save on your favorite Allergan Aesthetics brands!<\/p>"
-          }
-        },
-        "16597020611f0d1bb5-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "JOIN NOW",
-            "button_link": "https:\/\/alle.com\/?utm_source=ADL&utm_medium=SEMB&utm_campaign=All%C4%93-BDMigrateCampaign-2020&utm_term=%2Balle%20%2Ballergan&utm_content=Alle_Broad",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16597020611f0d1bb5-1",
-        "16597020611f0d1bb5-2"
-      ],
+    "1659713905e255b1c0": {
+      "type": "spacer",
       "settings": {
-        "animation": "fade",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "min_height": 80,
+        "height": 0,
+        "max_height": 1200
       }
     },
     "1659694667e6cdff92": {
@@ -262,7 +235,7 @@
     "1659694191623768de",
     "1659694198464fcf11",
     "165969439736fc51d2",
-    "16597020612ffe0cad",
+    "1659713905e255b1c0",
     "1659694667e6cdff92",
     "form",
     "main"
