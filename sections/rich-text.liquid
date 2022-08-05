@@ -55,7 +55,7 @@
           {%- case block.type -%}
             {%- when 'logo' -%}
               <div class="rich-text__logo">
-                <img src="{{ block.settings.logo | img_url: "master" }}" alt="rich-text-logo" style="width: {{ block.settings.width }}%;" />
+                <img src="{{ block.settings.logo | img_url: "master" }}" alt="rich-text-logo" {% if block.settings.width > 0 %}style="width: {{ block.settings.width }}%;"{% endif %} />
                 <h5>{{ block.settings.label }}</h5>
               </div>
             {%- when 'heading' -%}
