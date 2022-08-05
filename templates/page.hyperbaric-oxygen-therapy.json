@@ -58,12 +58,11 @@
     "165886873165e4dfff": {
       "type": "video-with-text",
       "settings": {
-        "heading_logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
-        "heading": "DIMINISH FINE LINES & WRINKLES",
-        "title": "Botox®",
-        "body": "<p>BOTOX® is a treatment nearly everyone’s heard of, and millions of people in the US have performed every year. When we express ourselves, our skin can get quite the workout, and repetitive movement from smiles, frowns, and brow furrows can develop lines and wrinkles. <strong>BOTOX® treatment pauses these dynamic facial expressions to give your skin a chance to heal <\/strong>and diminish wrinkles. Balanced Aesthetics Medspa has specialists who are highly trained in the art of BOTOX® injections.<\/p>",
+        "heading": "",
+        "title": "Hyperbaric Oxygen Therapy",
+        "body": "<p>Hyperbaric oxygen therapy has many uses in medicine, including the treatment of infections, wounds that have trouble healing, carbon monoxide poisoning, and traumatic brain injury. As a therapeutic treatment, <strong>it offers all the benefits of healing oxygen to your entire body<\/strong>.<\/p>",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/botox-atlanta.jpg",
+        "image": "shopify:\/\/shop_images\/Hyperbaric-Oxygen-Therapy-Atlanta.jpg",
         "gap": 20
       }
     },
@@ -98,14 +97,14 @@
         "1659694191c377ea67-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Am I a Good Candidate?<\/p>",
+            "heading": "<p>What is Hyperbaric Oxygen Therapy?<\/p>",
             "heading_size": "h1"
           }
         },
         "1659694191c377ea67-1": {
           "type": "text",
           "settings": {
-            "text": "<p>BOTOX® has proven to be a <strong>remarkably safe and effective treatment <\/strong>to diminish the lines and wrinkles that form due to repetitive facial movements. <strong>Most people can receive treatment <\/strong>with little to no adverse reaction. Provide your medical history with all medications (including topical) you’ve taken in the past 30-days. We will discuss your goals to determine the best treatment plan for you before any injections are administered. Schedule a consultation with a Balanced Aesthetics specialist to get started.<\/p>"
+            "text": "<p>Hyperbaric oxygen therapy uses air under increased pressure to help your body absorb more oxygen. This extra oxygen travels through all of your tissues, improving their healing ability, helping them fight infections, and even ward off signs of aging. <\/p><p>Hyperbaric oxygen treatment has been used in medicine for many years to treat a wide variety of health conditions. More recently, <strong>people have discovered its health-enhancing and anti-aging benefits<\/strong>.<\/p>"
           }
         }
       },
@@ -129,14 +128,14 @@
         "165969419823df36ea-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>What Results Can I Expect?<\/p>",
+            "heading": "<p>How Does Hyperbaric Oxygen Therapy Work?<\/p>",
             "heading_size": "h1"
           }
         },
         "165969419823df36ea-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>A single BOTOX® treatment can achieve your desired results<\/strong>, which will generally <strong>last 3-6 months<\/strong>. Most patients see results within 3-5 days after treatment, though for some, BOTOX’s® effects may require 7-10 days to become visible. In that time, your facial expressions stop etching your lines and wrinkles into your skin, giving your cells a chance to repair themselves.<strong>Your lines and wrinkles diminish<\/strong>, and there are no frozen or overdone results at Balanced Aesthetics Medspa.<\/p>"
+            "text": "<p>A hyperbaric chamber, <strong>which can hold air 2-3 times normal pressure<\/strong>, administers hyperbaric oxygen therapy. Under these conditions, your body absorbs more oxygen than it can from ordinary air, oxygenating your tissues and speeding up natural healing abilities to the parts of your body that need it most. <\/p><p><strong>Hyperbaric oxygen therapy is the treatment of choice for some medical condition<\/strong>s. Poor oxygen supply can lead to wounds that do not heal or infections that spread out of control. In addition, boosting oxygen supply can help injuries heal faster. <\/p>"
           }
         }
       },
@@ -160,29 +159,37 @@
         "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
           "type": "question",
           "settings": {
-            "question": "How does Botox® Work?",
-            "answer": "<p><strong>BOTOX®<\/strong> is derived from botulinum toxin Type A, a neurotoxin that <strong>interrupts the signals from your brain to your facial muscles<\/strong>, typically those of the forehead, between the brows, or around the eyes. When these muscles don’t move as much, <strong>your skin has a chance to repair the damage that causes wrinkles and lines<\/strong>. The overall effect is a younger, smoother appearance. The art of BOTOX® treatments is in the injection placement, and Balanced Aesthetics can <strong>erase your dynamic wrinkles<\/strong> without sacrificing the facial movements that let your personality shine.<\/p><p>BOTOX® Cosmetic:<\/p><p><strong>• <\/strong>Corrects fine lines and wrinkles – primary indication for the forehead, frown lines, crows feet, lip flip<\/p><p><strong>• <\/strong>Takes only 10-15 minutes for complete treatment<\/p><p><strong>• <\/strong>Requires little to no downtime<\/p><p><strong>• <\/strong>Produces within 3-5 days in most patients<\/p><p><strong>• <\/strong>Reverses signs of aging<\/p><p><strong>• <\/strong>Smooths skin<\/p>"
+            "question": "What is Oxygen Therapy in a Hyperbaric Chamber Like?",
+            "answer": "<p>Once the air has been pressurized, you may feel pressure in your ears similar to what you might feel on a plane. You do not need to do anything except breathe during treatment, as the extra air pressure will naturally increase your oxygen intake. <strong>Treatments usually last about one hour.<\/strong><\/p>"
           }
         },
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
           "type": "question",
           "settings": {
-            "question": "What is the Procedure Like?",
-            "answer": "<p>Having BOTOX® injections is no more painful than a <strong>typical pinch of a needle<\/strong>. We use <strong>ultra-thin needles and precise dosing <\/strong>to ensure you have as comfortable a treatment as possible. Our provider will thoroughly clean the treatment area(s) before injecting. Your BOTOX® session will take <strong>only 10-15 minutes<\/strong>, and you can return to your everyday schedule right away, though you should refrain from strenuous exercise, intense heat, or saunas for at least 12 hours post treatment.<\/p>"
+            "question": "Is There Any Downtime With Hyperbaric Oxygen Therapy?",
+            "answer": "<p><strong>You may feel tired after time in a hyperbaric chamber<\/strong>. This common effect will go away quickly but should not stop you from returning to your daily activities immediately after treatment. <\/p>"
           }
         },
         "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
           "type": "question",
           "settings": {
-            "question": "Is There Any Downtime?",
-            "answer": "<p>BOTOX® may cause some muscle weakness, vision problems, or dizziness directly following treatment for some patients. Brow and eyelid drop is rare but may occur in some patients. Allergic reactions are also rare but may occur, causing itching, redness, rashes, and asthma symptoms. <strong>Most people feel none of this <\/strong>and only experience some mild injection site tenderness or headache.<\/p>"
+            "question": "Am I a Good Candidate for Hyperbaric Oxygen Therapy?",
+            "answer": "<p>Your provider will evaluate whether you are a good candidate during your consultation. <strong>Most people are good candidates<\/strong>, but certain medical conditions may mean you should not be exposed to pressurized air. <\/p>"
+          }
+        },
+        "9fc1e1e8-9de2-4339-a826-1092be964983": {
+          "type": "question",
+          "settings": {
+            "question": "What Results Will I See With Hyperbaric Oxygen Therapy?",
+            "answer": "<p>For most conditions, several treatments produce the best results. Some conditions may require ongoing treatments over a long period of time. Some people may use hyperbaric oxygen therapy on a regular basis for its health benefits. <\/p><p>For people using hyperbaric oxygen therapy as a preventative or health-enhancing treatment, you can expect that after the initial tiredness, you will feel energized and restored. <strong>The use of hyperbaric oxygen therapy can help injuries and illnesses heal faster<\/strong> and keep your body working at its best. <\/p>"
           }
         }
       },
       "block_order": [
         "19d18657-cf81-4a11-9cd6-60a7b19db36a",
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60",
-        "92844a58-69cb-4e9f-b978-31606bc7bfbb"
+        "92844a58-69cb-4e9f-b978-31606bc7bfbb",
+        "9fc1e1e8-9de2-4339-a826-1092be964983"
       ],
       "settings": {
         "title": "",
