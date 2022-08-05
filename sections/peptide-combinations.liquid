@@ -26,9 +26,6 @@
   }
 
   .peptides__container .combination img {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -69,6 +66,10 @@
     transition: all 0.3s ease;
     color: white;
     z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: transform(-50%, -50%);
   }
 
   .peptides__container .combination:hover span {
