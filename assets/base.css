@@ -4,6 +4,12 @@ header.bottom-header {
   align-items: center !important;
 }
 
+.bottom-header .booking-url,.bottom-header .booking-url:hover,.bottom-header .booking-url:visited {
+  gap: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
 .bottom-header a {
   display: flex;
   align-items: center;
