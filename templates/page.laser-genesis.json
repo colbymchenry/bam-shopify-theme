@@ -160,32 +160,24 @@
         "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
           "type": "question",
           "settings": {
-            "question": "How Does an IPL Facial Work?",
-            "answer": "<p>IPL stands for Intense Pulsed Light, a <strong>multi-wavelength light therapy<\/strong> treatment that goes deep into the dermis to <strong>revitalize your skin’s condition at the cellular level<\/strong>. Because IPL light therapy reaches deeper into the tissues, the topmost layer of skin remains unharmed, significantly lowering the risk of side effects. Pigment in your cells absorbs the light, which is converted to heat, effectively resetting the clock on your skin’s cells.<\/p><p><\/p><p>IPL benefits include:<\/p><p><strong>• <\/strong>Reducing even the most stubborn sun spots and dark spots<\/p><p><strong>• <\/strong>Repairing visible blood vessels<\/p><p><strong>• <\/strong>Improving pigmentation irregularities from minor to severe<\/p><p><strong>• <\/strong>Combating acne and blemish issues such as blackheads, whiteheads, papules, pustules, nodules, cysts, sebum, bacteria, hormonal irritations, dead skin cells, and ingrown hairs<\/p><p><strong>• <\/strong>Diminishing the appearance of scars<\/p><p><strong>• <\/strong>Proven treatment of rosacea (along with other skin redness)<\/p><p><strong>• <\/strong>Stimulating collagen growth<\/p><p><strong>• <\/strong>Improving skin texture<\/p><p><strong>• <\/strong>May be combined with <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/peels\/\">Peels<\/a>, <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/hydrafacial\/\">HydraFacial®<\/a>, and other superficial treatments of the epidermis. This is because IPL targets deeper layers of the skin; therefore, the superficial layers can be worked on simultaneously or back-to-back.<\/p>"
+            "question": "What is a Laser Genesis Treatment Like?",
+            "answer": "<p>Laser Genesis produces <strong>gentle warming of your skin’s surface<\/strong>, which clients often describe as relaxing and therapeutic. It’s the ideal treatment for the face, neck, chest, and other areas where visible signs of aging, sun damage, redness, wrinkles, or scarring have occurred. To get the most out of Laser Genesis treatment, a<strong> series of 4-6 sessions is recommended<\/strong>.<\/p><p>Improvements are incremental after each session, but they accumulate and become <strong>more dramatic after 2-3 treatments<\/strong> and peak in the months after the last treatment. Sustainable results are possible with maintenance treatments.<\/p>"
           }
         },
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
           "type": "question",
           "settings": {
-            "question": "What is an IPL Facial Treatment Like?",
-            "answer": "<p>After a thorough cleansing, your skin is prepped for IPL light therapy to focus the wavelengths as they penetrate your skin. You’ll be given eye protection for safety. <strong>The treatment itself may cause a slight stinging sensation<\/strong>, but it is not significantly uncomfortable. Your treatment should last <strong>30 minutes <\/strong>depending on the size of your treatment area.<\/p><p><\/p><p>The number of required treatments varies from patient to patient based on unique skin composition and aesthetic goals. <strong>The majority of patients see results after their first treatment<\/strong>. Continued and consistent monthly treatments are suggested to obtain and maintain optimal results. A customized treatment plan will be determined after your first service with us.<\/p>"
-          }
-        },
-        "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
-          "type": "question",
-          "settings": {
             "question": "Is There Any Downtime?",
-            "answer": "<p>Very few side effects are possible, such as <strong>minor redness and swelling <\/strong>following treatment. These usually only last a few hours, but in rare cases, can last a few days. Once redness or swelling disappears, the <strong>skin benefits in almost every aesthetic way<\/strong>. In extremely rare cases, lightening or darkening of the skin or scarring have occurred.<\/p>"
+            "answer": "<p>Because the Laser Genesis procedure is noninvasive, you may experience slight redness immediately after treatment which will resolve within a few hours. Since there is no downtime, you can <strong>immediately apply sunscreen and makeup <\/strong>and return to your normal daily activities.<\/p>"
           }
         }
       },
       "block_order": [
         "19d18657-cf81-4a11-9cd6-60a7b19db36a",
-        "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60",
-        "92844a58-69cb-4e9f-b978-31606bc7bfbb"
+        "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60"
       ],
       "settings": {
-        "title": "FAQ",
+        "title": "",
         "background_color": "#e5f8ff"
       }
     },
