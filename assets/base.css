@@ -9,7 +9,8 @@
   align-items: center;
   height: 1rem;
   max-height: 1rem;
-  gap: 1.5rem;
+  margin-left: 3.5rem;
+  gap: 1rem;
 }
 
 .bottom-header .socials svg {
