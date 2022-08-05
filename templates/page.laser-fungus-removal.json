@@ -160,22 +160,22 @@
         "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
           "type": "question",
           "settings": {
-            "question": "How Does an IPL Facial Work?",
-            "answer": "<p>IPL stands for Intense Pulsed Light, a <strong>multi-wavelength light therapy<\/strong> treatment that goes deep into the dermis to <strong>revitalize your skin’s condition at the cellular level<\/strong>. Because IPL light therapy reaches deeper into the tissues, the topmost layer of skin remains unharmed, significantly lowering the risk of side effects. Pigment in your cells absorbs the light, which is converted to heat, effectively resetting the clock on your skin’s cells.<\/p><p><\/p><p>IPL benefits include:<\/p><p><strong>• <\/strong>Reducing even the most stubborn sun spots and dark spots<\/p><p><strong>• <\/strong>Repairing visible blood vessels<\/p><p><strong>• <\/strong>Improving pigmentation irregularities from minor to severe<\/p><p><strong>• <\/strong>Combating acne and blemish issues such as blackheads, whiteheads, papules, pustules, nodules, cysts, sebum, bacteria, hormonal irritations, dead skin cells, and ingrown hairs<\/p><p><strong>• <\/strong>Diminishing the appearance of scars<\/p><p><strong>• <\/strong>Proven treatment of rosacea (along with other skin redness)<\/p><p><strong>• <\/strong>Stimulating collagen growth<\/p><p><strong>• <\/strong>Improving skin texture<\/p><p><strong>• <\/strong>May be combined with <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/peels\/\">Peels<\/a>, <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/hydrafacial\/\">HydraFacial®<\/a>, and other superficial treatments of the epidermis. This is because IPL targets deeper layers of the skin; therefore, the superficial layers can be worked on simultaneously or back-to-back.<\/p>"
+            "question": "How Does Laser Fungus Removal Work?",
+            "answer": "<p>The microscopic organisms that cause fungal infections are sometimes difficult to avoid, especially if you’re in <strong>damp environments like the beach, a pool, or the locker room<\/strong> at the gym. If there is an injury to your toes, they can be particularly susceptible. Covering the problem up with <strong>footwear can exacerbate the infection<\/strong> if not enough air circulation reaches your skin. This can lead to detachment from the nail bed, discomfort when walking, and it can spread to other nails.<\/p><p>Thankfully, laser fungus removal at Balanced Aesthetics can help. <strong>The laser energy passes harmlessly through the nail<\/strong> itself to reach the area where the fungus grows—beneath the nail, where it’s most difficult to reach. The fungus absorbs the energy, <strong>effectively killing it<\/strong> and preventing further spread.<\/p><p>Laser fungus removal has these benefits:<\/p><p><strong>• <\/strong>Generally <strong>more effective <\/strong>than other options for treating fungus<\/p><p><strong>• <\/strong>The <strong>disappearance of yellow, white, or brown discoloration <\/strong>and flaky debris at the infected area<\/p><p><strong>• Nail reattachment <\/strong>to the nail bed (once healed and the fungus is completely gone)<\/p><p><strong>• Normal shape and texture <\/strong>of new nail—the disappearance of thickness, bumps, and abnormal nail shape<\/p><p><strong>• Sessions are quick <\/strong>and usually only take about 30 minutes to complete<\/p>"
           }
         },
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
           "type": "question",
           "settings": {
-            "question": "What is an IPL Facial Treatment Like?",
-            "answer": "<p>After a thorough cleansing, your skin is prepped for IPL light therapy to focus the wavelengths as they penetrate your skin. You’ll be given eye protection for safety. <strong>The treatment itself may cause a slight stinging sensation<\/strong>, but it is not significantly uncomfortable. Your treatment should last <strong>30 minutes <\/strong>depending on the size of your treatment area.<\/p><p><\/p><p>The number of required treatments varies from patient to patient based on unique skin composition and aesthetic goals. <strong>The majority of patients see results after their first treatment<\/strong>. Continued and consistent monthly treatments are suggested to obtain and maintain optimal results. A customized treatment plan will be determined after your first service with us.<\/p>"
+            "question": "What is the Treatment Like?",
+            "answer": "<p>While the infection itself may be painful, <strong>laser fungus removal is not uncomfortable<\/strong>, depending on the severity of your infection. The energy is directed at the site of infection and penetrates through the nail to kill the microbes responsible. The treatment itself <strong>takes 30 minutes <\/strong>on average, and afterward, you put on your shoes and <strong>return to your normal schedule<\/strong>.<\/p>"
           }
         },
         "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
           "type": "question",
           "settings": {
             "question": "Is There Any Downtime?",
-            "answer": "<p>Very few side effects are possible, such as <strong>minor redness and swelling <\/strong>following treatment. These usually only last a few hours, but in rare cases, can last a few days. Once redness or swelling disappears, the <strong>skin benefits in almost every aesthetic way<\/strong>. In extremely rare cases, lightening or darkening of the skin or scarring have occurred.<\/p>"
+            "answer": "<p>You may experience some mild pain or bleeding for a few hours after your treatment, but as long as you keep the skin clean and dry, your tissues have the greatest chance of healing.<\/p>"
           }
         }
       },
@@ -185,8 +185,31 @@
         "92844a58-69cb-4e9f-b978-31606bc7bfbb"
       ],
       "settings": {
-        "title": "FAQ",
+        "title": "",
         "background_color": "#e5f8ff"
+      }
+    },
+    "16597043445d272808": {
+      "type": "rich-text",
+      "blocks": {
+        "1659704343d3eb0e7b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you’re self-conscious of the state of your nails and have been fighting an uncomfortable fungal infection that has you hesitant to bare your feet, then Balanced Aesthetics can help. Before you know it, <strong>you’ll be ready for that pedicure <\/strong>you’ve been wanting.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659704343d3eb0e7b-1"
+      ],
+      "settings": {
+        "animation": "fade",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "1659694667e6cdff92": {
@@ -228,6 +251,7 @@
     "1659694191623768de",
     "1659694198464fcf11",
     "165969439736fc51d2",
+    "16597043445d272808",
     "1659694667e6cdff92",
     "form",
     "main"
