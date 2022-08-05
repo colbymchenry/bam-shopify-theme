@@ -75,62 +75,46 @@
         "max_height": 1200
       }
     },
-    "16597020612ffe0cad": {
-      "type": "rich-text",
-      "blocks": {
-        "68a8d153-e797-4876-b37a-076b939b2060": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>What Peptide Therapies are Available?<\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "68a8d153-e797-4876-b37a-076b939b2060"
-      ],
-      "settings": {
-        "animation": "fade",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "165969439736fc51d2": {
       "type": "accordion",
       "blocks": {
         "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
           "type": "question",
           "settings": {
-            "question": "How does Botox® Work?",
-            "answer": "<p><strong>BOTOX®<\/strong> is derived from botulinum toxin Type A, a neurotoxin that <strong>interrupts the signals from your brain to your facial muscles<\/strong>, typically those of the forehead, between the brows, or around the eyes. When these muscles don’t move as much, <strong>your skin has a chance to repair the damage that causes wrinkles and lines<\/strong>. The overall effect is a younger, smoother appearance. The art of BOTOX® treatments is in the injection placement, and Balanced Aesthetics can <strong>erase your dynamic wrinkles<\/strong> without sacrificing the facial movements that let your personality shine.<\/p><p>BOTOX® Cosmetic:<\/p><p><strong>• <\/strong>Corrects fine lines and wrinkles – primary indication for the forehead, frown lines, crows feet, lip flip<\/p><p><strong>• <\/strong>Takes only 10-15 minutes for complete treatment<\/p><p><strong>• <\/strong>Requires little to no downtime<\/p><p><strong>• <\/strong>Produces within 3-5 days in most patients<\/p><p><strong>• <\/strong>Reverses signs of aging<\/p><p><strong>• <\/strong>Smooths skin<\/p>"
+            "question": "IGF-1 (Insulin-like Growth Factor 1)",
+            "answer": "<p><em><strong>CATEGORY: Optimal Health<\/strong><\/em><\/p><p>The liver produces IGF-1 to work in concert with insulin to determine what type of fuel the body uses at a given time. IGF-1 helps transfer glucose through cell membranes for growth and repair of muscle, nerve, and heart cells. Over time, if the liver becomes too fatty, production of IGF-1 suffers, putting more dependence on insulin, which can eventually lead to diabetes. Boosting the IGF-1 peptide keeps insulin balanced as well as providing a host of other benefits.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Reduced body fat with enhanced fat burning<\/p><p><strong>• <\/strong>Increased muscle mass and strength<\/p><p><strong>• <\/strong>Improved energy and physical stamina<\/p><p><strong>• <\/strong>Better sleep and lower incidence of insomnia<\/p><p><strong>• <\/strong>Enhanced cognitive function<\/p><p><strong>• <\/strong>Improved calcium retention and better bone density<\/p><p><strong>• <\/strong>Improved skin elasticity<\/p><p><strong>• <\/strong>Strengthened connective tissue and repair after injury<\/p>"
           }
         },
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
           "type": "question",
           "settings": {
-            "question": "What is the Procedure Like?",
-            "answer": "<p>Having BOTOX® injections is no more painful than a <strong>typical pinch of a needle<\/strong>. We use <strong>ultra-thin needles and precise dosing <\/strong>to ensure you have as comfortable a treatment as possible. Our provider will thoroughly clean the treatment area(s) before injecting. Your BOTOX® session will take <strong>only 10-15 minutes<\/strong>, and you can return to your everyday schedule right away, though you should refrain from strenuous exercise, intense heat, or saunas for at least 12 hours post treatment.<\/p>"
+            "question": "AOD9604 (Advaned Obesity Drug)",
+            "answer": "<p><em><strong>CATEGORY: Weight Management<\/strong><\/em><\/p><p>This is a synthetic peptide fragment that comprises a modified 15 amino acid region of GH (the tail end, <strong>which burns fat<\/strong>). Similar to GH, AOD9604 aids in the <strong>reduction of obesity<\/strong>. Additionally, it does not stimulate the production of IGF-1.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Promotes fat burning without affecting blood sugar or tissue growth<\/p><p><strong>• <\/strong>Prompts fat release from obese fat cells<\/p><p><strong>• <\/strong>Prevents lipogenesis (fat accumulation)<\/p><p><strong>• <\/strong>Treatment in osteoarthritis, hypercholesterolemia, bone and cartilage repair<\/p><p><strong>• <\/strong>Boosts the body’s metabolism<\/p><p><strong>• <\/strong>Less appetite stimulation<\/p>"
           }
         },
         "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
           "type": "question",
           "settings": {
-            "question": "Is There Any Downtime?",
-            "answer": "<p>BOTOX® may cause some muscle weakness, vision problems, or dizziness directly following treatment for some patients. Brow and eyelid drop is rare but may occur in some patients. Allergic reactions are also rare but may occur, causing itching, redness, rashes, and asthma symptoms. <strong>Most people feel none of this <\/strong>and only experience some mild injection site tenderness or headache.<\/p>"
+            "question": "BPC 157",
+            "answer": "<p><em><strong>CATEGORY: Healing, Anti-Aging, Optimal Health<\/strong><\/em><\/p><p>BPC 157, composed of 15 amino acids, is a partial sequence of body protection compounds (BPC). Experimentally it has been demonstrated to <strong>accelerate the healing<\/strong> of many different wounds, including tendons, muscles, nervous system, and superior healing of damaged ligaments. Those who suffer from discomfort due to muscle sprains, tears, and damage may benefit from treatment with this peptide. It can also <strong>help aid skin burns<\/strong> to heal faster and <strong>increase blood flow to damaged tissues<\/strong>.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Supports cognitive performance<\/p><p><strong>• <\/strong>Supports joint health<\/p><p><strong>• <\/strong>Protects against drug-induced damage<\/p><p><strong>• <\/strong>Restores the serotonergic transport system<\/p><p><strong>• <\/strong>Protects dopaminergic system<\/p><p><strong>• <\/strong>Enhances the GABAergic system<\/p><p><strong>• <\/strong>Reverse opioid tolerance<\/p><p><strong>• <\/strong>Accelerated wound healing<\/p><p><strong>• <\/strong>Ligament healing (knee, rotary)<\/p><p><strong>• <\/strong>Benefits for ulcers in the stomach<\/p><p><strong>• <\/strong>Benefits for intestinal damage<\/p><p><strong>• <\/strong>May help irritable bowel disease<\/p><p><strong>• <\/strong>Promotes lipolysis<\/p><p><strong>• <\/strong>Improves overall skin appearance<\/p><p><strong>• <\/strong>Repairs skin barrier proteins<\/p>"
+          }
+        },
+        "9ff449e8-76f8-4c86-b078-7e2ecdaa910b": {
+          "type": "question",
+          "settings": {
+            "question": "CJC-1295",
+            "answer": "<p><em><strong>CATEGORY: Weight Management, Increased Energy, Healing, Optimal Health<\/strong><\/em><\/p><p>CJC-1295 is a 30 amino acid peptide hormone that has shown incredibly promising results as a Growth Hormone Releasing Hormone (GHRH) analog. CJC-1295 stimulates HGH secretion and can provide a steady increase of HGH with minimal effect on cortisol and prolactin levels. This means increased protein synthesis, thus <strong>promoting growth and fat loss simultaneously<\/strong>. Ipamorelin mimics ghrelin and binds to the ghrelin receptor (or GH secretagogue receptor, GHSR) in the brain, thereby selectively stimulating the release of GH from the pituitary gland. This results in increased plasma GH levels, which would affect many biological processes. Unlike other GH-releasing peptides, Ipamorelin only stimulates GH release in a manner very similar to that of Growth Hormone Releasing Hormone. This combination results in a <strong>great aid for sleep, energy, stamina, and recovery benefits<\/strong>.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Increased protein synthesis<\/p><p><strong>• <\/strong>Promotes fat burning<\/p><p><strong>• <\/strong>Improves sleep quality<\/p><p><strong>• <\/strong>Increased bone density<\/p><p><strong>• <\/strong>Accelerated injury recovery<\/p><p><strong>• <\/strong>Improved immune system<\/p><p><strong>• <\/strong>Increased protein synthesis<\/p><p><strong>• <\/strong>Increased energy<\/p><p><strong>• <\/strong>Increase in lean body mass<\/p>"
           }
         }
       },
       "block_order": [
         "19d18657-cf81-4a11-9cd6-60a7b19db36a",
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60",
-        "92844a58-69cb-4e9f-b978-31606bc7bfbb"
+        "92844a58-69cb-4e9f-b978-31606bc7bfbb",
+        "9ff449e8-76f8-4c86-b078-7e2ecdaa910b"
       ],
       "settings": {
-        "title": "",
+        "title": "What Peptide Therapies are Available?",
         "background_color": "#e5f8ff"
       }
     },
@@ -169,7 +153,6 @@
     "16596941544a416177",
     "165886873165e4dfff",
     "16596943757cd95565",
-    "16597020612ffe0cad",
     "165969439736fc51d2",
     "1659694667e6cdff92",
     "form",
