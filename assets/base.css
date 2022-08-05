@@ -1,7 +1,7 @@
-.bottom-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header.bottom-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
 }
 
 .bottom-header a {
