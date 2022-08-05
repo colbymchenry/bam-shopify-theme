@@ -32,7 +32,7 @@ header.bottom-header {
 }
 
 .bottom-header .socials svg {
-  max-height: 3rem;
+  height: clamp(2rem, 5vw, 3rem);
 }
 
 
