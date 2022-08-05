@@ -25,6 +25,12 @@ header.bottom-header {
   gap: 1rem;
 }
 
+@media screen and (max-width: 990px) {
+  .bottom-header .socials {
+    margin-left: 0;
+  }
+}
+
 .bottom-header .socials svg {
   max-height: 3rem;
 }
