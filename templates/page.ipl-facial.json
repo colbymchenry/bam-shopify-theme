@@ -165,6 +165,41 @@
         "padding_bottom": 36
       }
     },
+    "165969439736fc51d2": {
+      "type": "accordion",
+      "blocks": {
+        "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
+          "type": "question",
+          "settings": {
+            "question": "How Does an IPL Facial Work?",
+            "answer": "<p>IPL stands for Intense Pulsed Light, a <strong>multi-wavelength light therapy<\/strong> treatment that goes deep into the dermis to <strong>revitalize your skin’s condition at the cellular level<\/strong>. Because IPL light therapy reaches deeper into the tissues, the topmost layer of skin remains unharmed, significantly lowering the risk of side effects. Pigment in your cells absorbs the light, which is converted to heat, effectively resetting the clock on your skin’s cells.<\/p>"
+          }
+        },
+        "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
+          "type": "question",
+          "settings": {
+            "question": "What is an IPL Facial Treatment Like?",
+            "answer": "<p>After a thorough cleansing, your skin is prepped for IPL light therapy to focus the wavelengths as they penetrate your skin. You’ll be given eye protection for safety. <strong>The treatment itself may cause a slight stinging sensation<\/strong>, but it is not significantly uncomfortable. Your treatment should last <strong>30 minutes <\/strong>depending on the size of your treatment area.<\/p><p><\/p><p>The number of required treatments varies from patient to patient based on unique skin composition and aesthetic goals. <strong>The majority of patients see results after their first treatment<\/strong>. Continued and consistent monthly treatments are suggested to obtain and maintain optimal results. A customized treatment plan will be determined after your first service with us.<\/p>"
+          }
+        },
+        "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
+          "type": "question",
+          "settings": {
+            "question": "Is There Any Downtime?",
+            "answer": "<p>Very few side effects are possible, such as <strong>minor redness and swelling <\/strong>following treatment. These usually only last a few hours, but in rare cases, can last a few days. Once redness or swelling disappears, the <strong>skin benefits in almost every aesthetic way<\/strong>. In extremely rare cases, lightening or darkening of the skin or scarring have occurred.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "19d18657-cf81-4a11-9cd6-60a7b19db36a",
+        "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60",
+        "92844a58-69cb-4e9f-b978-31606bc7bfbb"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "background_color": "#e5f8ff"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -183,6 +218,7 @@
     "1659694191623768de",
     "1659694198464fcf11",
     "form",
+    "165969439736fc51d2",
     "main"
   ]
 }
