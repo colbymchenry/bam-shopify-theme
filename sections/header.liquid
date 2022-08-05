@@ -599,21 +599,21 @@
       </a>
     </div>
   </header>
-  <header class="header header--{{ section.settings.logo_position }} page-width bottom-header" style="background-color: #D3F3FE;">
-      {% if section.settings.social_tiktok_link %}
-         <a href="{{ section.settings.social_tiktok_link }}" target="_blank">{% include 'svg-tiktok' %}</a>
+  <header class="header header--{{ settings.logo_position }} page-width bottom-header" style="background-color: #D3F3FE;">
+      {% if settings.social_tiktok_link %}
+         <a href="{{ settings.social_tiktok_link }}" target="_blank">{% include 'svg-tiktok' %}</a>
       {% endif %}
-      {% if section.settings.social_facebook_link %}
-         <a href="{{ section.settings.social_facebook_link }}" target="_blank">{% include 'svg-facebook' %}</a>
+      {% if settings.social_facebook_link %}
+         <a href="{{ settings.social_facebook_link }}" target="_blank">{% include 'svg-facebook' %}</a>
       {% endif %}
-      {% if section.settings.social_instagram_link %}
-         <a href="{{ section.settings.social_instagram_link }}" target="_blank">{% include 'svg-instagram' %}</a>
+      {% if settings.social_instagram_link %}
+         <a href="{{ settings.social_instagram_link }}" target="_blank">{% include 'svg-instagram' %}</a>
       {% endif %}
-      {% if section.settings.social_twitter_link %}
-         <a href="{{ section.settings.social_twitter_link }}" target="_blank">{% include 'svg-twitter' %}</a>
+      {% if settings.social_twitter_link %}
+         <a href="{{ settings.social_twitter_link }}" target="_blank">{% include 'svg-twitter' %}</a>
       {% endif %}
-      {% if section.settings.social_youtube_link %}
-         <a href="{{ section.settings.social_youtube_link }}" target="_blank">{% include 'svg-youtube' %}</a>
+      {% if settings.social_youtube_link %}
+         <a href="{{ settings.social_youtube_link }}" target="_blank">{% include 'svg-youtube' %}</a>
       {% endif %}
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
