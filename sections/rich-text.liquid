@@ -55,7 +55,7 @@
           {%- case block.type -%}
             {%- when 'logo' -%}
               <div class="rich-text__logo">
-                <img src="{{ block.settings.logo | img_url: "master" }}" alt="rich-text-logo" />
+                <img src="{{ block.settings.logo | img_url: "master" }}" alt="rich-text-logo" style="width: {{ block.settings.width }}%;" />
                 <h5>{{ block.settings.label }}</h5>
               </div>
             {%- when 'heading' -%}
@@ -235,6 +235,15 @@
           "type": "text",
           "id": "label",
           "label": "Label"
+        },
+        {
+          "type": "range",
+          "id": "width",
+          "label": "Width (%)",
+          "min": 0,
+          "max": 1,
+          "step": 1,
+          "default": 80
         }
       ]
     },
