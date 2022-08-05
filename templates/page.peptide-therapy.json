@@ -113,13 +113,23 @@
             "hint": "GHK-Cu, BPC157, TB500, KPV",
             "modal_content": "<p><em><strong>Recovery<\/strong><\/em><\/p><p><strong>Category: Optimal Health, Healing, Anti-Aging<\/strong><\/p><p>When we’re young, it seems like the body can bounce back from anything. As we age, however, injuries become more common and recovery takes longer. We don’t have to accept that age and slow recovery time go hand in hand, because this peptide combination promotes fast recovery and decreased inflammation.<\/p><p><strong>GHK-Cu (Copper)<\/strong><\/p><p>Occurring naturally in the bloodstream, this peptide acts as a unit with copper molecules. Along with anti-inflammatory properties, it promotes healing, improves the condition of skin, and encourages collagen production.<\/p><p><strong>BPC 157:<\/strong><\/p><p>The body protective compounds (BPCs) in this peptide help your body recover from injury. Many ailments can benefit from this therapy such as; muscle injuries, joint pain, nerve damage, and strained tendons or ligaments. Along with enhanced healing, it has anti-aging benefits that improves the condition of the skin over time.<\/p><p><strong>Thymosin Beta-4 (TB-500)<\/strong><\/p><p>Important in the repair of injuries, this peptide builds protein inside cells. It can help repair joints, muscles, ligaments, and tendons. Secreted into the bloodstream at the site of an injury, it protects damaged tissue, controls inflammation, and promotes healing.<\/p><p><strong>KPV<\/strong><\/p><p>This naturally occurring peptide reduces inflammation and may reduce tumor growth. By reducing inflammation, it can help injuries heal with less swelling and pain, and it can also decrease inflammation causing problems in the gut.<\/p>"
           }
+        },
+        "a009d459-5fdf-4872-b3ca-4badec88f376": {
+          "type": "combination",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/strength.png",
+            "for": "Strength",
+            "hint": "CJC1295\/Ipamorelin, GHRP2, Kisspeptin",
+            "modal_content": "<p><em><strong>Strength<\/strong><\/em><\/p><p><strong>Category: Optimal Health, Weight Management<\/strong><\/p><p>We achieve real strength when our minds and bodies work as one coordinated whole. This peptide combination helps make sure you can be at your strongest every day and achieve your physical goals.<\/p><p><strong>CJC 1295<\/strong><\/p><p>Acting as a Growth Hormone Releasing Hormone (GHRH), this peptide promotes the release of Human Growth Hormone (HGH), which has powerful effects throughout the body. By promoting this hormone, CJC-1295 increases protein building, promotes fat burning, and encourages growth.<\/p><p><strong>Ipamorelin<\/strong><\/p><p>This peptide stimulates the pituitary gland to release natural growth hormone, which can increase energy and endurance, speed up repairs on a cellular level, and promote fat burning, making it the ideal boost to your workout routine.<\/p><p><strong>GHRP-2<\/strong><\/p><p>Another peptide that acts to stimulate growth hormone production, GHRP-2 has become well-known to enhance muscle development and recovery. Boosting growth hormone also has anti-aging effects. Since this hormone declines after our twenties, restoring it can help return our bodies to more youthful functioning.<\/p><p><strong>Kisspeptin<\/strong><\/p><p>By acting on gonadotropin-releasing hormone, this peptide activates a hormone cascade that produces luteinizing hormone (LH) and stimulating hormone (FSH). These, in turn, manage testosterone in men and estrogen in women, promoting muscle growth and improving sexual health.<\/p>"
+          }
         }
       },
       "block_order": [
         "dc056ddd-2eb5-4e6c-8fbd-2eefc3790424",
         "a186760d-6260-4183-b031-705d0b855eb7",
         "cfb27e3e-d964-4675-a1f7-7fb13300a013",
-        "bcaf1d9f-90e3-4b8a-b529-571d445f2067"
+        "bcaf1d9f-90e3-4b8a-b529-571d445f2067",
+        "a009d459-5fdf-4872-b3ca-4badec88f376"
       ],
       "settings": {
         "title": "Peptide Combinations",
