@@ -104,12 +104,22 @@
             "hint": "Pinealon, FGL, PE-22-28",
             "modal_content": "<p><em><strong>Focus \/ Cognitive Fog<\/strong><\/em><\/p><p><strong>Category: Optimal Health (Cognitive Function)<\/strong><\/p><p>It can be easy to accept brain fog and cognitive decline as part of the natural aging process. However, it doesn’t have to be. This peptide combination uses three powerful neural enhancers that will boost your memory and mood.<\/p><p><strong>Pinealon<\/strong><\/p><p>This tri-peptide complex acts as a free radical reducer, protecting the body and particularly the brain from aging. It promotes quality sleep as well as playing a role in learning and memory.<\/p><p><strong>FGL<\/strong><\/p><p>This peptide mimics molecules in the brain that promote neuron health. It improves memory, learning ability, and alertness by assisting in the growth of new neural connections.<\/p><p><strong>PE-22-28<\/strong><\/p><p>This peptide acts on parts of the brain that control mood, learning and memory. The TREK-1 pathway where PE-22-28 is active has been a target for drug companies developing antidepressants. This peptide acts as a natural antidepressant, mood regulator, and memory booster.<\/p>"
           }
+        },
+        "bcaf1d9f-90e3-4b8a-b529-571d445f2067": {
+          "type": "combination",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Recovery.png",
+            "for": "Recovery",
+            "hint": "GHK-Cu, BPC157, TB500, KPV",
+            "modal_content": "<p><em><strong>Recovery<\/strong><\/em><\/p><p><strong>Category: Optimal Health, Healing, Anti-Aging<\/strong><\/p><p>When we’re young, it seems like the body can bounce back from anything. As we age, however, injuries become more common and recovery takes longer. We don’t have to accept that age and slow recovery time go hand in hand, because this peptide combination promotes fast recovery and decreased inflammation.<\/p><p><strong>GHK-Cu (Copper)<\/strong><\/p><p>Occurring naturally in the bloodstream, this peptide acts as a unit with copper molecules. Along with anti-inflammatory properties, it promotes healing, improves the condition of skin, and encourages collagen production.<\/p><p><strong>BPC 157:<\/strong><\/p><p>The body protective compounds (BPCs) in this peptide help your body recover from injury. Many ailments can benefit from this therapy such as; muscle injuries, joint pain, nerve damage, and strained tendons or ligaments. Along with enhanced healing, it has anti-aging benefits that improves the condition of the skin over time.<\/p><p><strong>Thymosin Beta-4 (TB-500)<\/strong><\/p><p>Important in the repair of injuries, this peptide builds protein inside cells. It can help repair joints, muscles, ligaments, and tendons. Secreted into the bloodstream at the site of an injury, it protects damaged tissue, controls inflammation, and promotes healing.<\/p><p><strong>KPV<\/strong><\/p><p>This naturally occurring peptide reduces inflammation and may reduce tumor growth. By reducing inflammation, it can help injuries heal with less swelling and pain, and it can also decrease inflammation causing problems in the gut.<\/p>"
+          }
         }
       },
       "block_order": [
         "dc056ddd-2eb5-4e6c-8fbd-2eefc3790424",
         "a186760d-6260-4183-b031-705d0b855eb7",
-        "cfb27e3e-d964-4675-a1f7-7fb13300a013"
+        "cfb27e3e-d964-4675-a1f7-7fb13300a013",
+        "bcaf1d9f-90e3-4b8a-b529-571d445f2067"
       ],
       "settings": {
         "title": "Peptide Combinations",
