@@ -12,6 +12,10 @@
   gap: 0.5rem;
 }
 
+.bottom-header .socials svg {
+  max-height: 0.5rem;
+}
+
 
 /* Color custom properties */
 
