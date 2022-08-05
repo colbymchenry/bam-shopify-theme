@@ -13,6 +13,12 @@
   gap: 1rem;
 }
 
+.bottom-header .socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .bottom-header .socials svg {
   max-height: 3rem;
 }
