@@ -6,6 +6,7 @@
     background-color: {{ section.settings.background_color }};
     padding-top: 36px;
     padding-bottom: 36px;
+    cursor: pointer;
   }
 
   .peptides__container .combination {
@@ -27,6 +28,12 @@
   .peptide-modal.open {
     display: flex;
     animation: fadeInUp 0.3s forwards;
+  }
+
+  .peptide-modal button {
+    outline: none;
+    border: none;
+    background: none;
   }
   
   @media screen and (max-width: 500px) {
@@ -66,6 +73,7 @@
     </div>
 
     <div class="peptide-modal" id="peptide-modal-{{ forloop.index0 }}">
+      <button type="button" onclick="triggerModal('peptide-modal-{{ forloop.index0 }}');"><i class="fa-solid fa-xmark"></i></button>
       {{ block.settings.modal_content }}
     </div>
   {%- endfor -%}
