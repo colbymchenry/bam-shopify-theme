@@ -55,105 +55,6 @@
         "max_height": 1200
       }
     },
-    "165886873165e4dfff": {
-      "type": "video-with-text",
-      "settings": {
-        "heading_logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
-        "heading": "DIMINISH FINE LINES & WRINKLES",
-        "title": "Botox®",
-        "body": "<p>BOTOX® is a treatment nearly everyone’s heard of, and millions of people in the US have performed every year. When we express ourselves, our skin can get quite the workout, and repetitive movement from smiles, frowns, and brow furrows can develop lines and wrinkles. <strong>BOTOX® treatment pauses these dynamic facial expressions to give your skin a chance to heal <\/strong>and diminish wrinkles. Balanced Aesthetics Medspa has specialists who are highly trained in the art of BOTOX® injections.<\/p>",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/botox-atlanta.jpg",
-        "gap": 20
-      }
-    },
-    "16596943757cd95565": {
-      "type": "spacer",
-      "settings": {
-        "min_height": 80,
-        "height": 0,
-        "max_height": 1200
-      }
-    },
-    "1659694180b65bf791": {
-      "type": "two-column",
-      "settings": {
-        "justifyContent": "center",
-        "alignItems": "flex-start",
-        "wrap": "nowrap",
-        "wrapWidth": 500,
-        "gap": 7.5,
-        "minWidth": 300,
-        "width": 50,
-        "maxWidth": 1680,
-        "minWidthFirstChild": 300,
-        "widthFirstChild": 50,
-        "minWidthLastChild": 300,
-        "widthLastChild": 50
-      }
-    },
-    "1659694191623768de": {
-      "type": "rich-text",
-      "blocks": {
-        "1659694191c377ea67-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Am I a Good Candidate?<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1659694191c377ea67-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>BOTOX® has proven to be a <strong>remarkably safe and effective treatment <\/strong>to diminish the lines and wrinkles that form due to repetitive facial movements. <strong>Most people can receive treatment <\/strong>with little to no adverse reaction. Provide your medical history with all medications (including topical) you’ve taken in the past 30-days. We will discuss your goals to determine the best treatment plan for you before any injections are administered. Schedule a consultation with a Balanced Aesthetics specialist to get started.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1659694191c377ea67-0",
-        "1659694191c377ea67-1"
-      ],
-      "settings": {
-        "animation": "fade-right",
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "1659694198464fcf11": {
-      "type": "rich-text",
-      "blocks": {
-        "165969419823df36ea-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>What Results Can I Expect?<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "165969419823df36ea-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>A single BOTOX® treatment can achieve your desired results<\/strong>, which will generally <strong>last 3-6 months<\/strong>. Most patients see results within 3-5 days after treatment, though for some, BOTOX’s® effects may require 7-10 days to become visible. In that time, your facial expressions stop etching your lines and wrinkles into your skin, giving your cells a chance to repair themselves.<strong>Your lines and wrinkles diminish<\/strong>, and there are no frozen or overdone results at Balanced Aesthetics Medspa.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "165969419823df36ea-0",
-        "165969419823df36ea-1"
-      ],
-      "settings": {
-        "animation": "fade-left",
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "165969439736fc51d2": {
       "type": "accordion",
       "blocks": {
@@ -189,39 +90,12 @@
         "background_color": "#e5f8ff"
       }
     },
-    "16597020612ffe0cad": {
-      "type": "rich-text",
-      "blocks": {
-        "16597020611f0d1bb5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Don’t forget to use your Allē points to receive discounts on all of your neurotoxin and filler needs!<\/p><p><strong>Not a member?<\/strong> Join today to earn points save on your favorite Allergan Aesthetics brands!<\/p>"
-          }
-        },
-        "16597020611f0d1bb5-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "JOIN NOW",
-            "button_link": "https:\/\/alle.com\/?utm_source=ADL&utm_medium=SEMB&utm_campaign=All%C4%93-BDMigrateCampaign-2020&utm_term=%2Balle%20%2Ballergan&utm_content=Alle_Broad",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16597020611f0d1bb5-1",
-        "16597020611f0d1bb5-2"
-      ],
+    "1659717108f4d9db55": {
+      "type": "spacer",
       "settings": {
-        "animation": "fade",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "min_height": 135,
+        "height": 0,
+        "max_height": 1200
       }
     },
     "1659694667e6cdff92": {
@@ -257,13 +131,8 @@
   "order": [
     "1658867721db60d9c1",
     "16596941544a416177",
-    "165886873165e4dfff",
-    "16596943757cd95565",
-    "1659694180b65bf791",
-    "1659694191623768de",
-    "1659694198464fcf11",
     "165969439736fc51d2",
-    "16597020612ffe0cad",
+    "1659717108f4d9db55",
     "1659694667e6cdff92",
     "form",
     "main"
