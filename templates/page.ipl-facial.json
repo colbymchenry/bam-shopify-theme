@@ -74,14 +74,14 @@
         "alignItems": "center",
         "wrap": "nowrap",
         "wrapWidth": 500,
-        "gap": 0,
+        "gap": 2,
         "minWidth": 300,
-        "width": 30,
+        "width": 50,
         "maxWidth": 1680,
         "minWidthFirstChild": 300,
-        "widthFirstChild": 40,
+        "widthFirstChild": 50,
         "minWidthLastChild": 300,
-        "widthLastChild": 40
+        "widthLastChild": 50
       }
     },
     "1659694191623768de": {
@@ -90,14 +90,14 @@
         "1659694191c377ea67-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Am I a Good Candidate?<\/p>",
             "heading_size": "h1"
           }
         },
         "1659694191c377ea67-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>IPL works well on patients with Fitzpatrick skin types I through III. Because IPL targets skin’s pigment, patients with deep tans or darker tones may have better results with different skin rejuvenation treatments.<\/p><p><\/p><p><strong>A consultation with Balanced Aesthetics will help you determine if you’re an ideal candidate <\/strong>for IPL facial treatment. You should disclose medical history such as skin cancer, keloid formation, open lesions, pregnancy, and current medications (including topical) at this time.<\/p>"
           }
         }
       },
@@ -121,14 +121,14 @@
         "165969419823df36ea-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>What Results Can I Expect?<\/p>",
             "heading_size": "h1"
           }
         },
         "165969419823df36ea-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Your IPL facial results will show <strong>noticeable improvement around 1 week <\/strong>after treatment. With a <strong>series of IPL facials <\/strong>to build on the renewal of previous sessions, the <strong>youthful, smooth glow of your skin will peak around 3-6 months<\/strong>. Your skin’s sun damage, age spots, and other hyperpigmentation concerns will fade, and your fine lines and wrinkles, acne or scarring, and other irregularities will smooth away. You’ll have a clear, radiant complexion that can defy your age.<\/p>"
           }
         }
       },
