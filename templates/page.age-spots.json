@@ -195,7 +195,7 @@
         "1659703228e3d8b4bc-1": {
           "type": "text",
           "settings": {
-            "text": "<p>No one wants to have their lips look overdone, too puffy, or asymmetrical, so having a professional perform your lip enhancement is vital to the success of your outcome. <strong>Our talented Aesthetics Injectors have been specially trained <\/strong>and are uniquely qualified in the art of lip enhancement with JUVÉDERM® lip fillers. There’s nowhere better to <strong>achieve soft, plush lips <\/strong>that compliment your features than Balanced Aesthetics Medspa.<\/p>"
+            "text": "<p>At Balanced Aesthetics, we can help you <strong>put your best face forward <\/strong>by reducing age spots and sun damage, giving your complexion a bright, fresh, and renewed appearance.<\/p>"
           }
         }
       },
@@ -212,39 +212,12 @@
         "padding_bottom": 52
       }
     },
-    "1659703266b57da280": {
-      "type": "rich-text",
-      "blocks": {
-        "165970326681a2d4f2-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Don’t forget to use your Allē points to receive discounts on all of your neurotoxin and filler needs!<\/p><p><strong>Not a member?<\/strong> Join today to earn points save on your favorite Allergan Aesthetics brands!<\/p>"
-          }
-        },
-        "165970326681a2d4f2-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "JOIN NOW",
-            "button_link": "https:\/\/alle.com\/?utm_source=ADL&utm_medium=SEMB&utm_campaign=All%C4%93-BDMigrateCampaign-2020&utm_term=%2Balle%20%2Ballergan&utm_content=Alle_Broad",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "165970326681a2d4f2-1",
-        "165970326681a2d4f2-2"
-      ],
+    "1659723590ffe8cff9": {
+      "type": "spacer",
       "settings": {
-        "animation": "fade",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "min_height": 40,
+        "height": 0,
+        "max_height": 1200
       }
     },
     "1659694667e6cdff92": {
@@ -287,7 +260,7 @@
     "1659694198464fcf11",
     "165969439736fc51d2",
     "1659703228f4736b6c",
-    "1659703266b57da280",
+    "1659723590ffe8cff9",
     "1659694667e6cdff92",
     "form",
     "main"
