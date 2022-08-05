@@ -93,7 +93,7 @@
       "type": "two-column",
       "settings": {
         "justifyContent": "center",
-        "alignItems": "center",
+        "alignItems": "flex-start",
         "wrap": "nowrap",
         "wrapWidth": 500,
         "gap": 7.5,
@@ -119,7 +119,7 @@
         "1659694191c377ea67-1": {
           "type": "text",
           "settings": {
-            "text": "<p>IPL works well on patients with Fitzpatrick skin types I through III. Because IPL targets skin’s pigment, patients with deep tans or darker tones may have better results with different skin rejuvenation treatments.<\/p><p><\/p><p><strong>A consultation with Balanced Aesthetics will help you determine if you’re an ideal candidate <\/strong>for IPL facial treatment. You should disclose medical history such as skin cancer, keloid formation, open lesions, pregnancy, and current medications (including topical) at this time.<\/p>"
+            "text": "<p>If you would like to <strong>increase your strength, improve your muscle mass <\/strong>by up to 30%, and <strong>improve stamina <\/strong>for your muscles, you may be a <strong>good candidate <\/strong>for truSculpt® flex treatments. Your Balanced Aesthetics specialist will discuss your health, medical history, and goals to create a treatment plan tailored to your needs during your comprehensive consultation.<\/p>"
           }
         }
       },
@@ -150,7 +150,7 @@
         "165969419823df36ea-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your IPL facial results will show <strong>noticeable improvement around 1 week <\/strong>after treatment. With a <strong>series of IPL facials <\/strong>to build on the renewal of previous sessions, the <strong>youthful, smooth glow of your skin will peak around 3-6 months<\/strong>. Your skin’s sun damage, age spots, and other hyperpigmentation concerns will fade, and your fine lines and wrinkles, acne or scarring, and other irregularities will smooth away. You’ll have a clear, radiant complexion that can defy your age.<\/p>"
+            "text": "<p>You will have <strong>visible, measurable improvement to the strength and mass of your treated muscles following a series of treatments<\/strong>, and those improvements will <strong>continue to accumulate for 8-12 weeks<\/strong>. The best part is, with your increased muscle mass, you will get more out of your workouts to help you maintain your newfound strength. For some, monthly maintenance treatments will also help prolong results.<\/p><p>If you’re tired of working out and not getting the muscle definition you want, or you’ve hit a plateau with your exercise routine, <strong>truSculpt® flex may be just the jumpstart you need<\/strong> to reach the next level. With your newly sculpted muscles, you can enjoy the physique you’ve always wanted, thanks to truSculpt® flex.<\/p>"
           }
         }
       },
