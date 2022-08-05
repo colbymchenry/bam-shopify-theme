@@ -93,7 +93,7 @@
       "type": "two-column",
       "settings": {
         "justifyContent": "center",
-        "alignItems": "center",
+        "alignItems": "flex-start",
         "wrap": "nowrap",
         "wrapWidth": 500,
         "gap": 7.5,
