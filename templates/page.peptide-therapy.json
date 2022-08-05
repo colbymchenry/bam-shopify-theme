@@ -323,6 +323,14 @@
         "background_color": "#e5f8ff"
       }
     },
+    "165971300106b3fa65": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 75,
+        "height": 0,
+        "max_height": 1200
+      }
+    },
     "1659694667e6cdff92": {
       "type": "membership",
       "settings": {
@@ -360,6 +368,7 @@
     "16596943757cd95565",
     "1659710747c65cb088",
     "165969439736fc51d2",
+    "165971300106b3fa65",
     "1659694667e6cdff92",
     "form",
     "main"
