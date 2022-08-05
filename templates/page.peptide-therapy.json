@@ -122,6 +122,24 @@
             "hint": "CJC1295\/Ipamorelin, GHRP2, Kisspeptin",
             "modal_content": "<p><em><strong>Strength<\/strong><\/em><\/p><p><strong>Category: Optimal Health, Weight Management<\/strong><\/p><p>We achieve real strength when our minds and bodies work as one coordinated whole. This peptide combination helps make sure you can be at your strongest every day and achieve your physical goals.<\/p><p><strong>CJC 1295<\/strong><\/p><p>Acting as a Growth Hormone Releasing Hormone (GHRH), this peptide promotes the release of Human Growth Hormone (HGH), which has powerful effects throughout the body. By promoting this hormone, CJC-1295 increases protein building, promotes fat burning, and encourages growth.<\/p><p><strong>Ipamorelin<\/strong><\/p><p>This peptide stimulates the pituitary gland to release natural growth hormone, which can increase energy and endurance, speed up repairs on a cellular level, and promote fat burning, making it the ideal boost to your workout routine.<\/p><p><strong>GHRP-2<\/strong><\/p><p>Another peptide that acts to stimulate growth hormone production, GHRP-2 has become well-known to enhance muscle development and recovery. Boosting growth hormone also has anti-aging effects. Since this hormone declines after our twenties, restoring it can help return our bodies to more youthful functioning.<\/p><p><strong>Kisspeptin<\/strong><\/p><p>By acting on gonadotropin-releasing hormone, this peptide activates a hormone cascade that produces luteinizing hormone (LH) and stimulating hormone (FSH). These, in turn, manage testosterone in men and estrogen in women, promoting muscle growth and improving sexual health.<\/p>"
           }
+        },
+        "eaedf592-39f5-46e3-a6c9-202b3a215aba": {
+          "type": "combination",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sexual.png",
+            "for": "Sexual",
+            "hint": "PT141, Testosterone",
+            "modal_content": "<p><em><strong>Sexual Wellness<\/strong><\/em><\/p><p><strong>Category: Reproductive Health<\/strong><\/p><p>As we age, some people consider it normal for our sexual health and performance to wane. This doesn’t have to be the norm. With this peptide combination, you can restore your sexual function as well as feeling healthier and more energized.<\/p><p><strong>PT 141<\/strong><\/p><p>This peptide acts on the hypothalamus in the brain to trigger increased sexual desire. PT 141 offers improved libido, enhancing erections, and even treating hypoactive sexual desire disorder (HSDD) in premenopausal women. This peptide improves sexual desire and performance for both men and women.<\/p><p><strong>Testosterone<\/strong><\/p><p>Known as the male hormone even though women’s bodies also use it, testosterone improves sexual functioning and performance. A decrease in testosterone associated with aging can affect everything from sexual performance to hair growth. Restoring testosterone levels can make you look and feel younger.<\/p>"
+          }
+        },
+        "353f12ff-308d-4b91-99c6-65d2ddefd61f": {
+          "type": "combination",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/anti-aging.png",
+            "for": "Anti-Aging",
+            "hint": "Epithalon, GHK-Cu, Thymalin, TAM818",
+            "modal_content": "<p><em><strong>Anti-Aging<\/strong><\/em><\/p><p><strong>Category: Anti-Aging, Optimal Health<\/strong><\/p><p>Aging happens to everyone, but you can age better, with a healthier body and mind, by providing yourself with peptides to protect and promote cellular wellness.<\/p><p><strong>Epithalon<\/strong><\/p><p>This peptide has a direct effect on aging by increasing telomerase, an enzyme the body needs to replicate its DNA and produce healthy new cells. Raising levels of this enzyme keeps the body’s cells younger and healthier, resulting in fewer age-related conditions, improvements in skin health, and sharper cognitive functioning.<\/p><p><strong>GHK-Cu (Copper)<\/strong><\/p><p>Occurring naturally in the bloodstream, this peptide acts as a unit with copper molecules. Along with anti-inflammatory properties, it promotes healing, improves the condition of skin, and encourages collagen production. This keeps skin looking younger and more resilient.<\/p><p><strong>Thymalin<\/strong><\/p><p>Produced by the thymus gland, this peptide helps regulate pain and inflammation as well as providing powerful immune system enhancement. People experience improvements in cardiovascular, neurological, and immunological health.<\/p><p><strong>TAM 818<\/strong><\/p><p>This peptide stimulates the production of telomerase, helping cells replicate their DNA and produce new, healthy cells. Declines in telomerase have been linked to many aspects of aging, both physical and neurological, so enhancing the function of this enzyme promotes youthful cell behavior.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -129,7 +147,9 @@
         "a186760d-6260-4183-b031-705d0b855eb7",
         "cfb27e3e-d964-4675-a1f7-7fb13300a013",
         "bcaf1d9f-90e3-4b8a-b529-571d445f2067",
-        "a009d459-5fdf-4872-b3ca-4badec88f376"
+        "a009d459-5fdf-4872-b3ca-4badec88f376",
+        "eaedf592-39f5-46e3-a6c9-202b3a215aba",
+        "353f12ff-308d-4b91-99c6-65d2ddefd61f"
       ],
       "settings": {
         "title": "Peptide Combinations",
