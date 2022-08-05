@@ -1,0 +1,105 @@
+{% style %}
+
+  .peptides__container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: {{ section.settings.background_color }};
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  .peptides__container .combination {
+    flex-basis: 33%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .peptides__container .title {
+      margin-left: 1.5rem !important;
+    }
+  }
+
+
+
+{% endstyle %}
+
+
+<div class="peptides__container page-width">
+  {% if section.settings.title != blank %}
+  <h2 class="title title-wrapper--no-top-margin h1">{{ section.settings.title }}</h2>
+  {% endif %}
+  {%- for block in section.blocks -%}
+    <div class="combination" onclick="triggerModal('peptide-modal-{{ forloop.index0 }}');" style="background-image: url('{{ block.settings.image | img_url: 'master' }}');">
+      <span>{{ block.settings.for }}</span>
+      <span>{{ block.settings.hint }}</span>
+    </div>
+
+    <div class="peptide-modal" id="peptide-modal-{{ forloop.index0 }}">
+      {{ block.settings.modal_content }}
+    </div>
+  {%- endfor -%}
+</div>
+
+<script type="text/javascript">
+  function triggerModal(modalId) {
+    // close all other modals
+    Array.from(document.getElementsByClassName("peptide-modal")).forEach((elem) => elem.classList.remove("open"));
+    // open modal
+    document.getElementById(modalId).classList.add("open");
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Peptide Combinations",
+  "max_blocks": 20,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "FAQ"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FFF"
+    }
+  ],
+  "presets": [{
+    "name": "Peptide Combinations",
+    "category": "Text"
+  }],
+  "blocks": [
+    {
+      "type": "combination",
+      "name": "Combination",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Tile Image"
+        },
+        {
+          "type": "text",
+          "id": "for",
+          "label": "For?",
+          "default": "Sleep"
+        },
+        {
+          "type": "text",
+          "id": "hint",
+          "label": "Hint",
+          "default": "DSIP, BSC17"
+        },
+        {
+          "type": "richtext",
+          "id": "modal_content",
+          "label": "Popup Content",
+          "default": "<p></p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
