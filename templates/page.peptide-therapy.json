@@ -95,11 +95,21 @@
             "hint": "NAD+\/Mots-C\/Humanin",
             "modal_content": "<p><em><strong>Energy<\/strong><\/em><\/p><p><strong>Category: Increased Energy, Optimal Health<\/strong><\/p><p>Does it seem like you never have enough energy to do everything you want to do, or to achieve at the level where you want to be? This energizing peptide combination gives you three peptides that work together to raise your natural energy levels with no caffeine and no harmful chemicals.<\/p><p><strong>NAD+<\/strong><\/p><p>This power peptide can boost energy levels as well as promote natural weight loss. It acts as a protective barrier against aging and may even improve athletic performance. Along with all these benefits, it also promotes mental health and cognitive function, improving memory, focus, and mood.<\/p><p><strong>Mots-C<\/strong><\/p><p>This important peptide acts directly on the mitochondria, the small bodies inside our cells that make all our body’s energy. It helps convert glucose into useful energy, and helps control insulin sensitivity. By acting as a key to unlock this energy, Mots-C frees it for the body’s use.<\/p><p><strong>Humanin<\/strong><\/p><p>This peptide acts in the mitochondria and elsewhere in the body. A powerful neuroprotective agent, it protects nerve cells from environmental damage and may even play a role in protecting against Alzheimer’s. It also acts as a cellular protector, helping cells stay healthy and recover more quickly.<\/p>"
           }
+        },
+        "cfb27e3e-d964-4675-a1f7-7fb13300a013": {
+          "type": "combination",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Focus.png",
+            "for": "Focus\/Cognitive Fog",
+            "hint": "Pinealon, FGL, PE-22-28",
+            "modal_content": "<p><em><strong>Focus \/ Cognitive Fog<\/strong><\/em><\/p><p><strong>Category: Optimal Health (Cognitive Function)<\/strong><\/p><p>It can be easy to accept brain fog and cognitive decline as part of the natural aging process. However, it doesn’t have to be. This peptide combination uses three powerful neural enhancers that will boost your memory and mood.<\/p><p><strong>Pinealon<\/strong><\/p><p>This tri-peptide complex acts as a free radical reducer, protecting the body and particularly the brain from aging. It promotes quality sleep as well as playing a role in learning and memory.<\/p><p><strong>FGL<\/strong><\/p><p>This peptide mimics molecules in the brain that promote neuron health. It improves memory, learning ability, and alertness by assisting in the growth of new neural connections.<\/p><p><strong>PE-22-28<\/strong><\/p><p>This peptide acts on parts of the brain that control mood, learning and memory. The TREK-1 pathway where PE-22-28 is active has been a target for drug companies developing antidepressants. This peptide acts as a natural antidepressant, mood regulator, and memory booster.<\/p>"
+          }
         }
       },
       "block_order": [
         "dc056ddd-2eb5-4e6c-8fbd-2eefc3790424",
-        "a186760d-6260-4183-b031-705d0b855eb7"
+        "a186760d-6260-4183-b031-705d0b855eb7",
+        "cfb27e3e-d964-4675-a1f7-7fb13300a013"
       ],
       "settings": {
         "title": "Peptide Combinations",
