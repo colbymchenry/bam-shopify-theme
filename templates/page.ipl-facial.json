@@ -47,15 +47,103 @@
         "show_text_below": true
       }
     },
+    "16596941544a416177": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 115,
+        "height": 0,
+        "max_height": 1200
+      }
+    },
     "165886873165e4dfff": {
       "type": "video-with-text",
       "settings": {
         "heading_logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
-        "heading": "OUR STORY",
-        "title": "Balanced Aesthetics' Unique Model Created For You",
-        "body": "",
+        "heading": "SKILLED, CARING PROFESSIONALS",
+        "title": "IPL Facial",
+        "body": "<p>A clear complexion is a sign of youth and vitality. As time goes on, the <strong>toll of UV rays, the environment, and age <\/strong>show up as age spots, sun damage, textural irregularities, fine lines and wrinkles, and hyperpigmentation. When this occurs, <strong>Balanced Aesthetics offers IPL facial rejuvenation <\/strong>to even out tone and texture concerns and renew your youthful complexion.<\/p>",
         "video_url": "",
+        "image": "shopify:\/\/shop_images\/IPL-Facial-Atlanta-Balanced_fed4226a-5bbf-4456-9cff-35f28fa8367b.jpg",
         "gap": 20
+      }
+    },
+    "1659694180b65bf791": {
+      "type": "two-column",
+      "settings": {
+        "justifyContent": "center",
+        "alignItems": "center",
+        "wrap": "nowrap",
+        "wrapWidth": 500,
+        "gap": 0,
+        "minWidth": 300,
+        "width": 30,
+        "maxWidth": 1680,
+        "minWidthFirstChild": 300,
+        "widthFirstChild": 40,
+        "minWidthLastChild": 300,
+        "widthLastChild": 40
+      }
+    },
+    "1659694191623768de": {
+      "type": "rich-text",
+      "blocks": {
+        "1659694191c377ea67-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1659694191c377ea67-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659694191c377ea67-0",
+        "1659694191c377ea67-1"
+      ],
+      "settings": {
+        "animation": "fade",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1659694198464fcf11": {
+      "type": "rich-text",
+      "blocks": {
+        "165969419823df36ea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "165969419823df36ea-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165969419823df36ea-0",
+        "165969419823df36ea-1"
+      ],
+      "settings": {
+        "animation": "fade",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "form": {
@@ -80,7 +168,11 @@
   },
   "order": [
     "1658867721db60d9c1",
+    "16596941544a416177",
     "165886873165e4dfff",
+    "1659694180b65bf791",
+    "1659694191623768de",
+    "1659694198464fcf11",
     "form",
     "main"
   ]
