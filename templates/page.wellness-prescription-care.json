@@ -68,22 +68,70 @@
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
           "type": "question",
           "settings": {
-            "question": "What is the Procedure Like?",
-            "answer": "<p>Having BOTOX® injections is no more painful than a <strong>typical pinch of a needle<\/strong>. We use <strong>ultra-thin needles and precise dosing <\/strong>to ensure you have as comfortable a treatment as possible. Our provider will thoroughly clean the treatment area(s) before injecting. Your BOTOX® session will take <strong>only 10-15 minutes<\/strong>, and you can return to your everyday schedule right away, though you should refrain from strenuous exercise, intense heat, or saunas for at least 12 hours post treatment.<\/p>"
+            "question": "Sildenafil (Viagra)",
+            "answer": "<p><em><strong>CATEGORY: SEXUAL WELLNESS<\/strong><\/em><\/p><p>Sildenafil is a phosphodiesterase (PDE) inhibitor used to treat <strong>male sexual function problems<\/strong>, particularly impotence or erectile dysfunction, or ED. It does so by increasing blood flow to the penis during sexual stimulation to <strong>bring about and maintain an erection<\/strong>.<\/p>"
           }
         },
         "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
           "type": "question",
           "settings": {
-            "question": "Is There Any Downtime?",
-            "answer": "<p>BOTOX® may cause some muscle weakness, vision problems, or dizziness directly following treatment for some patients. Brow and eyelid drop is rare but may occur in some patients. Allergic reactions are also rare but may occur, causing itching, redness, rashes, and asthma symptoms. <strong>Most people feel none of this <\/strong>and only experience some mild injection site tenderness or headache.<\/p>"
+            "question": "Tadalafil",
+            "answer": "<p><em><strong>CATEGORY: SEXUAL WELLNESS<\/strong><\/em><\/p><p>Tadalafil <strong>treats erectile dysfunction<\/strong> (impotence) and <strong>benign prostatic hyperplasia<\/strong> (BPH) symptoms, such as difficulty with urination in adult men. Tadalafil is a phosphodiesterase (PDE) inhibitor. It treats erectile dysfunction by increasing blood flow to the penis during sexual stimulation for the patient to <strong>achieve and maintain an erection<\/strong>.<\/p>"
+          }
+        },
+        "65c951d3-f28d-441e-a5b7-40f0dbf61067": {
+          "type": "question",
+          "settings": {
+            "question": "Finasteride",
+            "answer": "<p><em><strong>CATEGORY: HAIR GROWTH<\/strong><\/em><\/p><p>Finasteride, sold under the brand name Propecia, <strong>treats hair loss in men<\/strong>. It belongs to a class of drugs known as 5-alpha-reductase inhibitors. It works by <strong>preventing testosterone from breaking down into DHT<\/strong>, the hormone thought to cause male pattern baldness.<\/p>"
+          }
+        },
+        "cf20426e-a0fc-4184-a78c-bb6ae7a03528": {
+          "type": "question",
+          "settings": {
+            "question": "Minoxidil",
+            "answer": "<p><em><strong>CATEGORY: HAIR GROWTH<\/strong><\/em><\/p><p>Minoxidil is a vasodilator that <strong>promotes hair growth<\/strong> by increasing blood flow in the scalp, relaxing the muscle walls of the blood vessels, and improving the tissue’s overall health through the <strong>easier flow of blood to your scalp<\/strong> and hair follicles. This vasodilating effect <strong>brings more nutrients and oxygen<\/strong> to your hair follicles, <strong>promoting growth and strengthening existing follicles<\/strong>.<\/p>"
+          }
+        },
+        "0af910c3-f668-438f-9e50-d8ff64de295c": {
+          "type": "question",
+          "settings": {
+            "question": "HCG (Pregnyl)",
+            "answer": "<p><em><strong>CATEGORY: WEIGHT MANAGEMENT<\/strong><\/em><\/p><p>HCG stands for Human Chorionic Gonadotropin, a natural pregnancy hormone with a protein base that helps <strong>maintain important hormones like progesterone and estrogen<\/strong>, which are essential during pregnancy, particularly the first 3 months. More recently, <strong>HCG has been used for fat loss<\/strong> due to its effect on <strong>boosting metabolism and weight loss mechanisms.<\/strong><\/p><p>Combined with a low-calorie diet, HCG treatments allow users to <strong>experience rapid weight loss, averaging 1-2lbs a day of unwanted fat<\/strong>. The HCG injection increases metabolism for faster fat burning.<\/p>"
+          }
+        },
+        "7fd613be-b76a-4cee-ad12-1db5902e39e5": {
+          "type": "question",
+          "settings": {
+            "question": "Omnitrope (Somatropin)",
+            "answer": "<p><em><strong>CATEGORY: HEALING, MUSCLE GROWTH, WEIGHT MANAGEMENT, OPTIMAL HEALTH<\/strong><\/em><\/p><p>Omnitrope is a synthetic human growth hormone (HGH) often used by athletes to achieve <strong>accelerated recovery<\/strong> from injuries, <strong>increase muscle<\/strong> mass, <strong>increase physical strength<\/strong>, and <strong>activate the breakdown of body fat<\/strong>. It can also <strong>help patients with growth hormone deficiency<\/strong> (GHD).<\/p>"
+          }
+        },
+        "b99a3a31-9f3a-43a5-8115-5db93e686f34": {
+          "type": "question",
+          "settings": {
+            "question": "Dutasteride",
+            "answer": "<p><em><strong>CATEGORY: PROSTATE HEALTH<\/strong><\/em><\/p><p>Dutasteride – brand name Avodart – is a prescription <strong>drug used for treating an enlarged prostate or<\/strong> benign prostatic hyperplasia (BPH). When the prostate is enlarged, it can squeeze the urethra (the tube that transports urine out of the body) and lead to problems with urination. Dutasteride helps to improve the flow of urine and reduces urinary frequency. <\/p><p>It is also known to block DHT (dihydrotestosterone). DHT often contributes to hair loss in men. The use of Dutasteride may improve male pattern baldness, increasing hair growth. <\/p><p>Benefits:<\/p><p><strong>• <\/strong>Improves urinary flow<\/p><p><strong>• <\/strong>Treats urinary urgency\/frequency<\/p><p><strong>• <\/strong>Blocks DHT<\/p><p><strong>• <\/strong>Improve male pattern baldness<\/p>"
+          }
+        },
+        "2b3791d1-50f1-4848-99ec-de9cc94e4100": {
+          "type": "question",
+          "settings": {
+            "question": "Ultra Burn (Methionine\/Inositol\/Choline) + B1 (Thiamine) + B12",
+            "answer": "<p><em><strong>CATEGORY: WEIGHT MANAGEMENT, INCREASED ENERGY<\/strong><\/em><\/p><p>UltraBurn is a custom compound of fat metabolizers, acids, and B vitamins that promotes weight loss and prevents excess fluid build-up through the speedier fat breakdown in the liver.<\/p><p>It is made of Methionine, Choline, Inositol, Thiamine(B1), and Vitamin B-12. Methionine is an amino acid and antioxidant that accelerates fat breakdown, detoxifies the liver, and prevents fatigue. Choline, a B-vitamin, supports fat loss while promoting liver and cardiovascular health. Inositol, another B-vitamin, reduces bad cholesterol to aid in body fat redistribution and promote healthy sleep. Thiamine assists in carb breakdown for energy, leading to weight loss through increased metabolism. Vitamin B-12 maintains metabolic pathways for the proper processing of fats, proteins, and calorie burning.<\/p><p>Benefits:<\/p><p><strong>• <\/strong>Enhances your body’s natural fat-burning capabilities<\/p><p><strong>• <\/strong>Reduces the amount of stored fat<\/p><p><strong>• <\/strong>Improves and accelerates your metabolism<\/p><p><strong>• <\/strong>Improves your energy levels and mood<\/p><p><strong>• <\/strong>Increases motivation<\/p><p><strong>• <\/strong>Helps control cholesterol levels<\/p><p><strong>• <\/strong>Resets fat metabolism and fat removal from your liver<\/p><p><strong>• <\/strong>Provides essential components of normal cell and brain function<\/p>"
           }
         }
       },
       "block_order": [
         "19d18657-cf81-4a11-9cd6-60a7b19db36a",
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60",
-        "92844a58-69cb-4e9f-b978-31606bc7bfbb"
+        "92844a58-69cb-4e9f-b978-31606bc7bfbb",
+        "65c951d3-f28d-441e-a5b7-40f0dbf61067",
+        "cf20426e-a0fc-4184-a78c-bb6ae7a03528",
+        "0af910c3-f668-438f-9e50-d8ff64de295c",
+        "7fd613be-b76a-4cee-ad12-1db5902e39e5",
+        "b99a3a31-9f3a-43a5-8115-5db93e686f34",
+        "2b3791d1-50f1-4848-99ec-de9cc94e4100"
       ],
       "settings": {
         "title": "",
