@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 header.bottom-header {
   display: flex !important;
   justify-content: space-between !important;
