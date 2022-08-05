@@ -189,6 +189,29 @@
         "background_color": "#e5f8ff"
       }
     },
+    "1659699629d76da6c2": {
+      "type": "rich-text",
+      "blocks": {
+        "1659699629ca24f93b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Balanced Aesthetics Medspa, we <strong>take your skin’s treatment and health to the next level<\/strong>, whether you’re looking to treat ongoing skin concerns, prepare for a big event, or simply want to keep your complexion looking its best. For a next-level skin treatment, schedule a HydraFacial® today.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659699629ca24f93b-1"
+      ],
+      "settings": {
+        "animation": "fade",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1659694667e6cdff92": {
       "type": "membership",
       "settings": {
@@ -228,6 +251,7 @@
     "1659694191623768de",
     "1659694198464fcf11",
     "165969439736fc51d2",
+    "1659699629d76da6c2",
     "1659694667e6cdff92",
     "form",
     "main"
