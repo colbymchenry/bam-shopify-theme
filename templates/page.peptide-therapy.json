@@ -75,6 +75,13 @@
         "max_height": 1200
       }
     },
+    "1659710747c65cb088": {
+      "type": "peptide-combinations",
+      "settings": {
+        "title": "Peptide Combinations",
+        "background_color": "#e5f8ff"
+      }
+    },
     "165969439736fc51d2": {
       "type": "accordion",
       "blocks": {
@@ -257,6 +264,7 @@
     "16596941544a416177",
     "165886873165e4dfff",
     "16596943757cd95565",
+    "1659710747c65cb088",
     "165969439736fc51d2",
     "1659694667e6cdff92",
     "form",
