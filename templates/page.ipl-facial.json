@@ -74,7 +74,7 @@
         "alignItems": "center",
         "wrap": "nowrap",
         "wrapWidth": 500,
-        "gap": 2,
+        "gap": 7.5,
         "minWidth": 300,
         "width": 50,
         "maxWidth": 1680,
