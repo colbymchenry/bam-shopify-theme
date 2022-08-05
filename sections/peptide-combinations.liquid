@@ -139,6 +139,9 @@
     // open modal
     if (!wasOpen) {
       document.getElementById(modalId).classList.add("open");
+      document.querySelector("BODY").classList.add("modal-open");
+    } else {
+      document.querySelector("BODY").classList.remove("modal-open");
     }
   }
 </script>
