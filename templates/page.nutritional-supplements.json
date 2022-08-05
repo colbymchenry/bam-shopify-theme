@@ -79,7 +79,8 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/Screenshot_2022-08-05_124838.png",
-            "label": ""
+            "label": "",
+            "width": 60
           }
         },
         "1659694191c377ea67-1": {
@@ -122,7 +123,8 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/Screenshot_2022-08-05_124827.png",
-            "label": ""
+            "label": "",
+            "width": 60
           }
         },
         "165969419823df36ea-1": {
