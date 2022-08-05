@@ -59,11 +59,11 @@
       "type": "video-with-text",
       "settings": {
         "heading_logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
-        "heading": "SKILLED, CARING PROFESSIONALS",
-        "title": "IPL Facial",
-        "body": "<p>A clear complexion is a sign of youth and vitality. As time goes on, the <strong>toll of UV rays, the environment, and age <\/strong>show up as age spots, sun damage, textural irregularities, fine lines and wrinkles, and hyperpigmentation. When this occurs, <strong>Balanced Aesthetics offers IPL facial rejuvenation <\/strong>to even out tone and texture concerns and renew your youthful complexion.<\/p>",
+        "heading": "RESTORE YOUR YOUTHFUL RADIANCE",
+        "title": "CO2 Skin Resurfacing Treatment",
+        "body": "<p>The effects of sun damage and environmental toxins can accumulate in our skin over time, contributing to how early and significantly we show signs of aging. Skin is slower to repair itself, so we lose firmness, and our skin becomes lax. We produce fine lines and wrinkles, develop age spots, and our skin’s tone and texture suffers.<strong> With Balanced Aesthetics Medspa’s CO2 Skin Resurfacing treatment, we can hit the reset button on your skin’s age<\/strong>, restoring your youthful radiance.<\/p>",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/IPL-Facial-Atlanta-Balanced_fed4226a-5bbf-4456-9cff-35f28fa8367b.jpg",
+        "image": "shopify:\/\/shop_images\/CO2-Laser-Atlanta.jpg",
         "gap": 20
       }
     },
@@ -105,7 +105,7 @@
         "1659694191c377ea67-1": {
           "type": "text",
           "settings": {
-            "text": "<p>IPL works well on patients with Fitzpatrick skin types I through III. Because IPL targets skin’s pigment, patients with deep tans or darker tones may have better results with different skin rejuvenation treatments.<\/p><p><\/p><p><strong>A consultation with Balanced Aesthetics will help you determine if you’re an ideal candidate <\/strong>for IPL facial treatment. You should disclose medical history such as skin cancer, keloid formation, open lesions, pregnancy, and current medications (including topical) at this time.<\/p>"
+            "text": "<p>If you’re suffering from the effects of <strong>accumulated environmental and sun damage<\/strong>, and your skin doesn’t look as young as you feel it should, then CO2 skin resurfacing could be the treatment for you. Schedule a comprehensive consultation at Balanced Aesthetics Medspa to get started creating your treatment plan. Let your provider know your medical history, as well as any medications (including topical) you’ve taken in the past 30-days or any facial treatments you’ve had in the previous 2-4 weeks.<\/p>"
           }
         }
       },
@@ -136,7 +136,7 @@
         "165969419823df36ea-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your IPL facial results will show <strong>noticeable improvement around 1 week <\/strong>after treatment. With a <strong>series of IPL facials <\/strong>to build on the renewal of previous sessions, the <strong>youthful, smooth glow of your skin will peak around 3-6 months<\/strong>. Your skin’s sun damage, age spots, and other hyperpigmentation concerns will fade, and your fine lines and wrinkles, acne or scarring, and other irregularities will smooth away. You’ll have a clear, radiant complexion that can defy your age.<\/p>"
+            "text": "<p>CO2 skin resurfacing has been proven to produce <strong>remarkable results after a single treatment<\/strong>, with <strong>deep tissue renewal and new collagen fiber production <\/strong>for a firmer, smoother, clearer complexion than before. It may take up to <strong>4 weeks for complete healing<\/strong>, and your improvements will continue to <strong>accumulate for 3-6 months <\/strong>following your last treatment. Wrinkles and scars are diminished, age spots and sun damage are reversed, and your skin is restored to its youthful beauty.<\/p>"
           }
         }
       },
@@ -160,22 +160,22 @@
         "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
           "type": "question",
           "settings": {
-            "question": "How Does an IPL Facial Work?",
-            "answer": "<p>IPL stands for Intense Pulsed Light, a <strong>multi-wavelength light therapy<\/strong> treatment that goes deep into the dermis to <strong>revitalize your skin’s condition at the cellular level<\/strong>. Because IPL light therapy reaches deeper into the tissues, the topmost layer of skin remains unharmed, significantly lowering the risk of side effects. Pigment in your cells absorbs the light, which is converted to heat, effectively resetting the clock on your skin’s cells.<\/p><p><\/p><p>IPL benefits include:<\/p><p><strong>• <\/strong>Reducing even the most stubborn sun spots and dark spots<\/p><p><strong>• <\/strong>Repairing visible blood vessels<\/p><p><strong>• <\/strong>Improving pigmentation irregularities from minor to severe<\/p><p><strong>• <\/strong>Combating acne and blemish issues such as blackheads, whiteheads, papules, pustules, nodules, cysts, sebum, bacteria, hormonal irritations, dead skin cells, and ingrown hairs<\/p><p><strong>• <\/strong>Diminishing the appearance of scars<\/p><p><strong>• <\/strong>Proven treatment of rosacea (along with other skin redness)<\/p><p><strong>• <\/strong>Stimulating collagen growth<\/p><p><strong>• <\/strong>Improving skin texture<\/p><p><strong>• <\/strong>May be combined with <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/peels\/\">Peels<\/a>, <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/hydrafacial\/\">HydraFacial®<\/a>, and other superficial treatments of the epidermis. This is because IPL targets deeper layers of the skin; therefore, the superficial layers can be worked on simultaneously or back-to-back.<\/p>"
+            "question": "How Does CO2 Skin Resurfacing Work?",
+            "answer": "<p>Older CO2 skin resurfacing treatments used to remove the whole surface of your skin, whether it was damaged or not. Today’s advanced technology takes a <strong>fractionated approach<\/strong>, creating tiny micro-injuries to only some of the skin. The unaffected portion of skin—the bridges between micro-injuries—helps facilitate faster healing. <strong>Skin cells are entirely replaced to repair the damage<\/strong> caused by the sun, environment, and time.<\/p><p>CO2 skin resurfacing:<\/p><p><strong>• <\/strong>Improves fine lines and wrinkles<\/p><p><strong>• <\/strong>Addresses sun damage<\/p><p><strong>• <\/strong>Evens skin tone<\/p><p><strong>• <\/strong>Improves skin texture<\/p><p><strong>• <\/strong>Diminishes scars and acne scarring<\/p><p><strong>• <\/strong>Improves the appearance of stretch marks<\/p>"
           }
         },
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
           "type": "question",
           "settings": {
-            "question": "What is an IPL Facial Treatment Like?",
-            "answer": "<p>After a thorough cleansing, your skin is prepped for IPL light therapy to focus the wavelengths as they penetrate your skin. You’ll be given eye protection for safety. <strong>The treatment itself may cause a slight stinging sensation<\/strong>, but it is not significantly uncomfortable. Your treatment should last <strong>30 minutes <\/strong>depending on the size of your treatment area.<\/p><p><\/p><p>The number of required treatments varies from patient to patient based on unique skin composition and aesthetic goals. <strong>The majority of patients see results after their first treatment<\/strong>. Continued and consistent monthly treatments are suggested to obtain and maintain optimal results. A customized treatment plan will be determined after your first service with us.<\/p>"
+            "question": "What is the Treatment Like?",
+            "answer": "<p>Your treatment in the Balanced Aesthetics comfortable treatment rooms begins with a <strong>thorough cleansing <\/strong>of your skin and the application of <strong>topical anesthetic <\/strong>so you’re comfortable. When you’re ready, the <strong>device is moved <\/strong>across your skin in <strong>controlled movements <\/strong>to ensure complete coverage without overlap. Your procedure should last <strong>1-2 hours<\/strong>, depending on the size of your treatment area. We typically recommend <strong>1-3 treatments <\/strong>scheduled 5-8 weeks apart for your results to reach your cosmetic goals.<\/p>"
           }
         },
         "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
           "type": "question",
           "settings": {
             "question": "Is There Any Downtime?",
-            "answer": "<p>Very few side effects are possible, such as <strong>minor redness and swelling <\/strong>following treatment. These usually only last a few hours, but in rare cases, can last a few days. Once redness or swelling disappears, the <strong>skin benefits in almost every aesthetic way<\/strong>. In extremely rare cases, lightening or darkening of the skin or scarring have occurred.<\/p>"
+            "answer": "<p>You may experience mild discomfort following your procedure, which can be controlled by over-the-counter medication or cold compresses. Some <strong>crusting or scabbing is normal and will subside 7-14 days <\/strong>after your session, and redness is normal for up to 1 month. Be sure to follow all aftercare instructions to minimize the risks of complications and contact your provider if difficulty in healing occurs.<\/p>"
           }
         }
       },
@@ -185,7 +185,7 @@
         "92844a58-69cb-4e9f-b978-31606bc7bfbb"
       ],
       "settings": {
-        "title": "FAQ",
+        "title": "",
         "background_color": "#e5f8ff"
       }
     },
