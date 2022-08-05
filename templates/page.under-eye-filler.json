@@ -160,22 +160,22 @@
         "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
           "type": "question",
           "settings": {
-            "question": "How Does an IPL Facial Work?",
-            "answer": "<p>IPL stands for Intense Pulsed Light, a <strong>multi-wavelength light therapy<\/strong> treatment that goes deep into the dermis to <strong>revitalize your skin’s condition at the cellular level<\/strong>. Because IPL light therapy reaches deeper into the tissues, the topmost layer of skin remains unharmed, significantly lowering the risk of side effects. Pigment in your cells absorbs the light, which is converted to heat, effectively resetting the clock on your skin’s cells.<\/p><p><\/p><p>IPL benefits include:<\/p><p><strong>• <\/strong>Reducing even the most stubborn sun spots and dark spots<\/p><p><strong>• <\/strong>Repairing visible blood vessels<\/p><p><strong>• <\/strong>Improving pigmentation irregularities from minor to severe<\/p><p><strong>• <\/strong>Combating acne and blemish issues such as blackheads, whiteheads, papules, pustules, nodules, cysts, sebum, bacteria, hormonal irritations, dead skin cells, and ingrown hairs<\/p><p><strong>• <\/strong>Diminishing the appearance of scars<\/p><p><strong>• <\/strong>Proven treatment of rosacea (along with other skin redness)<\/p><p><strong>• <\/strong>Stimulating collagen growth<\/p><p><strong>• <\/strong>Improving skin texture<\/p><p><strong>• <\/strong>May be combined with <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/peels\/\">Peels<\/a>, <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/hydrafacial\/\">HydraFacial®<\/a>, and other superficial treatments of the epidermis. This is because IPL targets deeper layers of the skin; therefore, the superficial layers can be worked on simultaneously or back-to-back.<\/p>"
+            "question": "How Do Dermal Fillers Work Under the Eye?",
+            "answer": "<p>For an area as expressive as the eyes, even the subtlest changes can make a big difference to your appearance. <strong>Time and age begin to take hold first in the collagen fibers<\/strong>, which give skin its youthful firmness. These fibers weaken, giving way to skin laxity that can cause wrinkles and allow the underlying tissues to shift downward. This causes the dreaded puffiness under the eyes and leaves room for hollows to develop.<\/p><p><\/p><p>At Balanced Aesthetics, we combat this with JUVÉDERM® dermal fillers, specifically <strong>JUVÉDERM® Volbella™<\/strong>. It’s a gel made up of <strong>hyaluronic acid (HA) molecules<\/strong>, which the body makes naturally to hydrate the skin. Volbella™ has a thinner consistency than some of the other JUVÉDERM® fillers, making it <strong>perfect for the delicate tissues around the eyes<\/strong>. Its spreadable nature gives us great control over its placement. By injecting it into the areas around the eyes, we can <strong>smooth away the hollows<\/strong> created by downward shifting tissues and <strong>fade wrinkles<\/strong> to nothing for a more youthful, bright-eyed appearance.<\/p>"
           }
         },
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
           "type": "question",
           "settings": {
-            "question": "What is an IPL Facial Treatment Like?",
-            "answer": "<p>After a thorough cleansing, your skin is prepped for IPL light therapy to focus the wavelengths as they penetrate your skin. You’ll be given eye protection for safety. <strong>The treatment itself may cause a slight stinging sensation<\/strong>, but it is not significantly uncomfortable. Your treatment should last <strong>30 minutes <\/strong>depending on the size of your treatment area.<\/p><p><\/p><p>The number of required treatments varies from patient to patient based on unique skin composition and aesthetic goals. <strong>The majority of patients see results after their first treatment<\/strong>. Continued and consistent monthly treatments are suggested to obtain and maintain optimal results. A customized treatment plan will be determined after your first service with us.<\/p>"
+            "question": "What is the Treatment Like?",
+            "answer": "<p><strong>Each syringe of JUVÉDERM® Volbella™ contains lidocaine<\/strong>, an anesthetic designed to make your injections as pain-free as possible. We also use a cannula, which is a much more comfortable way of distributing the product to the targeted areas. Treating under-eye concerns is fast, taking our skilled injection specialists only <strong>15-30 minutes <\/strong>to complete. After your treatment, you may resume your regular schedule.<\/p>"
           }
         },
         "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
           "type": "question",
           "settings": {
             "question": "Is There Any Downtime?",
-            "answer": "<p>Very few side effects are possible, such as <strong>minor redness and swelling <\/strong>following treatment. These usually only last a few hours, but in rare cases, can last a few days. Once redness or swelling disappears, the <strong>skin benefits in almost every aesthetic way<\/strong>. In extremely rare cases, lightening or darkening of the skin or scarring have occurred.<\/p>"
+            "answer": "<p>You may experience some mild redness or tenderness of the injection site, but these <strong>fade on their own <\/strong>within 24-48 hours.<\/p>"
           }
         }
       },
@@ -185,8 +185,66 @@
         "92844a58-69cb-4e9f-b978-31606bc7bfbb"
       ],
       "settings": {
-        "title": "FAQ",
+        "title": "",
         "background_color": "#e5f8ff"
+      }
+    },
+    "165970373410724d57": {
+      "type": "rich-text",
+      "blocks": {
+        "165970373425913f86-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The eyes say a lot about who we are, and with JUVÉDERM® Volbella™, you can define how others see you. At Balanced Aesthetics Medspa, we’re ready to take years off your appearance with skill and experience in making <strong>our clients look their best every day<\/strong>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165970373425913f86-1"
+      ],
+      "settings": {
+        "animation": "fade",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1659703738e65b8863": {
+      "type": "rich-text",
+      "blocks": {
+        "1659703738e72e50b5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don’t forget to use your Allē points to receive discounts on all of your neurotoxin and filler needs!<\/p><p><strong>Not a member?<\/strong> Join today to earn points save on your favorite Allergan Aesthetics brands!<\/p>"
+          }
+        },
+        "1659703738e72e50b5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "JOIN NOW",
+            "button_link": "https:\/\/alle.com\/?utm_source=ADL&utm_medium=SEMB&utm_campaign=All%C4%93-BDMigrateCampaign-2020&utm_term=%2Balle%20%2Ballergan&utm_content=Alle_Broad",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659703738e72e50b5-1",
+        "1659703738e72e50b5-2"
+      ],
+      "settings": {
+        "animation": "fade",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "1659694667e6cdff92": {
@@ -228,6 +286,8 @@
     "1659694191623768de",
     "1659694198464fcf11",
     "165969439736fc51d2",
+    "165970373410724d57",
+    "1659703738e65b8863",
     "1659694667e6cdff92",
     "form",
     "main"
