@@ -92,6 +92,20 @@
             "question": "Nutrafol",
             "answer": "<p><em><strong>CATEGORY: HAIR GROWTH<\/strong><\/em><\/p><p>Nutrafol is a multivitamin that is clinically proven to boost hair growth in men and women. <strong>Shedding or thinning hair<\/strong> may occur due to factors such as, poor nutrition, oxidative stress, inflammation, and hormone imbalance. The ingredients in Nutrafol target these underlying factors to <strong>promote hair growth from the inside out and support whole-body health<\/strong>. Marine collagen, Sensoril® ashwagandha, saw palmetto, and curcumin, are essential ingredients in Nutrafol.<\/p><p>Benefits:<\/p><p><strong>• <\/strong>Reduces scalp inflammation<\/p><p><strong>• <\/strong>Balances cortisol<\/p><p><strong>• <\/strong>Promotes hormone health<\/p><p><strong>• <\/strong>Improves sleep<\/p>"
           }
+        },
+        "242cf8d3-1cdc-4fb9-90b0-09db1bd90965": {
+          "type": "question",
+          "settings": {
+            "question": "Thymosin Alpha-1",
+            "answer": "<p>Type your answer here.<\/p>"
+          }
+        },
+        "377277f4-5fde-4dd7-8784-002bdadfeeda": {
+          "type": "question",
+          "settings": {
+            "question": "Glutathione",
+            "answer": "<p><em><strong>CATEGORY: ANTI-AGING, HEALING, OPTIMAL HEALTH<\/strong><\/em><\/p><p>Glutathione is a <strong>critical antioxidant<\/strong> that helps protect our cells and plays a key role in many chemical reactions within our bodies. Its levels tend to decrease as we age, which is why supplementing with glutathione can be beneficial for our health and our longevity.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Preventing chronic lung diseases<\/p><p><strong>• <\/strong>Lowering oxidative stress<\/p><p><strong>• <\/strong>Minimizing liver damage<\/p><p><strong>• <\/strong>Improving the immune system<\/p><p><strong>• <\/strong>Assisting our cells in producing energy<\/p>"
+          }
         }
       },
       "block_order": [
@@ -99,7 +113,9 @@
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60",
         "92844a58-69cb-4e9f-b978-31606bc7bfbb",
         "43c5a28d-983f-425c-8641-d957d8945f8b",
-        "063688b8-71af-41fc-bdde-3e6bd46b1e7b"
+        "063688b8-71af-41fc-bdde-3e6bd46b1e7b",
+        "242cf8d3-1cdc-4fb9-90b0-09db1bd90965",
+        "377277f4-5fde-4dd7-8784-002bdadfeeda"
       ],
       "settings": {
         "title": "",
