@@ -126,6 +126,34 @@
             "question": "Thymosin Beta-4 (TB_500)",
             "answer": "<p><em><strong>CATEGORY: Anti-Aging, Optimal Health, Healing<\/strong><\/em><\/p><p>Thymosin Beta-4 (TB-500) is a <strong>cell-building protein<\/strong>, an essential component of cell structure and movement, which assists in <strong>joint, tissue, muscle, and ligament repair<\/strong>. Thymosin Beta-4 plays a crucial role in protecting, regenerating, and remodeling injured or damaged tissues. Thymosin Beta-4 is released by platelets and numerous other cells to protect the most damaged cells and tissues involved in an injury. Some studies show it reduces inflammation and microbial growth.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Increase in endurance and strength<\/p><p><strong>• <\/strong>Improved joint & tissue repair<\/p><p><strong>• <\/strong>Modulates immune function and inflammation<\/p><p><strong>• <\/strong>Improved chronic fatigue<\/p><p><strong>• <\/strong>Improved muscle tone<\/p><p><strong>• <\/strong>Suppresses muscle spasms<\/p><p><strong>• <\/strong>Improved autoimmune function<\/p><p><strong>• <\/strong>Anti-fungal and anti-bacterial properties<\/p><p><strong>• <\/strong>Protects against oxidative damage<\/p>"
           }
+        },
+        "db80b07b-13eb-418d-8044-34059f396b93": {
+          "type": "question",
+          "settings": {
+            "question": "Epithalon",
+            "answer": "<p><em><strong>CATEGORY: Anti-Aging, Optimal Health, Healing<\/strong><\/em><\/p><p>Epithalon is the synthetic version of the polypeptide Epithalamin, which is naturally produced in humans. Epitalon <strong>decreases the age-related changes<\/strong> in immune and neuroendocrine systems and reduces recurrent infections and chronic diseases. Some of the benefits include <strong>regulation of hormones, rejuvenation and strengthening of the immune system, and normalization of uric acid, cholesterol, and electrolyte levels<\/strong>.<\/p><p>Epitalon’s primary role is to increase the natural production of telomerase, a natural enzyme that allows for replicating our DNA so the body can grow new cells and rejuvenate old ones. Young people produce a large amount of telomerase and longer telomeres. However, as people age, the production of telomerase declines, and consequently, cell replication and health decline. This is the main reason people age.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Increase human lifespan<\/p><p><strong>• <\/strong>Promote deep sleep<\/p><p><strong>• <\/strong>Delay and prevention of age-related diseases such as cancer, heart disease, and dementia<\/p><p><strong>• <\/strong>Acts as an antioxidant<\/p><p><strong>• <\/strong>Improve skin health and appearance<\/p><p><strong>• <\/strong>Healing of injured muscle cells<\/p><p><strong>• <\/strong>Restores and normalizes melatonin levels in older individuals<\/p><p><strong>• <\/strong>Can increase resistance to emotional stress<\/p>"
+          }
+        },
+        "1df0e88e-4a78-433f-a7da-63b55ea420c7": {
+          "type": "question",
+          "settings": {
+            "question": "PT-141",
+            "answer": "<p><em><strong>CATEGORY: Sexual Wellness<\/strong><\/em><\/p><p>PT-141 is used to treat erectile dysfunction or impotence in men and HSDD (hypoactive sexual desire disorder) in women. It <strong>affects sexual arousal, aiding enhanced libido levels and penile erections<\/strong>. It acts on the nervous system via the activation of neurons in the hypothalamus to increase sexual desire.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Treat HSDD (hypoactive sexual desire disorder) in premenopausal women.<\/p><p><strong>• <\/strong>Beneficial for low libido (male & female)<\/p><p><strong>• <\/strong>Increase energy<\/p><p><strong>• <\/strong>Beneficial for ED (erectile dysfunction)<\/p><p><strong>• <\/strong>Enhance sexual satisfaction<\/p>"
+          }
+        },
+        "b6bf8022-0ea3-4f27-8230-1fddcecfe811": {
+          "type": "question",
+          "settings": {
+            "question": "DSIP (Delta sleep-inducing peptide)",
+            "answer": "<p><em><strong>CATEGORY: Optimal Health (Sleep)<\/strong><\/em><\/p><p><\/p><p>DSIP (Delta sleep-inducing peptide) is a neuromodulator and natural <strong>sleep-promoting<\/strong> nonapeptide with many other physiologic functions. It is predominantly found in the brain and easily passes the blood-brain barrier. It has been used to <strong>treat poor sleep, pain conditions, stress-related symptoms, low testosterone (via stimulation of LH), and even sometimes as an antioxidant and anti-cancer protein<\/strong>. It exhibits a pronounced stress-protective action and decreases stress-induced metabolic and functional disorders in human and animal organisms exposed to various stresses. In humans, DSIP directly impacts the secretion of adrenocorticotropic hormone, luteinizing hormone, and growth hormone.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Improvement on disturbed sleeping patterns<\/p><p><strong>• <\/strong>Improved LH and GH release<\/p><p><strong>• <\/strong>Decreased production of cortisol production<\/p><p><strong>• <\/strong>Decreased production of somatostatin production<\/p><p><strong>• <\/strong>Reduction of chronic pain<\/p><p><strong>• <\/strong>Regulation of your circadian rhythm<\/p>"
+          }
+        },
+        "b323f59e-e1d8-4b49-9e62-3e19b99d3fae": {
+          "type": "question",
+          "settings": {
+            "question": "Selank",
+            "answer": "<p><em><strong>CATEGORY: Optimal Health (Cognitive Function), Anti-Aging, Increased Energy<\/strong><\/em><\/p><p>Selank is a heptapeptide which is a derivative of tetra-peptide Tuftsin. The human body produces Tuftsin naturally, which comes with a broad range of benefits. It is one of the latest substances used for its many <strong>anti-anxiety (anxiolytic) effects<\/strong>. Selank is a precursor to the tetrapeptide known as Tuftsin. This tetrapeptide can efficiently improve and transform your immune system.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Superior learning aptitude and memory processes<\/p><p><strong>• <\/strong>Better sensory awareness<\/p><p><strong>• <\/strong>Improved curiosity<\/p><p><strong>• <\/strong>Enhanced mental concentration<\/p><p><strong>• <\/strong>Regulation of the activities of noradrenergic and serotonergic brain systems.<\/p><p><strong>• <\/strong>Decreased anxiety and stress levels.<\/p><p><strong>• <\/strong>Better antiviral functioning without any adverse side effects.<\/p><p><strong>• <\/strong>Improved cerebral energy<\/p><p><strong>• <\/strong>Better and steady mood as well as feelings of gratification and happiness.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -135,7 +163,11 @@
         "9ff449e8-76f8-4c86-b078-7e2ecdaa910b",
         "bbbf4e71-13ec-48b6-b73b-3ff04010732a",
         "ac1819b4-837e-4514-abe9-4de2fbc4c2f9",
-        "8cc49bf4-9032-49eb-8515-57d9d1bde36b"
+        "8cc49bf4-9032-49eb-8515-57d9d1bde36b",
+        "db80b07b-13eb-418d-8044-34059f396b93",
+        "1df0e88e-4a78-433f-a7da-63b55ea420c7",
+        "b6bf8022-0ea3-4f27-8230-1fddcecfe811",
+        "b323f59e-e1d8-4b49-9e62-3e19b99d3fae"
       ],
       "settings": {
         "title": "What Peptide Therapies are Available?",
