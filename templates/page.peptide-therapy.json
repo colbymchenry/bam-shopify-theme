@@ -140,6 +140,24 @@
             "hint": "Epithalon, GHK-Cu, Thymalin, TAM818",
             "modal_content": "<p><em><strong>Anti-Aging<\/strong><\/em><\/p><p><strong>Category: Anti-Aging, Optimal Health<\/strong><\/p><p>Aging happens to everyone, but you can age better, with a healthier body and mind, by providing yourself with peptides to protect and promote cellular wellness.<\/p><p><strong>Epithalon<\/strong><\/p><p>This peptide has a direct effect on aging by increasing telomerase, an enzyme the body needs to replicate its DNA and produce healthy new cells. Raising levels of this enzyme keeps the body’s cells younger and healthier, resulting in fewer age-related conditions, improvements in skin health, and sharper cognitive functioning.<\/p><p><strong>GHK-Cu (Copper)<\/strong><\/p><p>Occurring naturally in the bloodstream, this peptide acts as a unit with copper molecules. Along with anti-inflammatory properties, it promotes healing, improves the condition of skin, and encourages collagen production. This keeps skin looking younger and more resilient.<\/p><p><strong>Thymalin<\/strong><\/p><p>Produced by the thymus gland, this peptide helps regulate pain and inflammation as well as providing powerful immune system enhancement. People experience improvements in cardiovascular, neurological, and immunological health.<\/p><p><strong>TAM 818<\/strong><\/p><p>This peptide stimulates the production of telomerase, helping cells replicate their DNA and produce new, healthy cells. Declines in telomerase have been linked to many aspects of aging, both physical and neurological, so enhancing the function of this enzyme promotes youthful cell behavior.<\/p>"
           }
+        },
+        "7ab06e19-b030-487c-b227-c2f21b2428ca": {
+          "type": "combination",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/weight-loss.png",
+            "for": "Weight Loss",
+            "hint": "AOD9604, Tesamorelin, MIC, B12",
+            "modal_content": "<p><em><strong>Weight Loss<\/strong><\/em><\/p><p><strong>Category: Weight Maintenance, Optimal Health<\/strong><\/p><p>While nothing can substitute for weight management strategies like diet and exercise, sometimes these cannot produce the desired results. If you want to see better results from your weight loss efforts, this peptide combination will help your body burn more fat and build more muscle.<\/p><p><strong>AOD 9604<\/strong><\/p><p>This peptide makes up the part of growth hormone involved in fat metabolism. It boosts the body’s metabolism, prevents cells from storing fat and helps them to release fat they have stored, and promotes fat burning without affecting blood sugar levels.<\/p><p><strong>Tesamorelin<\/strong><\/p><p>This peptide stimulates growth hormone production, boosting your body’s metabolism and fat-burning abilities. Results include decreased appetite, increased lean muscle mass, and improvements in overall metabolic rate.<\/p><p><strong>MIC<\/strong><\/p><p>This combination of methionine, inositol, and choline promotes the release of fat from cells and enhances the body’s fat-burning metabolism. Known to act directly on fats, these molecules all play important roles in fat metabolism.<\/p><p><strong>PIC B12<\/strong><\/p><p>Although required for many functions in our bodies, B12 does not absorb well through the digestive system, making injections an ideal method of delivery. B12 boosts energy and metabolism, improves mood and overall sense of wellbeing, and helps keep your cardiovascular system functioning smoothly.<\/p>"
+          }
+        },
+        "90ba2965-c0e1-47da-afb9-70c4c96e277d": {
+          "type": "combination",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/immunity.png",
+            "for": "Immune Dysfxn",
+            "hint": "LL37, Thymosin Alpha 1",
+            "modal_content": "<p><em><strong>Immunity<\/strong><\/em><\/p><p><strong>Category: Optimal Health, Immune System<\/strong><\/p><p>Does it seem like as you get older, it takes longer to recover from a cold or flu? Have you noticed that you just don’t bounce back from infections like you once did? Our immune system can weaken with age just like other body systems, but this peptide combination can get you on the road to recovery faster.<\/p><p><strong>LL37<\/strong><\/p><p>This antimicrobial peptide (AMP) actively protects the body against invasion by disease-causing bacteria or other pathogens. These peptides are under research as an alternative to antibiotics when germs become resistant. This peptide protects you from illness, and it also boosts tissue repair and helps the body recover from injury.<\/p><p><strong>Thymosin Alpha 1<\/strong><\/p><p>Produced in the thymus, where immune system T cells develop, this peptide can promote healthy immune function. It controls inflammation and autoimmune conditions while encouraging the development of germ-killing T cells.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -149,7 +167,9 @@
         "bcaf1d9f-90e3-4b8a-b529-571d445f2067",
         "a009d459-5fdf-4872-b3ca-4badec88f376",
         "eaedf592-39f5-46e3-a6c9-202b3a215aba",
-        "353f12ff-308d-4b91-99c6-65d2ddefd61f"
+        "353f12ff-308d-4b91-99c6-65d2ddefd61f",
+        "7ab06e19-b030-487c-b227-c2f21b2428ca",
+        "90ba2965-c0e1-47da-afb9-70c4c96e277d"
       ],
       "settings": {
         "title": "Peptide Combinations",
