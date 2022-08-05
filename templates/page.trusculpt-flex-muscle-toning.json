@@ -174,22 +174,22 @@
         "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
           "type": "question",
           "settings": {
-            "question": "How Does an IPL Facial Work?",
-            "answer": "<p>IPL stands for Intense Pulsed Light, a <strong>multi-wavelength light therapy<\/strong> treatment that goes deep into the dermis to <strong>revitalize your skin’s condition at the cellular level<\/strong>. Because IPL light therapy reaches deeper into the tissues, the topmost layer of skin remains unharmed, significantly lowering the risk of side effects. Pigment in your cells absorbs the light, which is converted to heat, effectively resetting the clock on your skin’s cells.<\/p><p><\/p><p>IPL benefits include:<\/p><p><strong>• <\/strong>Reducing even the most stubborn sun spots and dark spots<\/p><p><strong>• <\/strong>Repairing visible blood vessels<\/p><p><strong>• <\/strong>Improving pigmentation irregularities from minor to severe<\/p><p><strong>• <\/strong>Combating acne and blemish issues such as blackheads, whiteheads, papules, pustules, nodules, cysts, sebum, bacteria, hormonal irritations, dead skin cells, and ingrown hairs<\/p><p><strong>• <\/strong>Diminishing the appearance of scars<\/p><p><strong>• <\/strong>Proven treatment of rosacea (along with other skin redness)<\/p><p><strong>• <\/strong>Stimulating collagen growth<\/p><p><strong>• <\/strong>Improving skin texture<\/p><p><strong>• <\/strong>May be combined with <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/peels\/\">Peels<\/a>, <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/hydrafacial\/\">HydraFacial®<\/a>, and other superficial treatments of the epidermis. This is because IPL targets deeper layers of the skin; therefore, the superficial layers can be worked on simultaneously or back-to-back.<\/p>"
+            "question": "How Dos truSculpt® Flex Work?",
+            "answer": "<p>truSculpt® flex uses Multi-Directional Stimulation (MDS) technology to monopolar radiofrequency (RF) energy to <strong>stimulate deep, high-impact muscle contractions <\/strong>that replicate intensified crunch, squat and twisting actions. You can <strong>treat up to 8 areas <\/strong>in each 45-minute session for a personalized level of muscle stimulation that can’t be reproduced by even the most vigorous workout. With the flexibility to <strong>tailor the treatment for your personal fitness level, body type, and goals<\/strong>, truSculpt® flex is designed to achieve optimal muscle toning through MDS.<\/p>"
           }
         },
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
           "type": "question",
           "settings": {
-            "question": "What is an IPL Facial Treatment Like?",
-            "answer": "<p>After a thorough cleansing, your skin is prepped for IPL light therapy to focus the wavelengths as they penetrate your skin. You’ll be given eye protection for safety. <strong>The treatment itself may cause a slight stinging sensation<\/strong>, but it is not significantly uncomfortable. Your treatment should last <strong>30 minutes <\/strong>depending on the size of your treatment area.<\/p><p><\/p><p>The number of required treatments varies from patient to patient based on unique skin composition and aesthetic goals. <strong>The majority of patients see results after their first treatment<\/strong>. Continued and consistent monthly treatments are suggested to obtain and maintain optimal results. A customized treatment plan will be determined after your first service with us.<\/p>"
+            "question": "What are truSculpt® Flex Treatments Like?",
+            "answer": "<p>truSculpt® flex treatments are <strong>about as long as the average workout<\/strong>, lasting around 45 minutes and treating up to 8 areas in one session. It usually <strong>takes 4-8 treatments depending on your goals<\/strong>. You’ll feel a <strong>contracting sensation <\/strong>deep in your muscles, and the intensity will slowly increase throughout your session. Afterward, you’re free to return to your routine.<\/p>"
           }
         },
         "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
           "type": "question",
           "settings": {
             "question": "Is There Any Downtime?",
-            "answer": "<p>Very few side effects are possible, such as <strong>minor redness and swelling <\/strong>following treatment. These usually only last a few hours, but in rare cases, can last a few days. Once redness or swelling disappears, the <strong>skin benefits in almost every aesthetic way<\/strong>. In extremely rare cases, lightening or darkening of the skin or scarring have occurred.<\/p>"
+            "answer": "<p>Because there are no needles, medications, or scalpels involved, there is no downtime. <strong>You may experience tingling and muscle soreness—much like you would after an intense workout—for up to 72 hours <\/strong>following your truSculpt® flex session.<\/p>"
           }
         }
       },
@@ -199,7 +199,7 @@
         "92844a58-69cb-4e9f-b978-31606bc7bfbb"
       ],
       "settings": {
-        "title": "FAQ",
+        "title": "",
         "background_color": "#e5f8ff"
       }
     },
