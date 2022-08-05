@@ -12,13 +12,42 @@
     flex-basis: 33%;
   }
 
+  .peptide-modal {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: transform(-50%, -50%);
+    transition: all 0.3s ease;
+  }
+
+  .peptide-modal.open {
+    display: flex;
+    animation: fadeInUp 4s forwards;
+  }
+  
   @media screen and (max-width: 500px) {
     .peptides__container .title {
       margin-left: 1.5rem !important;
     }
   }
 
-
+  @keyframes fadeInUp {
+    0% {
+      display: none;
+      visibility: hidden;
+      opacity: 0;
+    },
+    1% {
+      display: flex;
+      visibility: visible;
+    },
+    100% {
+      opacity: 1;
+    }
+  }
 
 {% endstyle %}
 
