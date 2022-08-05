@@ -97,7 +97,7 @@
   <div class="combinations">
   {%- for block in section.blocks -%}
     <div class="combination" onclick="triggerModal('peptide-modal-{{ forloop.index0 }}');" style="background-image: url('{{ block.settings.image | img_url: 'master' }}');">
-      <span>{{ block.settings.for }}</span>
+      <span><b>{{ block.settings.for }}</b></span>
       <span>{{ block.settings.hint }}</span>
     </div>
 
