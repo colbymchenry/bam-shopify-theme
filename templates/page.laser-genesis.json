@@ -154,6 +154,79 @@
         "padding_bottom": 52
       }
     },
+    "16596951982b3c98ce": {
+      "type": "slideshow",
+      "blocks": {
+        "165969519860e73b9d-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BalancedAesthetics_Laser-Genesis-1.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "165969519860e73b9d-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BalancedAesthetics_Laser-Genesis-3.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "75cca4b2-7eec-468e-a6d7-bb7ba559c43f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle-75.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "165969519860e73b9d-0",
+        "165969519860e73b9d-1",
+        "75cca4b2-7eec-468e-a6d7-bb7ba559c43f"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "165969439736fc51d2": {
       "type": "accordion",
       "blocks": {
@@ -219,6 +292,7 @@
     "1659694180b65bf791",
     "1659694191623768de",
     "1659694198464fcf11",
+    "16596951982b3c98ce",
     "165969439736fc51d2",
     "1659694667e6cdff92",
     "form",
