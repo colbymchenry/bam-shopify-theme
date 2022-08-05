@@ -75,6 +75,19 @@
         "max_height": 1200
       }
     },
+    "1659695999171be97b": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=M-PItbcqYXg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1659694180b65bf791": {
       "type": "two-column",
       "settings": {
@@ -290,6 +303,7 @@
     "16596941544a416177",
     "165886873165e4dfff",
     "16596943757cd95565",
+    "1659695999171be97b",
     "1659694180b65bf791",
     "1659694191623768de",
     "1659694198464fcf11",
