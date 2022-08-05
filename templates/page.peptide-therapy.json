@@ -77,6 +77,20 @@
     },
     "1659710747c65cb088": {
       "type": "peptide-combinations",
+      "blocks": {
+        "dc056ddd-2eb5-4e6c-8fbd-2eefc3790424": {
+          "type": "combination",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sleep.png",
+            "for": "Sleep",
+            "hint": "DSIP, BPC157, CJC1295",
+            "modal_content": "<p><em><strong>Sleep<\/strong><\/em><\/p><p><strong>Category: Optimal Health (Sleep)<\/strong><\/p><p>With our stressful and busy lives, few of us find time for enough sleep, especially the kind of deep, restorative sleep we desperately need. If you struggle to fall asleep or wake up feeling tired and foggy, this peptide combination can help  you get proper rest.<\/p><p><strong>DSIP (Delta sleep-inducing peptide):<\/strong><\/p><p>Found naturally in the brain, this peptide has sleep-inducing properties as well relieving pain and stress. Not only does it help protect the body against stress, but it also affects the release of key hormones like luteinizing hormone and growth hormone. By stimulating LH, this peptide can help adjust low testosterone levels.<\/p><p><strong>BPC 157:<\/strong><\/p><p>The body protective compounds (BPCs) help the body recover from injury. Muscle injuries, joint pain, nerve damage, and strained tendons or ligaments respond well to this therapy. Along with promoting healing, it has anti-aging benefits and improves the condition of the skin.<\/p><p><strong>CJC-1295<\/strong><\/p><p>Acting as a Growth Hormone Releasing Hormone (GHRH), this peptide promotes the release of Human Growth Hormone (HGH), which has powerful effects throughout the body. By promoting this hormone, CJC-1295 increases protein building, promotes fat burning, and encourages growth.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "dc056ddd-2eb5-4e6c-8fbd-2eefc3790424"
+      ],
       "settings": {
         "title": "Peptide Combinations",
         "background_color": "#e5f8ff"
