@@ -81,10 +81,14 @@
 
 <script type="text/javascript">
   function triggerModal(modalId) {
+    const wasOpen = document.getElementById(modalId).classList.contains("open");
+    
     // close all other modals
     Array.from(document.getElementsByClassName("peptide-modal")).forEach((elem) => elem.classList.remove("open"));
     // open modal
-    document.getElementById(modalId).classList.add("open");
+    if (!wasOpen) {
+      document.getElementById(modalId).classList.add("open");
+    }
   }
 </script>
 
