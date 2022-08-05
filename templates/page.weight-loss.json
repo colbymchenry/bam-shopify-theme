@@ -20,10 +20,10 @@
         "165886772106df2000-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Save $400 & BOOK NOW with 3 FREE months of Ultraburn",
+            "button_link_1": "https:\/\/booking.appointy.com\/Balancedaesthetics?sr=856388",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": true
           }
