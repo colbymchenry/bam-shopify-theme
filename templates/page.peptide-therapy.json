@@ -105,13 +105,37 @@
             "question": "CJC-1295",
             "answer": "<p><em><strong>CATEGORY: Weight Management, Increased Energy, Healing, Optimal Health<\/strong><\/em><\/p><p>CJC-1295 is a 30 amino acid peptide hormone that has shown incredibly promising results as a Growth Hormone Releasing Hormone (GHRH) analog. CJC-1295 stimulates HGH secretion and can provide a steady increase of HGH with minimal effect on cortisol and prolactin levels. This means increased protein synthesis, thus <strong>promoting growth and fat loss simultaneously<\/strong>. Ipamorelin mimics ghrelin and binds to the ghrelin receptor (or GH secretagogue receptor, GHSR) in the brain, thereby selectively stimulating the release of GH from the pituitary gland. This results in increased plasma GH levels, which would affect many biological processes. Unlike other GH-releasing peptides, Ipamorelin only stimulates GH release in a manner very similar to that of Growth Hormone Releasing Hormone. This combination results in a <strong>great aid for sleep, energy, stamina, and recovery benefits<\/strong>.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Increased protein synthesis<\/p><p><strong>• <\/strong>Promotes fat burning<\/p><p><strong>• <\/strong>Improves sleep quality<\/p><p><strong>• <\/strong>Increased bone density<\/p><p><strong>• <\/strong>Accelerated injury recovery<\/p><p><strong>• <\/strong>Improved immune system<\/p><p><strong>• <\/strong>Increased protein synthesis<\/p><p><strong>• <\/strong>Increased energy<\/p><p><strong>• <\/strong>Increase in lean body mass<\/p>"
           }
+        },
+        "bbbf4e71-13ec-48b6-b73b-3ff04010732a": {
+          "type": "question",
+          "settings": {
+            "question": "Ipamorelin",
+            "answer": "<p><em><strong>CATEGORY: Weight Management, Anti-Aging, Increased Energy, Optimal Health<\/strong><\/em><\/p><p>Ipamorelin is a peptide used to <strong>help growth hormone production<\/strong>. Ipamorelin is composed of five amino acids that stimulate the pituitary gland to produce more growth hormone naturally. This results in increased plasma GH levels, which would <strong>affect many biological processes, such as in the gastrointestinal tract, heart, lung, liver, kidney, pancreas, adipose tissue, and immune cells<\/strong>. Unlike other GH releasing peptides, Ipamorelin only stimulates GH release in a manner very similar to that of growth hormone releasing hormone.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Promotes fat burning<\/p><p><strong>• <\/strong>Increased collagen production<\/p><p><strong>• <\/strong>Increase in lean body mass<\/p><p><strong>• <\/strong>Improves sleep quality<\/p><p><strong>• <\/strong>Increased energy<\/p><p><strong>• <\/strong>Increased endurance<\/p><p><strong>• <\/strong>Improved cellular repair<\/p><p><strong>• <\/strong>Increased IGF-1<\/p><p><strong>• <\/strong>Counteracts glucocorticoid catabolic effects<\/p><p><strong>• <\/strong>Less appetite stimulation<\/p><p><strong>• <\/strong>Less release of Cortisol, Prolactin, and Aldosterone<\/p>"
+          }
+        },
+        "ac1819b4-837e-4514-abe9-4de2fbc4c2f9": {
+          "type": "question",
+          "settings": {
+            "question": "Sermorelin",
+            "answer": "<p><em><strong>CATEGORY: Weight Management, Anti-Aging, Increased Energy, Optimal Health, Healing<\/strong><\/em><\/p><p>Sermorelin is a <strong>peptide analog of Growth Hormone Releasing Hormone<\/strong> used as a diagnostic agent to assess growth hormone secretion to diagnose growth hormone deficiency. It is a 29-amino acid polypeptide representing the 1–29 fragment from endogenous human GHRH, thought to be the shortest fully functional fragment of GHRH.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Increase in lean body mass<\/p><p><strong>• <\/strong>Increased energy<\/p><p><strong>• <\/strong>Increased strength<\/p><p><strong>• <\/strong>Accelerated wound healing<\/p><p><strong>• <\/strong>Improved cardiovascular and immune function<\/p><p><strong>• <\/strong>Improves sleep quality<\/p><p><strong>• <\/strong>Improved bone density<\/p><p><strong>• <\/strong>Improved skin quality and higher collagen density<\/p>"
+          }
+        },
+        "8cc49bf4-9032-49eb-8515-57d9d1bde36b": {
+          "type": "question",
+          "settings": {
+            "question": "Thymosin Beta-4 (TB_500)",
+            "answer": "<p><em><strong>CATEGORY: Anti-Aging, Optimal Health, Healing<\/strong><\/em><\/p><p>Thymosin Beta-4 (TB-500) is a <strong>cell-building protein<\/strong>, an essential component of cell structure and movement, which assists in <strong>joint, tissue, muscle, and ligament repair<\/strong>. Thymosin Beta-4 plays a crucial role in protecting, regenerating, and remodeling injured or damaged tissues. Thymosin Beta-4 is released by platelets and numerous other cells to protect the most damaged cells and tissues involved in an injury. Some studies show it reduces inflammation and microbial growth.<\/p><p>Benefits include:<\/p><p><strong>• <\/strong>Increase in endurance and strength<\/p><p><strong>• <\/strong>Improved joint & tissue repair<\/p><p><strong>• <\/strong>Modulates immune function and inflammation<\/p><p><strong>• <\/strong>Improved chronic fatigue<\/p><p><strong>• <\/strong>Improved muscle tone<\/p><p><strong>• <\/strong>Suppresses muscle spasms<\/p><p><strong>• <\/strong>Improved autoimmune function<\/p><p><strong>• <\/strong>Anti-fungal and anti-bacterial properties<\/p><p><strong>• <\/strong>Protects against oxidative damage<\/p>"
+          }
         }
       },
       "block_order": [
         "19d18657-cf81-4a11-9cd6-60a7b19db36a",
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60",
         "92844a58-69cb-4e9f-b978-31606bc7bfbb",
-        "9ff449e8-76f8-4c86-b078-7e2ecdaa910b"
+        "9ff449e8-76f8-4c86-b078-7e2ecdaa910b",
+        "bbbf4e71-13ec-48b6-b73b-3ff04010732a",
+        "ac1819b4-837e-4514-abe9-4de2fbc4c2f9",
+        "8cc49bf4-9032-49eb-8515-57d9d1bde36b"
       ],
       "settings": {
         "title": "What Peptide Therapies are Available?",
