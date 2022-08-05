@@ -114,7 +114,7 @@
         "1659694191c377ea67-1"
       ],
       "settings": {
-        "animation": "fade",
+        "animation": "fade-right",
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
@@ -145,7 +145,7 @@
         "165969419823df36ea-1"
       ],
       "settings": {
-        "animation": "fade",
+        "animation": "fade-left",
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
