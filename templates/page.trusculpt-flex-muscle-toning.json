@@ -1,0 +1,87 @@
+{
+  "sections": {
+    "1658867721db60d9c1": {
+      "type": "image-banner",
+      "blocks": {
+        "165886772106df2000-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "165886772106df2000-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "165886772106df2000-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "165886772106df2000-0",
+        "165886772106df2000-1",
+        "165886772106df2000-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "165886873165e4dfff": {
+      "type": "video-with-text",
+      "settings": {
+        "heading_logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
+        "heading": "OUR STORY",
+        "title": "Balanced Aesthetics' Unique Model Created For You",
+        "body": "",
+        "video_url": "",
+        "gap": 20
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "message": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1658867721db60d9c1",
+    "165886873165e4dfff",
+    "form",
+    "main"
+  ]
+}
