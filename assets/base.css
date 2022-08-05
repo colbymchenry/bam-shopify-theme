@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+.bottom header a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .bottom-header .socials {
   display: flex;
   align-items: center;
@@ -11,12 +17,6 @@
   max-height: 1rem;
   margin-left: 3.5rem;
   gap: 1rem;
-}
-
-.bottom-header .socials a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .bottom-header .socials svg {
