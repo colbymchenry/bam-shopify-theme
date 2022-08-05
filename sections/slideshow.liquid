@@ -234,6 +234,26 @@
     },
     {
       "type": "select",
+      "id": "image_fit",
+      "options": [
+        {
+          "value": "contain",
+          "label": "Contain"
+        },
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "fill",
+          "label": "Fill"
+        }
+      ],
+      "default": "fill",
+      "label": "Image Fit"
+    },
+    {
+      "type": "select",
       "id": "slider_visual",
       "options": [
         {
@@ -484,26 +504,6 @@
           ],
           "default": "center",
           "label": "t:sections.slideshow.blocks.slide.settings.text_alignment_mobile.label"
-        },
-        {
-          "type": "select",
-          "id": "image_fit",
-          "options": [
-            {
-              "value": "contain",
-              "label": "Contain"
-            },
-            {
-              "value": "cover",
-              "label": "Cover"
-            },
-            {
-              "value": "fill",
-              "label": "Fill"
-            }
-          ],
-          "default": "fill",
-          "label": "Image Fit"
         }
       ]
     }
