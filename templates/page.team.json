@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "BOOK NOW",
-            "button_link_1": "",
+            "button_link_1": "https:\/\/booking.appointy.com\/en-US\/balancedaesthetics\/bookings\/service",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -44,8 +44,8 @@
         "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "1658788544072ef2ff": {
