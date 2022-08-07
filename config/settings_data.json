@@ -148,24 +148,16 @@
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "BALANCED AESTHETICS MEDSPA",
+              "subtext": "<p>Serving Brookhaven & the Atlanta metro<\/p><p>1800 Peachtree St. NW #855 | Atlanta, GA | 30309<\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
           "footer-2"
         ],
         "settings": {
