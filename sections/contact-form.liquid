@@ -97,6 +97,9 @@
           <div class="select">
             <select id="ContactForm-service" class="select__select" name="contact[service]" style="font-size: 16px;">
               <option value="">Requested Service</option>
+              {% for block in section.blocks %}
+              <option value="{{ block.settings.name }}">{{ block.settings.name }}</option>
+              {% endfor %}
             </select>
             {% render 'icon-caret' %}
           </div>
@@ -212,6 +215,19 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "service",
+      "name": "Service",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        }
+      ]
     }
   ],
   "presets": [
