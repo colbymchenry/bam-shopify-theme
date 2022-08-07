@@ -42,13 +42,6 @@
     "165988592812c8ab8a": {
       "type": "rich-text",
       "blocks": {
-        "165988592836637629-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
         "165988592836637629-1": {
           "type": "text",
           "settings": {
@@ -63,7 +56,6 @@
         }
       },
       "block_order": [
-        "165988592836637629-0",
         "165988592836637629-1",
         "6dba5c88-4b4c-4612-b87c-e77651171194"
       ],
