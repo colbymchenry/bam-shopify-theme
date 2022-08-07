@@ -2,6 +2,12 @@
   overflow-x: hidden;
 }
 
+@media screen and (max-width: 990px) {
+  .svg-logo svg {
+    height: 6rem;
+  }
+}
+
 header.bottom-header {
   display: flex !important;
   justify-content: space-between !important;
