@@ -24,6 +24,7 @@
 
   .header__heading {
     display: unset;
+    margin-right: 0 !important;
   }
 
   .header__heading .svg-logo {
