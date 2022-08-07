@@ -20,7 +20,7 @@
         "165886772106df2000-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Save $400 & BOOK NOW with 3 FREE months of Ultraburn",
+            "button_label_1": "SAVE $400 & BOOK NOW WITH 3 FREE MONTHS OF ULTRABURN",
             "button_link_1": "https:\/\/booking.appointy.com\/Balancedaesthetics?sr=856388",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -43,8 +43,8 @@
         "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "16596941544a416177": {
