@@ -2,10 +2,38 @@
   overflow-x: hidden;
 }
 
+.header__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.header__heading .svg-logo {
+  position: absolute;
+}
+
+.header__heading .svg-logo svg {
+  width: 80%;
+}
+
 @media screen and (max-width: 990px) {
   .svg-logo svg {
     height: 6rem;
   }
+
+  .header__heading {
+    display: unset;
+  }
+
+  .header__heading .svg-logo {
+    position: unset;
+  }
+
+  .header__heading .svg-logo svg {
+    width: unset;
+  }
+
 }
 
 header.bottom-header {
