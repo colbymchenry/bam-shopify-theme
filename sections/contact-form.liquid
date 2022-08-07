@@ -97,9 +97,7 @@
           <div class="select">
             <select id="ContactForm-service" class="select__select" name="contact[service]" style="font-size: 16px;">
               <option value="">Requested Service</option>
-              {% for block in section.blocks %}
-              <option valu
-              {% endfor %}
+              {{ settings.bookable_services }}
             </select>
             {% render 'icon-caret' %}
           </div>
