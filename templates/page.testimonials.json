@@ -261,6 +261,72 @@
         "padding_bottom": 52
       }
     },
+    "16602337350ddb86b4": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 40,
+        "height": 0,
+        "max_height": 1200
+      }
+    },
+    "16602337459168ba60": {
+      "type": "two-column",
+      "settings": {
+        "justifyContent": "center",
+        "alignItems": "center",
+        "wrap": "nowrap",
+        "wrapWidth": 500,
+        "gap": 2,
+        "minWidth": 300,
+        "width": 50,
+        "maxWidth": 1680,
+        "minWidthFirstChild": 300,
+        "widthFirstChild": 50,
+        "minWidthLastChild": 300,
+        "widthLastChild": 50
+      }
+    },
+    "16602337635a1ed2cc": {
+      "type": "rich-text",
+      "blocks": {
+        "16602337639e1a2e1a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16602337639e1a2e1a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "c7815379-48c5-4d99-a2fa-0664bb3efaf7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/unnamed-file.png",
+            "label": "",
+            "width": 0
+          }
+        }
+      },
+      "block_order": [
+        "16602337639e1a2e1a-0",
+        "16602337639e1a2e1a-1",
+        "c7815379-48c5-4d99-a2fa-0664bb3efaf7"
+      ],
+      "settings": {
+        "testimonial": true,
+        "animation": "fade",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1659694667e6cdff92": {
       "type": "membership",
       "settings": {
@@ -314,6 +380,9 @@
     "16602334368912434e",
     "1660233447b5fec92a",
     "16602334581cfc975d",
+    "16602337350ddb86b4",
+    "16602337459168ba60",
+    "16602337635a1ed2cc",
     "1659694667e6cdff92",
     "1659704638aee9ef9f",
     "form",
