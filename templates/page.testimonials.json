@@ -210,7 +210,7 @@
         "1660233447fda8b6aa-1"
       ],
       "settings": {
-        "testimonial": false,
+        "testimonial": true,
         "animation": "fade-right",
         "desktop_content_position": "left",
         "content_alignment": "left",
