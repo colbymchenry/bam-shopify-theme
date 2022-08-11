@@ -166,10 +166,10 @@
       "type": "two-column",
       "settings": {
         "justifyContent": "center",
-        "alignItems": "center",
+        "alignItems": "flex-start",
         "wrap": "nowrap",
         "wrapWidth": 500,
-        "gap": 2,
+        "gap": 10,
         "minWidth": 300,
         "width": 50,
         "maxWidth": 1680,
