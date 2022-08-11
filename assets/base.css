@@ -7,6 +7,10 @@
   margin-left: -8rem;
 }
 
+.testimonial-block .rich-text__logo img {
+  width: 42px !important;
+}
+
 .testimonial-block .rich-text__heading {
   font-size: 22px !important;
 }
