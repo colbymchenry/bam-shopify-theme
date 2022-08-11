@@ -154,6 +154,24 @@
         "padding_bottom": 52
       }
     },
+    "1660233397f515cec9": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 40,
+        "height": 0,
+        "max_height": 1200
+      }
+    },
+    "1659694667e6cdff92": {
+      "type": "membership",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2022-07-02_114435.png",
+        "heading": "SKILLED, CARING PROFESSIONALS",
+        "title": "BAMFAM Membership",
+        "body": "<p>For only $100 per month, start your membership today and begin enjoying all of the benefits of becoming part of the BAMFAM! Receive monthly, complimentary BAM Signature Facial treatments, discounts on retail products, and more.<\/p>",
+        "signup_url": "\/bamfam-membership-sign-up\/"
+      }
+    },
     "1659704638aee9ef9f": {
       "type": "rich-text",
       "settings": {
@@ -165,16 +183,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "1659694667e6cdff92": {
-      "type": "membership",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2022-07-02_114435.png",
-        "heading": "SKILLED, CARING PROFESSIONALS",
-        "title": "BAMFAM Membership",
-        "body": "<p>For only $100 per month, start your membership today and begin enjoying all of the benefits of becoming part of the BAMFAM! Receive monthly, complimentary BAM Signature Facial treatments, discounts on retail products, and more.<\/p>",
-        "signup_url": "\/bamfam-membership-sign-up\/"
       }
     },
     "form": {
@@ -203,8 +211,9 @@
     "1659694180b65bf791",
     "1659694191623768de",
     "1659694198464fcf11",
-    "1659704638aee9ef9f",
+    "1660233397f515cec9",
     "1659694667e6cdff92",
+    "1659704638aee9ef9f",
     "form",
     "main"
   ]
