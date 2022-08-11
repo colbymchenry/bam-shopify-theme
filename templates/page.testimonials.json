@@ -289,19 +289,6 @@
     "16602337635a1ed2cc": {
       "type": "rich-text",
       "blocks": {
-        "16602337639e1a2e1a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "16602337639e1a2e1a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
         "c7815379-48c5-4d99-a2fa-0664bb3efaf7": {
           "type": "logo",
           "settings": {
@@ -309,12 +296,25 @@
             "label": "",
             "width": 0
           }
+        },
+        "16602337639e1a2e1a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The staff is so professional and willing to help meet your skincare goals. I saw Bethany who was so thoughtful and detailed in her approach. I will be back for some more services to see how they can help me look my best in 202 and beyond!<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16602337639e1a2e1a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Katie A.<\/p>"
+          }
         }
       },
       "block_order": [
+        "c7815379-48c5-4d99-a2fa-0664bb3efaf7",
         "16602337639e1a2e1a-0",
-        "16602337639e1a2e1a-1",
-        "c7815379-48c5-4d99-a2fa-0664bb3efaf7"
+        "16602337639e1a2e1a-1"
       ],
       "settings": {
         "testimonial": true,
@@ -330,35 +330,32 @@
     "1660233883319965b6": {
       "type": "rich-text",
       "blocks": {
+        "faaf26ba-7d8d-477f-9d1a-f1f251be2c19": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/unnamed-file.png",
+            "label": "",
+            "width": 0
+          }
+        },
         "1660233883bb75e8f8-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>LOVE Balanced Aesthetics with all my heart —amazing experience, amazing people. Beth is the absolute best injector, PA, human being. Go see her.<\/p>",
             "heading_size": "h1"
           }
         },
         "1660233883bb75e8f8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "1660233883bb75e8f8-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Kelsey G.<\/p>"
           }
         }
       },
       "block_order": [
+        "faaf26ba-7d8d-477f-9d1a-f1f251be2c19",
         "1660233883bb75e8f8-0",
-        "1660233883bb75e8f8-1",
-        "1660233883bb75e8f8-2"
+        "1660233883bb75e8f8-1"
       ],
       "settings": {
         "testimonial": true,
