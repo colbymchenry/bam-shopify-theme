@@ -55,26 +55,6 @@
         "max_height": 1200
       }
     },
-    "165886873165e4dfff": {
-      "type": "video-with-text",
-      "settings": {
-        "heading_logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
-        "heading": "A BEAUTIFUL YOU FROM THE INSIDE OUT",
-        "title": "PRP",
-        "body": "<p>Few things are as quick to diminish confidence in one’s appearance as thinning hair or hair loss. Past remedies were expensive or not very effective, but advancements in medical science have found a solution from a surprising source: your blood. <strong>At Balanced Aesthetics Medspa, we can help with PRP treatment for hair loss<\/strong>.<\/p>",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/PRP-Atlanta.jpg",
-        "gap": 20
-      }
-    },
-    "16596943757cd95565": {
-      "type": "spacer",
-      "settings": {
-        "min_height": 80,
-        "height": 0,
-        "max_height": 1200
-      }
-    },
     "1659694180b65bf791": {
       "type": "two-column",
       "settings": {
@@ -95,11 +75,19 @@
     "1659694191623768de": {
       "type": "rich-text",
       "blocks": {
+        "55fe06b1-d8ee-4d6e-9a89-1185f2dca554": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/unnamed-file.png",
+            "label": "",
+            "width": 0
+          }
+        },
         "1659694191c377ea67-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Am I a Good Candidate?<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>I had the greatest experience here the ladies that greet you when you come in make you feel like the know you already and let’s not talk about ginger the injector she has a very professional attitude and makes you feel so comfortable throughout the whole procedure I can’t wait to go back I love everything about this place and more.<\/p>",
+            "heading_size": "h2"
           }
         },
         "1659694191c377ea67-1": {
@@ -110,6 +98,7 @@
         }
       },
       "block_order": [
+        "55fe06b1-d8ee-4d6e-9a89-1185f2dca554",
         "1659694191c377ea67-0",
         "1659694191c377ea67-1"
       ],
@@ -154,54 +143,8 @@
         "padding_bottom": 52
       }
     },
-    "165969439736fc51d2": {
-      "type": "accordion",
-      "blocks": {
-        "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
-          "type": "question",
-          "settings": {
-            "question": "How Does PRP Treatment for Hair Loss Work?",
-            "answer": "<p><strong>PRP stands for Platelet-Rich Plasma<\/strong>, a component of blood that can be extracted and used for many treatments, including hair loss prevention and regrowth. Think of your scalp like a fertile field. The better the soil, the more robust the plants are which grow from it. <strong>When your scalp is healthy<\/strong>, has good blood circulation, and the tissues are well-nourished, <strong>your hair has the best possible environment in which to thrive<\/strong>. PRP can bring back scalp and hair follicle health.<\/p><p>PRP contains growth factors, and when these are injected into your scalp, they recruit nearby <strong>stem cells<\/strong>. The stem cells “read” these growth factors and <strong>rush to heal the scalp<\/strong> as if it had been injured, increasing circulation, repairing damaged cells, <strong>and creating new cells and keratin<\/strong>, the basis of hair follicles. With this new tissue generation, your existing follicles become healthier, and the <strong>strands of hair thicken<\/strong>. Stem cells are also blanks that can copy the cellular structure of whatever the tissue most needs. They become keratin to create new follicles, leading to <strong>new hair growth<\/strong> in place of hairs already shed.<\/p>"
-          }
-        },
-        "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
-          "type": "question",
-          "settings": {
-            "question": "What is PRP Treatment for Hair Loss Like?",
-            "answer": "<p>We conduct PRP for hair loss procedures in the comfort of the Balanced Aesthetics Medspa treatment rooms. <strong>Your treatment begins <\/strong>with a thorough cleansing of your thinning spots and the <strong>application of an anesthetic<\/strong>. Then, your blood is drawn and spun through a lab-grade centrifuge to separate the components. <strong>The PRP is extracted and prepared for injection into strategic locations around your scalp <\/strong>to maximize hair regrowth. The treatment itself does not take long, and you’re free to return to your regular routine.<\/p>"
-          }
-        },
-        "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
-          "type": "question",
-          "settings": {
-            "question": "Is There Any Downtime?",
-            "answer": "<p><strong>Your scalp may be tender, bruised, sore, or itchy for 2-5 days <\/strong>after your PRP hair loss treatment, and you’ll need to take care with heat and sun exposure. Be sure to follow the aftercare instructions provided to minimize risk and maximize results.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "19d18657-cf81-4a11-9cd6-60a7b19db36a",
-        "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60",
-        "92844a58-69cb-4e9f-b978-31606bc7bfbb"
-      ],
-      "settings": {
-        "title": "",
-        "background_color": "#e5f8ff"
-      }
-    },
     "1659704638aee9ef9f": {
       "type": "rich-text",
-      "blocks": {
-        "16597046388d00641c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At Balanced Aesthetics Medspa, we combine aesthetic and wellness treatments to address whole-body health and well-being, not just body parts. Our treatments often go hand-in-hand to balance your physical and emotional health through beauty and body nourishment. If hair loss is stealing your confidence and causing distress, call us today.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16597046388d00641c-1"
-      ],
       "settings": {
         "animation": "fade",
         "desktop_content_position": "center",
@@ -245,12 +188,9 @@
   "order": [
     "1658867721db60d9c1",
     "16596941544a416177",
-    "165886873165e4dfff",
-    "16596943757cd95565",
     "1659694180b65bf791",
     "1659694191623768de",
     "1659694198464fcf11",
-    "165969439736fc51d2",
     "1659704638aee9ef9f",
     "1659694667e6cdff92",
     "form",
