@@ -103,7 +103,7 @@
         "1659694191c377ea67-1"
       ],
       "settings": {
-        "testimonials": true,
+        "testimonial": true,
         "animation": "fade-right",
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -135,7 +135,7 @@
         "165969419823df36ea-1"
       ],
       "settings": {
-        "testimonials": false,
+        "testimonial": false,
         "animation": "fade-left",
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -148,7 +148,7 @@
     "1659704638aee9ef9f": {
       "type": "rich-text",
       "settings": {
-        "testimonials": false,
+        "testimonial": false,
         "animation": "fade",
         "desktop_content_position": "center",
         "content_alignment": "center",
