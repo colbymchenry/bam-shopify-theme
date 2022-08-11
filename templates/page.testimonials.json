@@ -368,6 +368,113 @@
         "padding_bottom": 52
       }
     },
+    "1660234067f59182d4": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 40,
+        "height": 0,
+        "max_height": 1200
+      }
+    },
+    "1660234073f870a945": {
+      "type": "two-column",
+      "settings": {
+        "justifyContent": "center",
+        "alignItems": "flex-start",
+        "wrap": "nowrap",
+        "wrapWidth": 500,
+        "gap": 10,
+        "minWidth": 300,
+        "width": 50,
+        "maxWidth": 1680,
+        "minWidthFirstChild": 300,
+        "widthFirstChild": 50,
+        "minWidthLastChild": 300,
+        "widthLastChild": 50
+      }
+    },
+    "1660234080f894524c": {
+      "type": "rich-text",
+      "blocks": {
+        "28f6f313-0f94-4094-8bdf-c1b3ae29325c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/unnamed-file.png",
+            "label": "",
+            "width": 0
+          }
+        },
+        "16602340796a6ef73b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>John is very comforting and experienced and put me at ease for my first micro needling experience! The girls at the front desk were also professional and helpful. Def recommend!<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16602340796a6ef73b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L.S.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "28f6f313-0f94-4094-8bdf-c1b3ae29325c",
+        "16602340796a6ef73b-0",
+        "16602340796a6ef73b-1"
+      ],
+      "settings": {
+        "testimonial": true,
+        "animation": "fade-right",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16602340908c7f1d88": {
+      "type": "rich-text",
+      "blocks": {
+        "6c0eda0c-442d-4970-90ca-0c0f8fcf0f95": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/unnamed-file.png",
+            "label": "",
+            "width": 0
+          }
+        },
+        "166023409087c3d70e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Ashley is so personable and treats every guest like a princess. She makes your experience at Balanced Aesthetics such a calming and relaxing one…You will never want to leave! Ashley, along with the rest of the team, will make you feel so welcomed and at ease from the moment you walk in 🙂<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166023409087c3d70e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lindsay H.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6c0eda0c-442d-4970-90ca-0c0f8fcf0f95",
+        "166023409087c3d70e-0",
+        "166023409087c3d70e-1"
+      ],
+      "settings": {
+        "testimonial": true,
+        "animation": "fade-left",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1659694667e6cdff92": {
       "type": "membership",
       "settings": {
@@ -425,6 +532,10 @@
     "16602337459168ba60",
     "16602337635a1ed2cc",
     "1660233883319965b6",
+    "1660234067f59182d4",
+    "1660234073f870a945",
+    "1660234080f894524c",
+    "16602340908c7f1d88",
     "1659694667e6cdff92",
     "1659704638aee9ef9f",
     "form",
