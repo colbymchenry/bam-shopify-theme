@@ -62,7 +62,7 @@
         "alignItems": "flex-start",
         "wrap": "nowrap",
         "wrapWidth": 500,
-        "gap": 7.5,
+        "gap": 10,
         "minWidth": 300,
         "width": 50,
         "maxWidth": 1680,
@@ -93,7 +93,7 @@
         "1659694191c377ea67-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The PRP is extracted from your blood, so there’s very little chance of a reaction from the injections. <strong>Hair cannot be restored in areas with no follicles <\/strong>left for the stem cells to copy, so patients whose balding is complete will not see their hair restored. A consultation with Balanced Aesthetics experts is a great way to start to see if you’re an ideal candidate.<\/p>"
+            "text": "<p>Melanie O.<\/p>"
           }
         }
       },
@@ -116,26 +116,35 @@
     "1659694198464fcf11": {
       "type": "rich-text",
       "blocks": {
+        "6b48b294-8352-49f3-84b6-7f6852573822": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/unnamed-file.png",
+            "label": "",
+            "width": 0
+          }
+        },
         "165969419823df36ea-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>What Results Can I Expect?<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>Great knowledge of lasers! John and Emily know their lasers well and will let you know what you need.<\/p>",
+            "heading_size": "h2"
           }
         },
         "165969419823df36ea-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>You’ll begin to notice improved texture <\/strong>to your hair, some <strong>thickening <\/strong>of existing shafts, <strong>and new hair growth around 2 weeks after treatment<\/strong>. It can, however, take <strong>3-6 months to show measurable results<\/strong>. Most patients require a series of treatments for marked improvement to thinning or receding hair.<br\/>PRP injections cannot change the genetic predisposition for hair loss, so <strong>maintenance treatments are recommended <\/strong>after your series is complete.<\/p>"
+            "text": "<p>Danim<\/p>"
           }
         }
       },
       "block_order": [
+        "6b48b294-8352-49f3-84b6-7f6852573822",
         "165969419823df36ea-0",
         "165969419823df36ea-1"
       ],
       "settings": {
-        "testimonial": false,
+        "testimonial": true,
         "animation": "fade-left",
         "desktop_content_position": "left",
         "content_alignment": "left",
