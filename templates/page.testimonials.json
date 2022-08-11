@@ -273,10 +273,10 @@
       "type": "two-column",
       "settings": {
         "justifyContent": "center",
-        "alignItems": "center",
+        "alignItems": "flex-start",
         "wrap": "nowrap",
         "wrapWidth": 500,
-        "gap": 2,
+        "gap": 10,
         "minWidth": 300,
         "width": 50,
         "maxWidth": 1680,
@@ -318,9 +318,53 @@
       ],
       "settings": {
         "testimonial": true,
-        "animation": "fade",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "animation": "fade-right",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1660233883319965b6": {
+      "type": "rich-text",
+      "blocks": {
+        "1660233883bb75e8f8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1660233883bb75e8f8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1660233883bb75e8f8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1660233883bb75e8f8-0",
+        "1660233883bb75e8f8-1",
+        "1660233883bb75e8f8-2"
+      ],
+      "settings": {
+        "testimonial": true,
+        "animation": "fade-left",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -383,6 +427,7 @@
     "16602337350ddb86b4",
     "16602337459168ba60",
     "16602337635a1ed2cc",
+    "1660233883319965b6",
     "1659694667e6cdff92",
     "1659704638aee9ef9f",
     "form",
