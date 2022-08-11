@@ -475,6 +475,95 @@
         "padding_bottom": 52
       }
     },
+    "166023422655c76f95": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 40,
+        "height": 0,
+        "max_height": 1200
+      }
+    },
+    "1660234232dd816b01": {
+      "type": "two-column",
+      "settings": {
+        "justifyContent": "center",
+        "alignItems": "flex-start",
+        "wrap": "nowrap",
+        "wrapWidth": 500,
+        "gap": 10,
+        "minWidth": 300,
+        "width": 50,
+        "maxWidth": 1680,
+        "minWidthFirstChild": 300,
+        "widthFirstChild": 50,
+        "minWidthLastChild": 300,
+        "widthLastChild": 50
+      }
+    },
+    "166023423940214c8c": {
+      "type": "rich-text",
+      "blocks": {
+        "1660234239eab02f2d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1660234239eab02f2d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1660234239eab02f2d-0",
+        "1660234239eab02f2d-1"
+      ],
+      "settings": {
+        "testimonial": true,
+        "animation": "fade-right",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16602342476e921056": {
+      "type": "rich-text",
+      "blocks": {
+        "166023424739a75210-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166023424739a75210-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166023424739a75210-0",
+        "166023424739a75210-1"
+      ],
+      "settings": {
+        "testimonial": true,
+        "animation": "fade-left",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1659694667e6cdff92": {
       "type": "membership",
       "settings": {
@@ -536,6 +625,10 @@
     "1660234073f870a945",
     "1660234080f894524c",
     "16602340908c7f1d88",
+    "166023422655c76f95",
+    "1660234232dd816b01",
+    "166023423940214c8c",
+    "16602342476e921056",
     "1659694667e6cdff92",
     "1659704638aee9ef9f",
     "form",
