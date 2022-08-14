@@ -1,11 +1,17 @@
 {% style %}
 
   #shopify-section-{{ section.id }} {
+  {% if section.settings["is--grid"] == true %}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  {% else %}
     display: flex;
     justify-content: {{ section.settings.justifyContent }};
     align-items: {{ section.settings.alignItems }};
     gap: {{ section.settings.gap }}rem;
     flex-wrap: {{ section.settings.wrap }};
+  {% endif %}
     margin: 0 auto;
     padding: 0 8% 0 8%;
   }
@@ -64,6 +70,12 @@
 {
   "name": "Two column",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "is--grid",
+      "label": "Use Grid Layout?",
+      "default": false
+    },
     {
       "type": "select",
       "id": "justifyContent",
