@@ -132,6 +132,14 @@
         "book-now": "https:\/\/booking.appointy.com\/en-US\/balancedaesthetics\/bookings\/service"
       }
     },
+    "16605128115133214c": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 40,
+        "height": 0,
+        "max_height": 1200
+      }
+    },
     "166048679467914eb9": {
       "type": "two-column",
       "settings": {
@@ -168,6 +176,14 @@
         "price__member": 2000,
         "description": "Get rid of unwanted hair on the whole body 4-6 sessions included\n$5,000 Value",
         "book-now": "https:\/\/booking.appointy.com\/en-US\/balancedaesthetics\/bookings\/service"
+      }
+    },
+    "16605128180d36a968": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 40,
+        "height": 0,
+        "max_height": 1200
       }
     },
     "1660512649d0ba1a5d": {
@@ -215,9 +231,11 @@
     "1660485689d5d37d66",
     "1660485589f37d88c1",
     "166048569540d9a235",
+    "16605128115133214c",
     "166048679467914eb9",
     "16604867399f797b68",
     "1660486787b591055d",
+    "16605128180d36a968",
     "1660512649d0ba1a5d",
     "1659694667e6cdff92",
     "form",
