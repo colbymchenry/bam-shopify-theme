@@ -96,6 +96,16 @@
         "padding_bottom": 52
       }
     },
+    "1660485589f37d88c1": {
+      "type": "highlighted-package",
+      "settings": {
+        "header": "Hair Restoration Package",
+        "price__non-member": 550,
+        "price__member": 450,
+        "description": "Photodynamic Therapy—2x\/month\nPRP\/Hair Growth Injection—1x\/month\nHair Growth Peptides Microneedling—1x\/month",
+        "book-now": "https:\/\/booking.appointy.com\/en-US\/balancedaesthetics\/bookings\/service"
+      }
+    },
     "16596943757cd95565": {
       "type": "spacer",
       "settings": {
@@ -168,6 +178,7 @@
     "1658867721db60d9c1",
     "16596941544a416177",
     "16604842449bc4f184",
+    "1660485589f37d88c1",
     "16596943757cd95565",
     "1659694180b65bf791",
     "1659704638aee9ef9f",
