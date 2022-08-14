@@ -132,23 +132,15 @@
         "book-now": "https:\/\/booking.appointy.com\/en-US\/balancedaesthetics\/bookings\/service"
       }
     },
-    "16596943757cd95565": {
-      "type": "spacer",
-      "settings": {
-        "min_height": 80,
-        "height": 0,
-        "max_height": 1200
-      }
-    },
-    "1659694180b65bf791": {
+    "166048679467914eb9": {
       "type": "two-column",
       "settings": {
         "is--grid": false,
         "justifyContent": "center",
-        "alignItems": "flex-start",
+        "alignItems": "center",
         "wrap": "nowrap",
         "wrapWidth": 500,
-        "gap": 7.5,
+        "gap": 2,
         "minWidth": 300,
         "width": 50,
         "maxWidth": 1680,
@@ -158,17 +150,24 @@
         "widthLastChild": 50
       }
     },
-    "1659704638aee9ef9f": {
-      "type": "rich-text",
+    "16604867399f797b68": {
+      "type": "highlighted-package",
       "settings": {
-        "testimonial": false,
-        "animation": "fade",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "header": "Radio Frequency Microneedling",
+        "price__non-member": 1800,
+        "price__member": 1600,
+        "description": "Five RF Microneedling treatments\nresurface and firm your skin.\nEnjoy little to no downtime\n$2,000 Value",
+        "book-now": "https:\/\/booking.appointy.com\/en-US\/balancedaesthetics\/bookings\/service"
+      }
+    },
+    "1660486787b591055d": {
+      "type": "highlighted-package",
+      "settings": {
+        "header": "Full Body Laser Hair Removal Package",
+        "price__non-member": 2300,
+        "price__member": 2000,
+        "description": "Get rid of unwanted hair on the whole body 4-6 sessions included\n$5,000 Value",
+        "book-now": "https:\/\/booking.appointy.com\/en-US\/balancedaesthetics\/bookings\/service"
       }
     },
     "1659694667e6cdff92": {
@@ -208,9 +207,9 @@
     "1660485689d5d37d66",
     "1660485589f37d88c1",
     "166048569540d9a235",
-    "16596943757cd95565",
-    "1659694180b65bf791",
-    "1659704638aee9ef9f",
+    "166048679467914eb9",
+    "16604867399f797b68",
+    "1660486787b591055d",
     "1659694667e6cdff92",
     "form",
     "main"
