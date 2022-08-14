@@ -3,8 +3,7 @@
 }
 
 .highlighted-package {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   padding: 40px 50px;
   background-color: white;
   height: 100%;
