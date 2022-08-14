@@ -4,7 +4,7 @@
   {% if section.settings["is--grid"] == true %}
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
   {% else %}
     display: flex;
     justify-content: {{ section.settings.justifyContent }};
