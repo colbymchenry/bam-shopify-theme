@@ -137,7 +137,7 @@
       "settings": {
         "is--grid": false,
         "justifyContent": "center",
-        "alignItems": "center",
+        "alignItems": "flex-start",
         "wrap": "nowrap",
         "wrapWidth": 500,
         "gap": 2,
