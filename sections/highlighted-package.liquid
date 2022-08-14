@@ -1,0 +1,64 @@
+<div class="highlighted-package">
+  <h1>{{ section.settings.header }}</h1>
+  <div class="package__prices">
+    <div>
+      <span><b>NON-MEMBER</b></span>
+      ${{ section.settings["price__non-member"] }}/month
+    </div>
+    <div>
+      <span><b>MEMBER</b></span>
+      ${{ section.settings["price__member"] }}/month
+    </div>
+    <div class="package__description">
+      {{ section.settings.description }}
+    </div>
+    <a href="{{ section.settings["book-now"] }}" target="_blank">BOOK NOW</a>
+  </div>
+</div>
+
+
+        
+
+{% schema %}
+  {
+    "name": "Highlighted Package",
+    "settings": [
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Header"
+      },
+      {
+        "type": "number",
+        "id": "price__non-member",
+        "label": "Price Non-Member"
+      },
+      {
+        "type": "number",
+        "id": "price__member",
+        "label": "Price Member"
+      },
+      {
+        "type": "textarea",
+        "id": "description",
+        "label": "Description"
+      },
+      {
+        "type": "url",
+        "id": "book-now",
+        "label": "Book Now URL"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Highlighted Package"
+      }
+    ]
+  }
+{% endschema %}
+
+<script type="text/javascript">
+function readMore(description) {
+  console.log(description);
+}
+</script>

@@ -2,6 +2,59 @@
   overflow-x: hidden;
 }
 
+.highlighted-package {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+}
+
+.highlighted-package h1 {
+  color: #6492AB;
+  font-family: "Antic Didone", Sans-serif;
+  font-size: 28px;
+  line-height: 1.42em;
+  letter-spacing: 0.2px;
+}
+
+.highlighted-package span {
+  color: #54595F;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.1px;
+}
+
+.highlighted-package .package__description {
+  text-align: left;
+  color: #54595F;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.1px;
+}
+
+.highlighted-package .package__prices {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.highlighted-package .package__prices div {
+  display: flex;
+  flex-direction: column;
+}
+
+.highlighted-package a {
+  color: #DFB67A;
+  text-decoration: underline;
+}
+
+.highlighted-package a:hover {
+  color: #DFB67A;
+  text-decoration: underline;
+}
+
 .testimonial-block .rich-text__logo {
   position: absolute;
   margin-left: -8rem;
