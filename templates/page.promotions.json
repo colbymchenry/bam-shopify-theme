@@ -170,6 +170,14 @@
         "book-now": "https:\/\/booking.appointy.com\/en-US\/balancedaesthetics\/bookings\/service"
       }
     },
+    "1660512649d0ba1a5d": {
+      "type": "highlighted-package",
+      "settings": {
+        "header": "Botox® & Brunch Party",
+        "description": "Interested in throwing a Botox® & Brunch party? We’d love to host! Enjoy discounted rates, food and beverages, special promotions, and so much more. Perfect for birthday celebrations, bridal showers, spa day parties, staff appreciation parties, or just as an excuse to get together with your friends for a day packed full of beauty and fun! Contact Richelle today at info@balancedaestheticsmedspa.com or call (470) 226-2390 to schedule your party!",
+        "book-now": "https:\/\/balancedaestheticsmedspa.com\/pricing-and-memberships\/promotions\/#"
+      }
+    },
     "1659694667e6cdff92": {
       "type": "membership",
       "settings": {
@@ -210,6 +218,7 @@
     "166048679467914eb9",
     "16604867399f797b68",
     "1660486787b591055d",
+    "1660512649d0ba1a5d",
     "1659694667e6cdff92",
     "form",
     "main"
