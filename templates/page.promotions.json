@@ -135,7 +135,7 @@
     "166048679467914eb9": {
       "type": "two-column",
       "settings": {
-        "is--grid": false,
+        "is--grid": true,
         "justifyContent": "center",
         "alignItems": "flex-start",
         "wrap": "nowrap",
