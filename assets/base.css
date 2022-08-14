@@ -7,6 +7,8 @@
   flex-direction: column;
   padding: 40px 50px;
   background-color: white;
+  height: 100%;
+  margin: 20px;
 }
 
 .highlighted-package h1 {
