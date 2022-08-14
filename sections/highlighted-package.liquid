@@ -1,15 +1,21 @@
 <div class="highlighted-package">
   <h1>{{ section.settings.header }}</h1>
+  {% if section.settings["price__non-member"] != blank or section.settings["price__member"] != blank %}
   <div class="package__prices">
+    {% if section.settings["price__non-member"] != blank %}
     <div>
       <span><b>NON-MEMBER</b></span>
       ${{ section.settings["price__non-member"] }}/month
     </div>
+    {% endif %}
+    {% if section.settings["price__member"] != blank %}
     <div>
       <span><b>MEMBER</b></span>
       ${{ section.settings["price__member"] }}/month
     </div>
+    {% endif %}
   </div>
+  {% endif %}
 
   <div class="package__description">
     {{ section.settings.description }}
