@@ -55,6 +55,67 @@
         "max_height": 1200
       }
     },
+    "16604842449bc4f184": {
+      "type": "rich-text",
+      "blocks": {
+        "72bc7c3d-c27d-47a7-9e54-8539f5012da6": {
+          "type": "logo",
+          "settings": {
+            "label": "",
+            "width": 0
+          }
+        },
+        "16598dc8-31b9-4f88-b625-674b78da11ea": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "1660484244351214b1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1660484244351214b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1660484244351214b1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "72bc7c3d-c27d-47a7-9e54-8539f5012da6",
+        "16598dc8-31b9-4f88-b625-674b78da11ea",
+        "1660484244351214b1-0",
+        "1660484244351214b1-1",
+        "1660484244351214b1-2"
+      ],
+      "settings": {
+        "testimonial": false,
+        "animation": "fade",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "165886873165e4dfff": {
       "type": "video-with-text",
       "settings": {
@@ -114,6 +175,7 @@
         "1659694191c377ea67-1"
       ],
       "settings": {
+        "testimonial": false,
         "animation": "fade-right",
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -145,6 +207,7 @@
         "165969419823df36ea-1"
       ],
       "settings": {
+        "testimonial": false,
         "animation": "fade-left",
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -203,6 +266,7 @@
         "16597046388d00641c-1"
       ],
       "settings": {
+        "testimonial": false,
         "animation": "fade",
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -245,6 +309,7 @@
   "order": [
     "1658867721db60d9c1",
     "16596941544a416177",
+    "16604842449bc4f184",
     "165886873165e4dfff",
     "16596943757cd95565",
     "1659694180b65bf791",
