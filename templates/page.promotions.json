@@ -99,6 +99,7 @@
     "1660485689d5d37d66": {
       "type": "two-column",
       "settings": {
+        "is--grid": true,
         "justifyContent": "center",
         "alignItems": "flex-start",
         "wrap": "nowrap",
@@ -142,6 +143,7 @@
     "1659694180b65bf791": {
       "type": "two-column",
       "settings": {
+        "is--grid": false,
         "justifyContent": "center",
         "alignItems": "flex-start",
         "wrap": "nowrap",
