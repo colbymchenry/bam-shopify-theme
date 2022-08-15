@@ -18,6 +18,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  align-self: center;
 }
 
 .membership-pricing .pricing__header > span {
@@ -26,8 +27,8 @@
 }
 
 .membership-pricing .pricing__header span {
-  flex: 1;
   color: #94B8C6;
+  margin: 8px;
 }
 
 .membership-pricing .pricing__header span:hover {
