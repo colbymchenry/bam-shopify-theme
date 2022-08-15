@@ -10,11 +10,19 @@
 
 .membership-pricing .pricing__header {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pricing__header .header__selections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 .membership-pricing .pricing__header span:first-of-type {
-  flex-grow: 1 !important;
+  flex-basis: 100%;
+  text-align: center;
 }
 
 .membership-pricing .pricing__header span {
