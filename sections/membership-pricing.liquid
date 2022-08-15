@@ -12,21 +12,38 @@
   <div class="pricing__header">
     <span>SELECT A SERVICE BELOW TO VIEW PRICING</span>
     <div class="header__selections">
-      <span>AESTHETIC SERVICES</span>
-      <span>ADD-ON SERVICES</span>
-      <span>FILLERS & NEUROTOXINS</span>
-      <span>PACKAGES</span>
-      <span>WELLNESS SERVICES</span>
+      <span onclick="showPackages('aesthetic-services');">AESTHETIC SERVICES</span>
+      <span onclick="showPackages('add-ons');">ADD-ON SERVICES</span>
+      <span onclick="showPackages('fillers-and-neurotoxins');">FILLERS & NEUROTOXINS</span>
+      <span onclick="showPackages('packages');">PACKAGES</span>
+      <span onclick="showPackages('wellness-services');">WELLNESS SERVICES</span>
     </div>
   </div>
 
   <div class="pricing__body" data-category="aesthetic-services">
+  </div>
+  <div class="pricing__body" data-category="add-ons">
+  </div>
+  <div class="pricing__body" data-category="fillers-and-neurotoxins">
+  </div>
+  <div class="pricing__body" data-category="packages">
+  <div class="pricing__body" data-category="wellness-services">
   </div>
 </div>
 
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", () => {
     const services = JSON.parse({{ section.settings.prices | json }});
+
+    function showPackages(category) {
+      const filtered__services = services.filter((service) => service["category"] === category);
+      // hide divs
+      Array.from(document.getElementsByClassName("pricing__body")).forEach((div) => div.style.display = "none");
+      // show selected category
+      const category__div = document.querySelector(`.pricing__body[data-category=${category}]`);
+      console.log(category__div);
+    }
+
     console.log(services);
   }, false);
 </script>

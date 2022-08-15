@@ -40,6 +40,10 @@
   color: #54595f;
 }
 
+.membership-pricing .pricing__body {
+  display: none;
+}
+
 .slideshow__media.banner__media.media {
   background: none !important;
 }
