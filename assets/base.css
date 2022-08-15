@@ -50,6 +50,12 @@
   row-gap: 20px;
 }
 
+@media screen and (max-width: 750px) {
+  .membership-pricing .pricing__body {
+    grid-template-columns: 1fr;
+  }
+}
+
 .pricing__body .accordion {
   align-self: flex-start;
 }
