@@ -242,8 +242,8 @@
             "name": "BAM SIGNATURE FACIAL",
             "description": "Members enjoy a complimentary BAM Signature facial once a month!",
             "category": "aesthetic-services",
-            "price__normal": 125,
-            "price__member": 0
+            "price__normal": "125",
+            "price__member": "0"
           }
         },
         "4eb20b2d-0219-44ba-84a2-7da88c56026f": {
@@ -252,8 +252,8 @@
             "name": "HYDRAFACIAL®",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 250,
-            "price__member": 200
+            "price__normal": "250",
+            "price__member": "200"
           }
         },
         "09dac598-1255-4c42-9e59-2c0e9cbefc81": {
@@ -262,8 +262,8 @@
             "name": "HYDRASERUM MICRONEEDLING",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 1000,
-            "price__member": 800
+            "price__normal": "1000",
+            "price__member": "800"
           }
         },
         "fb63d9f8-c98d-4fd7-9e93-701cc170a3db": {
@@ -272,8 +272,8 @@
             "name": "PERFECTION PEEL",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 150,
-            "price__member": 100
+            "price__normal": "150",
+            "price__member": "100"
           }
         },
         "d70e8891-6d97-4fc5-8d34-70652aec05b4": {
@@ -282,8 +282,8 @@
             "name": "O2 “LUNCHTIME PEEL”",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 130,
-            "price__member": 85
+            "price__normal": "130",
+            "price__member": "85"
           }
         },
         "79f3d8f7-11b5-42e0-a9be-e70593f3bdb7": {
@@ -292,8 +292,8 @@
             "name": "BHA PEEL",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 175,
-            "price__member": 125
+            "price__normal": "175",
+            "price__member": "125"
           }
         },
         "2e302fd9-0307-461d-ba07-a98e67cd6a67": {
@@ -302,8 +302,8 @@
             "name": "RADIO FREQUENCY MICRONEEDLING",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 400,
-            "price__member": 325
+            "price__normal": "400",
+            "price__member": "325"
           }
         },
         "ce9d2814-c9ef-484f-9756-9c4735345deb": {
@@ -312,8 +312,8 @@
             "name": "REGENERATIVE MICRONEEDLING",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 1000,
-            "price__member": 800
+            "price__normal": "1000",
+            "price__member": "800"
           }
         },
         "01684eb5-463b-40d2-b715-8527dde349bd": {
@@ -322,8 +322,8 @@
             "name": "MINI IPL FACIAL (30 MIN.)",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 150,
-            "price__member": 120
+            "price__normal": "150",
+            "price__member": "120"
           }
         },
         "fbc6731e-cb4e-4497-ae32-993f2fbbfb77": {
@@ -332,8 +332,8 @@
             "name": "IPL FACIAL",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 450,
-            "price__member": 300
+            "price__normal": "450",
+            "price__member": "300"
           }
         },
         "e0a56ca9-bc73-4f38-9792-026ed658ce28": {
@@ -342,8 +342,8 @@
             "name": "LASER GENESIS TREATMENT",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 350,
-            "price__member": 250
+            "price__normal": "350",
+            "price__member": "250"
           }
         },
         "7cbe284a-31a6-4eb4-98f8-920ce5fb720c": {
@@ -352,8 +352,8 @@
             "name": "CO2 FRACTIONAL LASER RESURFACING & LIFTING",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 1000,
-            "price__member": 800
+            "price__normal": "1000",
+            "price__member": "800"
           }
         },
         "ba6c4e33-bbea-42d3-b7da-413b45c56d8f": {
@@ -362,8 +362,8 @@
             "name": "CO2 FRACTIONAL LASER RESURFACING + RF MICRONEEDLING COMBO",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 1400,
-            "price__member": 1200
+            "price__normal": "1400",
+            "price__member": "1200"
           }
         },
         "db69f2e3-bac6-42c0-bbdb-b70b7dbaa1b8": {
@@ -372,8 +372,8 @@
             "name": "PDT (PHOTODYNAMIC) THERAPY",
             "description": "Add on to other service for $50 for members",
             "category": "aesthetic-services",
-            "price__normal": 125,
-            "price__member": 75
+            "price__normal": "125",
+            "price__member": "75"
           }
         },
         "47f439a3-cc93-4597-9ab6-e8990b045f10": {
@@ -382,8 +382,8 @@
             "name": "VASCULAR REPAIR LASER TREATMENT",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 250,
-            "price__member": 195
+            "price__normal": "250",
+            "price__member": "195"
           }
         },
         "058fdaf3-0a31-4f89-a156-c163f281a9c9": {
@@ -408,8 +408,8 @@
             "name": "RENASCULPT MUSCLE TONING SESSION",
             "description": "Suggested 4 sessions\/month",
             "category": "aesthetic-services",
-            "price__normal": 250,
-            "price__member": 150
+            "price__normal": "250",
+            "price__member": "150"
           }
         },
         "72f120c8-9e5b-47ed-9927-44f6359b55bc": {
@@ -418,8 +418,8 @@
             "name": "SHOCKWAVE SOFT TISSUE TREATMENT",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 350,
-            "price__member": 250
+            "price__normal": "350",
+            "price__member": "250"
           }
         },
         "ace74aa5-3c6a-4faa-9e0d-c1f1461ba16f": {
@@ -428,8 +428,8 @@
             "name": "LASER FINGERNAIL FUNGUS REMOVAL",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 350,
-            "price__member": 250
+            "price__normal": "350",
+            "price__member": "250"
           }
         },
         "a9e1b1ed-cd3b-42ad-9b55-68e170fc2d9e": {
@@ -438,8 +438,8 @@
             "name": "LASER TOENAIL FUNGUS REMOVAL",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 400,
-            "price__member": 300
+            "price__normal": "400",
+            "price__member": "300"
           }
         },
         "f86ec2a4-e682-4243-92be-24bea6bab47e": {
@@ -448,8 +448,8 @@
             "name": "PRP HAIR REGROWTH TREATMENT",
             "description": "",
             "category": "aesthetic-services",
-            "price__normal": 850,
-            "price__member": 600
+            "price__normal": "850",
+            "price__member": "600"
           }
         },
         "5f52e507-336b-40c2-83ca-ba7f8567f8e7": {
