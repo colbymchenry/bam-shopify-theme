@@ -60,6 +60,11 @@
   .membership-pricing .pricing__body {
     grid-template-columns: 1fr;
   }
+
+  .pricing__header .header__selections {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 }
 
 .pricing__body .accordion {
