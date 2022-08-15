@@ -20,14 +20,16 @@
     </div>
   </div>
 
-  {% assign services = section.settings.prices | json %}
-  <span>{{ services[0]["name"] }}</span>
   <div class="pricing__body" data-category="aesthetic-services">
-    {% for service in services %}
-    <p>{{ service["name"] }}</p>
-    {% endfor %}
   </div>
 </div>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", () => {
+    const services = {{ section.settings.prices | json }};
+    console.log(services);
+  }, false);
+</script>
 
 {% schema %}
 {
