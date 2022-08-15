@@ -32,20 +32,18 @@
 </div>
 
 <script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", () => {
-    const services = JSON.parse({{ section.settings.prices | json }});
 
-    function showPackages(category) {
-      const filtered__services = services.filter((service) => service["category"] === category);
-      // hide divs
-      Array.from(document.getElementsByClassName("pricing__body")).forEach((div) => div.style.display = "none");
-      // show selected category
-      const category__div = document.querySelector(`.pricing__body[data-category=${category}]`);
-      console.log(category__div);
-    }
+  const services = JSON.parse({{ section.settings.prices | json }});
 
-    console.log(services);
-  }, false);
+  function showPackages(category) {
+    const filtered__services = services.filter((service) => service["category"] === category);
+    // hide divs
+    Array.from(document.getElementsByClassName("pricing__body")).forEach((div) => div.style.display = "none");
+    // show selected category
+    const category__div = document.querySelector(`.pricing__body[data-category=${category}]`);
+    console.log(category__div);
+  }
+
 </script>
 
 {% schema %}
