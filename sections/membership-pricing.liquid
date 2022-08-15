@@ -19,6 +19,13 @@
       <span>WELLNESS SERVICES</span>
     </div>
   </div>
+
+  {% assign services = section.settings.prices | json %}
+  <div class="pricing__body" data-category="aesthetic-services">
+    {% for service in services %}
+    <p>{{ service["name"] }}</p>
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}

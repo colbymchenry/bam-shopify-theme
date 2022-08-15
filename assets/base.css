@@ -32,7 +32,11 @@
   margin: 8px;
 }
 
-.membership-pricing .pricing__header span:hover {
+.membership-pricing .header__selections span {
+  cursor: pointer;
+}
+
+.membership-pricing .header__selections span:hover {
   color: #54595f;
 }
 
