@@ -44,6 +44,30 @@
     console.log(category__div);
   }
 
+  document.addEventListener("DOMContentLoaded", () => {
+    // setup divs from JSON data in schema
+    Array.from(document.getElementsByClassName("pricing__body")).forEach((pricing__body) => {
+      const category = pricing__body.dataset["category"];
+      const filtered__services = services.filter((service) => service["category"] === category);
+
+      filtered__services.forEach((service) => {
+        pricing__body.insertAdjacentElement("afterbegin", `
+        <div class="accordion" onclick="triggerAccordion(event);">
+          <div class="question">
+            <h5>${service["name"]}</h5>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="answer">
+            ${service["description"] ? `<p class="description">${service["description"]}</p>` : ``}
+            ${service["normal"] ? `<p class="normal">${service["normal"]}</p>` : ``}
+            ${service["member"] ? `<p class="member">${service["member"]}</p>` : ``}
+          </div>
+        </div>
+      `)
+      });
+    });
+
+  }, false);
 </script>
 
 {% schema %}
