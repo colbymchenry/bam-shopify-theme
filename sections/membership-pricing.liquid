@@ -21,6 +21,7 @@
   </div>
 
   {% assign services = section.settings.prices | json %}
+  <span>{{ services[0]["name"] }}</span>
   <div class="pricing__body" data-category="aesthetic-services">
     {% for service in services %}
     <p>{{ service["name"] }}</p>
