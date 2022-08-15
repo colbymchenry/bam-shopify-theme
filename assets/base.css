@@ -45,6 +45,7 @@
 
 .header__selections.active {
   color: #54595f !important;
+  font-weight: bold;
 }
 
 .membership-pricing .pricing__body {
