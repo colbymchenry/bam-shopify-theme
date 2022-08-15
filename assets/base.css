@@ -2,6 +2,10 @@
   overflow-x: hidden;
 }
 
+.slideshow__media.banner__media.media {
+  background: none !important;
+}
+
 .highlighted-package {
   display: grid;
   padding: 40px 50px;
