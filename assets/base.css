@@ -41,6 +41,7 @@
 
 .membership-pricing .header__selections span:hover {
   color: #54595f;
+  font-weight: bold;
 }
 
 .header__selections .active {

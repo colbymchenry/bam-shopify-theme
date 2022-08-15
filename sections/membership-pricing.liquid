@@ -9,55 +9,55 @@
 {%- endstyle -%}
 
 <div class="membership-pricing">
-  <div class="pricing__header">
-    <span>SELECT A SERVICE BELOW TO VIEW PRICING</span>
-    <div class="header__selections">
-      <span onclick="showPackages(event);" data-category="aesthetic-services">AESTHETIC SERVICES</span>
-      <span onclick="showPackages(event);" data-category="add-ons">ADD-ON SERVICES</span>
-      <span onclick="showPackages(event);" data-category="fillers-and-neurotoxins">FILLERS & NEUROTOXINS</span>
-      <span onclick="showPackages(event);" data-category="packages">PACKAGES</span>
-      <span onclick="showPackages(event);" data-category="wellness-services">WELLNESS SERVICES</span>
+    <div class="pricing__header">
+        <span>SELECT A SERVICE BELOW TO VIEW PRICING</span>
+        <div class="header__selections">
+            <span onclick="showPackages(event);" data-category="aesthetic-services">AESTHETIC SERVICES</span>
+            <span onclick="showPackages(event);" data-category="add-ons">ADD-ON SERVICES</span>
+            <span onclick="showPackages(event);" data-category="fillers-and-neurotoxins">FILLERS & NEUROTOXINS</span>
+            <span onclick="showPackages(event);" data-category="packages">PACKAGES</span>
+            <span onclick="showPackages(event);" data-category="wellness-services">WELLNESS SERVICES</span>
+        </div>
     </div>
-  </div>
 
-  <div class="pricing__body accordion__container" data-category="aesthetic-services">
-  </div>
-  <div class="pricing__body accordion__container" data-category="add-ons">
-  </div>
-  <div class="pricing__body accordion__container" data-category="fillers-and-neurotoxins">
-  </div>
-  <div class="pricing__body accordion__container" data-category="packages">
-  <div class="pricing__body accordion__container" data-category="wellness-services">
-  </div>
+    <div class="pricing__body accordion__container" data-category="aesthetic-services">
+    </div>
+    <div class="pricing__body accordion__container" data-category="add-ons">
+    </div>
+    <div class="pricing__body accordion__container" data-category="fillers-and-neurotoxins">
+    </div>
+    <div class="pricing__body accordion__container" data-category="packages"></div>
+    <div class="pricing__body accordion__container" data-category="wellness-services">
+    </div>
 </div>
 
 <script type="text/javascript">
 
-  const services = JSON.parse({{ section.settings.prices | json }});
+    const services = JSON.parse({{ section.settings.prices | json }});
 
-  function showPackages(e) {
-    const category = e.target.dataset["category"];
+    function showPackages(e) {
+        const category = e.target.dataset["category"];
 
-    const filtered__services = services.filter((service) => service["category"] === category);
+        const filtered__services = services.filter((service) => service["category"] === category);
 
-    // unselect selection
-    Array.from(document.querySelector(".pricing__header .header__selections").getElementsByTagName("SPAN")).forEach((span) => span.classList.remove("active"));
-    e.target.classList.add("active")
-    // hide divs
-    Array.from(document.getElementsByClassName("pricing__body")).forEach((div) => div.style.display = "none");
-    // show selected category
-    const category__div = document.querySelector(`.pricing__body[data-category=${category}]`);
-    category__div.style.display = "grid";
-  }
+        // unselect selection
+        Array.from(document.querySelector(".pricing__header .header__selections").getElementsByTagName("SPAN")).forEach((span) => span.classList.remove("active"));
+        e.target.classList.add("active")
+        // hide divs
+        Array.from(document.getElementsByClassName("pricing__body")).forEach((div) => div.style.display = "none");
+        // show selected category
+        const category__div = document.querySelector(`.pricing__body[data-category=${category}]`);
+        category__div.style.display = "grid";
+    }
 
-  document.addEventListener("DOMContentLoaded", () => {
-    // setup divs from JSON data in schema
-    Array.from(document.getElementsByClassName("pricing__body")).forEach((pricing__body) => {
-      const category = pricing__body.dataset["category"];
-      const filtered__services = services.filter((service) => service["category"] === category);
+    document.addEventListener("DOMContentLoaded", () => {
+        // setup divs from JSON data in schema
+        Array.from(document.getElementsByClassName("pricing__body")).forEach((pricing__body) => {
+            const category = pricing__body.dataset["category"];
+            const filtered__services = services.filter((service) => service["category"] === category);
 
-      filtered__services.forEach((service) => {
-        pricing__body.innerHTML = pricing__body.innerHTML + `
+            filtered__services.forEach((service) => {
+                pricing__body.innerHTML = pricing__body.innerHTML + `
         <div class="accordion" onclick="triggerAccordion(event);">
           <div class="question">
             <h5>${service["name"]}</h5>
@@ -70,10 +70,10 @@
           </div>
         </div>
       `
-      });
-    });
+            });
+        });
 
-  }, false);
+    }, false);
 </script>
 
 {% schema %}
