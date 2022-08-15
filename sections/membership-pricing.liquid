@@ -1,0 +1,91 @@
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- style -%}
+
+{%- endstyle -%}
+
+<div class="membership-pricing">
+  <div class="pricing__header">
+    <span>SELECT A SERVICE BELOW TO VIEW PRICING</span>
+    <span>AESTHETIC SERVICES</span>
+    <span>ADD-ON SERVICES</span>
+    <span>FILLERS & NEUROTOXINS</span>
+    <span>PACKAGES</span>
+    <span>WELLNESS SERVICES</span>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.rich-text.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+  ],
+  "blocks": [
+    {
+      "type": "service",
+      "name": "Service",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "select",
+          "id": "category",
+          "options": [
+            {
+              "value": "aesthetic-services",
+              "label": "Aesthetic Services"
+            },
+            {
+              "value": "fillers-and-neurotoxins",
+              "label": "Fillers and Neurotoxins"
+            },
+            {
+              "value": "wellness-services",
+              "label": "Wellness Services"
+            },
+            {
+              "value": "add-on-services",
+              "label": "Add-On Services"
+            },
+            {
+              "value": "packages",
+              "label": "Packages"
+            }
+          ],
+          "default": "aesthetic-services",
+          "label": "Category"
+        },
+        {
+          "type": "number",
+          "id": "price__normal",
+          "label": "Normal Price ($)"
+        },
+        {
+          "type": "number",
+          "id": "price__member",
+          "label": "Member Price ($)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Membership Pricing"
+    }
+  ]
+}
+{% endschema %}

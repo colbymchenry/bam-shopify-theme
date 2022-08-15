@@ -2,6 +2,30 @@
   overflow-x: hidden;
 }
 
+.membership-pricing {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+
+.membership-pricing .pricing__header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.membership-pricing .pricing__header span:first-of-type {
+  flex-grow: 1 !important;
+}
+
+.membership-pricing .pricing__header span {
+  flex: 1;
+  color: #94B8C6;
+}
+
+.membership-pricing .pricing__header span:hover {
+  color: #54595f;
+}
+
 .slideshow__media.banner__media.media {
   background: none !important;
 }
