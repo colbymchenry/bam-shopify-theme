@@ -36,6 +36,7 @@
 
 .membership-pricing .header__selections span {
   cursor: pointer;
+  text-align: center;
 }
 
 .membership-pricing .header__selections span:hover {
