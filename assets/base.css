@@ -41,6 +41,10 @@
   color: #54595f;
 }
 
+.header__selections.active {
+  color: #54595f !important;
+}
+
 .membership-pricing .pricing__body {
   display: none;
   grid-template-columns: 1fr 1fr;

@@ -12,11 +12,11 @@
   <div class="pricing__header">
     <span>SELECT A SERVICE BELOW TO VIEW PRICING</span>
     <div class="header__selections">
-      <span onclick="showPackages('aesthetic-services');">AESTHETIC SERVICES</span>
-      <span onclick="showPackages('add-ons');">ADD-ON SERVICES</span>
-      <span onclick="showPackages('fillers-and-neurotoxins');">FILLERS & NEUROTOXINS</span>
-      <span onclick="showPackages('packages');">PACKAGES</span>
-      <span onclick="showPackages('wellness-services');">WELLNESS SERVICES</span>
+      <span onclick="showPackages(event);" data-category="aesthetic-services">AESTHETIC SERVICES</span>
+      <span onclick="showPackages(event);" data-category="add-ons">ADD-ON SERVICES</span>
+      <span onclick="showPackages(event);" data-category="fillers-and-neurotoxins">FILLERS & NEUROTOXINS</span>
+      <span onclick="showPackages(event);" data-category="packages">PACKAGES</span>
+      <span onclick="showPackages(event);" data-category="wellness-services">WELLNESS SERVICES</span>
     </div>
   </div>
 
@@ -35,8 +35,14 @@
 
   const services = JSON.parse({{ section.settings.prices | json }});
 
-  function showPackages(category) {
+  function showPackages(e) {
+    const category = e.target.dataset["category"];
+
     const filtered__services = services.filter((service) => service["category"] === category);
+
+    // unselect selection
+    Array.from(document.querySelector(".pricing__header .header__selections").getElementsByTagName("SPAN")).forEach((span) => span.classList.remove("active"));
+    e.target.classList.add("active")
     // hide divs
     Array.from(document.getElementsByClassName("pricing__body")).forEach((div) => div.style.display = "none");
     // show selected category
