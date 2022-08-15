@@ -50,12 +50,19 @@
 }
 
 .pricing__body .description {
-  color: #6492ab;
+  color: #6492ab !important;
 }
 
 .pricing__body .member {
-  color: #DFB67A;
+  color: #DFB67A !important;
   font-weight: bold;
+}
+
+.pricing__body .member,.pricing__body .normal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .slideshow__media.banner__media.media {
