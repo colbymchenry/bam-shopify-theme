@@ -54,6 +54,10 @@
   align-self: flex-start;
 }
 
+.pricing__body .accordion .answer {
+  margin-top: 2rem;
+}
+
 .pricing__body .description {
   color: #6492ab !important;
 }
