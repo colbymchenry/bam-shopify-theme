@@ -49,6 +49,15 @@
   row-gap: 20px;
 }
 
+.pricing__body .description {
+  color: #6492ab;
+}
+
+.pricing__body .member {
+  color: #DFB67A;
+  font-weight: bold;
+}
+
 .slideshow__media.banner__media.media {
   background: none !important;
 }
