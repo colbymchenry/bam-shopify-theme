@@ -89,27 +89,17 @@
         "padding_bottom": 36
       }
     },
-    "1659694180b65bf791": {
-      "type": "two-column",
-      "settings": {
-        "is--grid": false,
-        "justifyContent": "center",
-        "alignItems": "flex-start",
-        "wrap": "nowrap",
-        "wrapWidth": 500,
-        "gap": 7.5,
-        "minWidth": 300,
-        "width": 50,
-        "maxWidth": 1680,
-        "minWidthFirstChild": 300,
-        "widthFirstChild": 50,
-        "minWidthLastChild": 300,
-        "widthLastChild": 50
-      }
-    },
     "1659694191623768de": {
       "type": "rich-text",
       "blocks": {
+        "a6068e8d-5219-4261-b828-3b58b73baa91": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
+            "label": "START YOUR HEALTH AND WELLNESS JOURNEY",
+            "width": 0
+          }
+        },
         "1659694191c377ea67-0": {
           "type": "heading",
           "settings": {
@@ -125,44 +115,13 @@
         }
       },
       "block_order": [
+        "a6068e8d-5219-4261-b828-3b58b73baa91",
         "1659694191c377ea67-0",
         "1659694191c377ea67-1"
       ],
       "settings": {
         "testimonial": false,
         "animation": "fade-right",
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "1659694198464fcf11": {
-      "type": "rich-text",
-      "blocks": {
-        "165969419823df36ea-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>What Results Can I Expect?<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "165969419823df36ea-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Your IPL facial results will show <strong>noticeable improvement around 1 week <\/strong>after treatment. With a <strong>series of IPL facials <\/strong>to build on the renewal of previous sessions, the <strong>youthful, smooth glow of your skin will peak around 3-6 months<\/strong>. Your skin’s sun damage, age spots, and other hyperpigmentation concerns will fade, and your fine lines and wrinkles, acne or scarring, and other irregularities will smooth away. You’ll have a clear, radiant complexion that can defy your age.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "165969419823df36ea-0",
-        "165969419823df36ea-1"
-      ],
-      "settings": {
-        "testimonial": false,
-        "animation": "fade-left",
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
@@ -242,9 +201,7 @@
     "165886873165e4dfff",
     "16596943757cd95565",
     "166052319660b0ff47",
-    "1659694180b65bf791",
     "1659694191623768de",
-    "1659694198464fcf11",
     "165969439736fc51d2",
     "1659694667e6cdff92",
     "form",
