@@ -233,6 +233,19 @@
         "max_height": 1200
       }
     },
+    "166056920213f0536b": {
+      "type": "membership-pricing",
+      "settings": {
+      }
+    },
+    "16605692167d31e02d": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 120,
+        "height": 0,
+        "max_height": 1200
+      }
+    },
     "1659694667e6cdff92": {
       "type": "membership",
       "settings": {
@@ -276,6 +289,8 @@
     "16605655354689b22f",
     "166056524784326fe0",
     "1660565522978319dd",
+    "166056920213f0536b",
+    "16605692167d31e02d",
     "1659694667e6cdff92",
     "form",
     "main"
