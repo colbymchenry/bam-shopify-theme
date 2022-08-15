@@ -165,35 +165,6 @@
         "background_color": "#e5f8ff"
       }
     },
-    "1659694667e6cdff92": {
-      "type": "membership",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2022-07-02_114435.png",
-        "heading": "SKILLED, CARING PROFESSIONALS",
-        "title": "BAMFAM Membership",
-        "body": "<p>For only $100 per month, start your membership today and begin enjoying all of the benefits of becoming part of the BAMFAM! Receive monthly, complimentary BAM Signature Facial treatments, discounts on retail products, and more.<\/p>",
-        "signup_url": "\/bamfam-membership-sign-up\/"
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Contact Us",
-        "message": "<p>Call us at <a href=\"tel:4702262390\">(470) 226-2390<\/a>for a free consultation with our team.<\/p>",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "166056524784326fe0": {
       "type": "slideshow",
       "blocks": {
@@ -229,6 +200,35 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "1659694667e6cdff92": {
+      "type": "membership",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2022-07-02_114435.png",
+        "heading": "SKILLED, CARING PROFESSIONALS",
+        "title": "BAMFAM Membership",
+        "body": "<p>For only $100 per month, start your membership today and begin enjoying all of the benefits of becoming part of the BAMFAM! Receive monthly, complimentary BAM Signature Facial treatments, discounts on retail products, and more.<\/p>",
+        "signup_url": "\/bamfam-membership-sign-up\/"
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact Us",
+        "message": "<p>Call us at <a href=\"tel:4702262390\">(470) 226-2390<\/a>for a free consultation with our team.<\/p>",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -239,9 +239,9 @@
     "166052319660b0ff47",
     "1659694191623768de",
     "165969439736fc51d2",
+    "166056524784326fe0",
     "1659694667e6cdff92",
     "form",
-    "main",
-    "166056524784326fe0"
+    "main"
   ]
 }
