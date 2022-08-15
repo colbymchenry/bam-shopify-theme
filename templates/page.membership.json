@@ -103,14 +103,14 @@
         "1659694191c377ea67-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Am I a Good Candidate?<\/p>",
+            "heading": "<p>Membership Benefits & Pricing<\/p>",
             "heading_size": "h1"
           }
         },
         "1659694191c377ea67-1": {
           "type": "text",
           "settings": {
-            "text": "<p>IPL works well on patients with Fitzpatrick skin types I through III. Because IPL targets skin’s pigment, patients with deep tans or darker tones may have better results with different skin rejuvenation treatments.<\/p><p><\/p><p><strong>A consultation with Balanced Aesthetics will help you determine if you’re an ideal candidate <\/strong>for IPL facial treatment. You should disclose medical history such as skin cancer, keloid formation, open lesions, pregnancy, and current medications (including topical) at this time.<\/p>"
+            "text": "<p>For $100 a month, your BAMFAM membership gives you access to some of the best Aesthetics and Wellness treatments anywhere. The wide selection of treatments means there’s value for anyone in becoming part of the BAM fam!<\/p>"
           }
         }
       },
@@ -121,9 +121,9 @@
       ],
       "settings": {
         "testimonial": false,
-        "animation": "fade-right",
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "animation": "fade-up",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -136,22 +136,22 @@
         "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
           "type": "question",
           "settings": {
-            "question": "How Does an IPL Facial Work?",
-            "answer": "<p>IPL stands for Intense Pulsed Light, a <strong>multi-wavelength light therapy<\/strong> treatment that goes deep into the dermis to <strong>revitalize your skin’s condition at the cellular level<\/strong>. Because IPL light therapy reaches deeper into the tissues, the topmost layer of skin remains unharmed, significantly lowering the risk of side effects. Pigment in your cells absorbs the light, which is converted to heat, effectively resetting the clock on your skin’s cells.<\/p><p><\/p><p>IPL benefits include:<\/p><p><strong>• <\/strong>Reducing even the most stubborn sun spots and dark spots<\/p><p><strong>• <\/strong>Repairing visible blood vessels<\/p><p><strong>• <\/strong>Improving pigmentation irregularities from minor to severe<\/p><p><strong>• <\/strong>Combating acne and blemish issues such as blackheads, whiteheads, papules, pustules, nodules, cysts, sebum, bacteria, hormonal irritations, dead skin cells, and ingrown hairs<\/p><p><strong>• <\/strong>Diminishing the appearance of scars<\/p><p><strong>• <\/strong>Proven treatment of rosacea (along with other skin redness)<\/p><p><strong>• <\/strong>Stimulating collagen growth<\/p><p><strong>• <\/strong>Improving skin texture<\/p><p><strong>• <\/strong>May be combined with <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/peels\/\">Peels<\/a>, <a href=\"https:\/\/balancedaestheticsmedspa.com\/aesthetic-treatments\/face\/hydrafacial\/\">HydraFacial®<\/a>, and other superficial treatments of the epidermis. This is because IPL targets deeper layers of the skin; therefore, the superficial layers can be worked on simultaneously or back-to-back.<\/p>"
+            "question": "MEMBERSHIP TIER 1",
+            "answer": "<p>for $100 a month we include Weekly B12, Monthly BAM Facial, Discounts on Services and Products (10%-40% off)<\/p>"
           }
         },
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
           "type": "question",
           "settings": {
-            "question": "What is an IPL Facial Treatment Like?",
-            "answer": "<p>After a thorough cleansing, your skin is prepped for IPL light therapy to focus the wavelengths as they penetrate your skin. You’ll be given eye protection for safety. <strong>The treatment itself may cause a slight stinging sensation<\/strong>, but it is not significantly uncomfortable. Your treatment should last <strong>30 minutes <\/strong>depending on the size of your treatment area.<\/p><p><\/p><p>The number of required treatments varies from patient to patient based on unique skin composition and aesthetic goals. <strong>The majority of patients see results after their first treatment<\/strong>. Continued and consistent monthly treatments are suggested to obtain and maintain optimal results. A customized treatment plan will be determined after your first service with us.<\/p>"
+            "question": "MEMBERSHIP TIER 2",
+            "answer": "<p>for $200 a month which includes all of the above INCLUDING 2 TRT Prescription and Supplies, Bloodwork (3x a year), Concierge MD, Monthly Sexual Wellness Regimen<\/p>"
           }
         },
         "92844a58-69cb-4e9f-b978-31606bc7bfbb": {
           "type": "question",
           "settings": {
-            "question": "Is There Any Downtime?",
-            "answer": "<p>Very few side effects are possible, such as <strong>minor redness and swelling <\/strong>following treatment. These usually only last a few hours, but in rare cases, can last a few days. Once redness or swelling disappears, the <strong>skin benefits in almost every aesthetic way<\/strong>. In extremely rare cases, lightening or darkening of the skin or scarring have occurred.<\/p>"
+            "question": "MEMBERSHIP TIER 3",
+            "answer": "<p>for $300 a month which includes all of the above INCLUDING Monthly Myer’s Cocktail IV Therapy, Hyperbaric Chamber and Redlight Bed (2x a month)<\/p>"
           }
         }
       },
@@ -161,7 +161,7 @@
         "92844a58-69cb-4e9f-b978-31606bc7bfbb"
       ],
       "settings": {
-        "title": "",
+        "title": "Pricing",
         "background_color": "#e5f8ff"
       }
     },
@@ -193,6 +193,42 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "166056524784326fe0": {
+      "type": "slideshow",
+      "blocks": {
+        "16605652468de19750-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BalancedAesthetics_MembershipDetails_Web.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16605652468de19750-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "image_fit": "contain",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -205,6 +241,7 @@
     "165969439736fc51d2",
     "1659694667e6cdff92",
     "form",
-    "main"
+    "main",
+    "166056524784326fe0"
   ]
 }
