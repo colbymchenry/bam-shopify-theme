@@ -44,6 +44,10 @@
   display: none;
 }
 
+.membership-pricing .pricing__body .is--visible {
+  display: flex;
+}
+
 .slideshow__media.banner__media.media {
   background: none !important;
 }

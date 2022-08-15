@@ -41,7 +41,7 @@
     Array.from(document.getElementsByClassName("pricing__body")).forEach((div) => div.style.display = "none");
     // show selected category
     const category__div = document.querySelector(`.pricing__body[data-category=${category}]`);
-    console.log(category__div);
+    category__div.style.display = "flex";
   }
 
   document.addEventListener("DOMContentLoaded", () => {
