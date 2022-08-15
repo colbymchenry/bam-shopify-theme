@@ -49,6 +49,10 @@
   row-gap: 20px;
 }
 
+.pricing__body .accordion__container .accordion {
+  align-self: flex-start;
+}
+
 .pricing__body .description {
   color: #6492ab !important;
 }
