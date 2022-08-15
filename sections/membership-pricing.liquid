@@ -51,7 +51,7 @@
       const filtered__services = services.filter((service) => service["category"] === category);
 
       filtered__services.forEach((service) => {
-        pricing__body.insertAdjacentElement("afterbegin", `
+        pricing__body.innerHTML = pricing__body.innerHTML + `
         <div class="accordion" onclick="triggerAccordion(event);">
           <div class="question">
             <h5>${service["name"]}</h5>
@@ -63,7 +63,7 @@
             ${service["member"] ? `<p class="member">${service["member"]}</p>` : ``}
           </div>
         </div>
-      `)
+      `
       });
     });
 
