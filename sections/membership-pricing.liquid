@@ -59,8 +59,8 @@
           </div>
           <div class="answer">
             ${service["description"] ? `<p class="description">${service["description"]}</p>` : ``}
-            ${service["normal"] ? `<p class="normal">${service["normal"]}</p>` : ``}
-            ${service["member"] ? `<p class="member">${service["member"]}</p>` : ``}
+            ${service["normal"] ? `<div class="normal">A LA CARTE ${service["normal"]}</div>` : ``}
+            ${service["member"] ? `<div class="member">MEMBER ${service["member"]}</div>` : ``}
           </div>
         </div>
       `
