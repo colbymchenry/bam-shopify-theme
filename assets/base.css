@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .pricing__header .header__selections {
@@ -49,7 +50,7 @@
   row-gap: 20px;
 }
 
-.pricing__body .accordion__container .accordion {
+.pricing__body .accordion {
   align-self: flex-start;
 }
 
