@@ -451,6 +451,14 @@
             "price__normal": 850,
             "price__member": 600
           }
+        },
+        "5f52e507-336b-40c2-83ca-ba7f8567f8e7": {
+          "type": "service",
+          "settings": {
+            "name": "BOTOX®",
+            "description": "For fine lines and wrinkles",
+            "category": "fillers-and-neurotoxins"
+          }
         }
       },
       "block_order": [
@@ -475,7 +483,8 @@
         "72f120c8-9e5b-47ed-9927-44f6359b55bc",
         "ace74aa5-3c6a-4faa-9e0d-c1f1461ba16f",
         "a9e1b1ed-cd3b-42ad-9b55-68e170fc2d9e",
-        "f86ec2a4-e682-4243-92be-24bea6bab47e"
+        "f86ec2a4-e682-4243-92be-24bea6bab47e",
+        "5f52e507-336b-40c2-83ca-ba7f8567f8e7"
       ],
       "settings": {
       }
