@@ -60,10 +60,10 @@
       "settings": {
         "heading_logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
         "heading": "SKILLED, CARING PROFESSIONALS",
-        "title": "IPL Facial",
-        "body": "<p>A clear complexion is a sign of youth and vitality. As time goes on, the <strong>toll of UV rays, the environment, and age <\/strong>show up as age spots, sun damage, textural irregularities, fine lines and wrinkles, and hyperpigmentation. When this occurs, <strong>Balanced Aesthetics offers IPL facial rejuvenation <\/strong>to even out tone and texture concerns and renew your youthful complexion.<\/p>",
+        "title": "Why Become a Monthly Member?",
+        "body": "<p>We offer an amazing membership to our loyal clients, so you can get the biggest bang for your buck! We’d love to have you as part of the BAM fam!<\/p><p><\/p><p>Our members enjoy member-only access to monthly promotions with unbeatable rates! Plus you receive 10% off all of our products, complimentary B-12 shots, a complimentary monthly BAM Signature Facial, a sexual optimization regimen, and member pricing (30-40% average discount) on all á là carte Aesthetic and Wellness services and packages!<\/p>",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/IPL-Facial-Atlanta-Balanced_fed4226a-5bbf-4456-9cff-35f28fa8367b.jpg",
+        "image": "shopify:\/\/shop_images\/become-monthly-member.jpg",
         "gap": 20
       }
     },
@@ -78,6 +78,7 @@
     "1659694180b65bf791": {
       "type": "two-column",
       "settings": {
+        "is--grid": false,
         "justifyContent": "center",
         "alignItems": "flex-start",
         "wrap": "nowrap",
@@ -114,6 +115,7 @@
         "1659694191c377ea67-1"
       ],
       "settings": {
+        "testimonial": false,
         "animation": "fade-right",
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -145,6 +147,7 @@
         "165969419823df36ea-1"
       ],
       "settings": {
+        "testimonial": false,
         "animation": "fade-left",
         "desktop_content_position": "left",
         "content_alignment": "left",
