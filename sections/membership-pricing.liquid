@@ -20,14 +20,14 @@
     </div>
   </div>
 
-  <div class="pricing__body" data-category="aesthetic-services">
+  <div class="pricing__body accordion__container" data-category="aesthetic-services">
   </div>
-  <div class="pricing__body" data-category="add-ons">
+  <div class="pricing__body accordion__container" data-category="add-ons">
   </div>
-  <div class="pricing__body" data-category="fillers-and-neurotoxins">
+  <div class="pricing__body accordion__container" data-category="fillers-and-neurotoxins">
   </div>
-  <div class="pricing__body" data-category="packages">
-  <div class="pricing__body" data-category="wellness-services">
+  <div class="pricing__body accordion__container" data-category="packages">
+  <div class="pricing__body accordion__container" data-category="wellness-services">
   </div>
 </div>
 
@@ -41,7 +41,7 @@
     Array.from(document.getElementsByClassName("pricing__body")).forEach((div) => div.style.display = "none");
     // show selected category
     const category__div = document.querySelector(`.pricing__body[data-category=${category}]`);
-    category__div.style.display = "flex";
+    category__div.style.display = "grid";
   }
 
   document.addEventListener("DOMContentLoaded", () => {

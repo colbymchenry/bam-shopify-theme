@@ -42,10 +42,8 @@
 
 .membership-pricing .pricing__body {
   display: none;
-}
-
-.membership-pricing .pricing__body .is--visible {
-  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 .slideshow__media.banner__media.media {
