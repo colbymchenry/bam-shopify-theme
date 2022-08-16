@@ -1,23 +1,75 @@
 {% style %}
 
+  .google-reviews {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
 
+  .google-reviews .reviews__review {
+    display: flex;
+  }
+
+  .google-reviews .reviews__review img {
+    flex-shrink: 1;
+  }
+
+  .google-reviews .reviews__review .content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
 {% endstyle %}
 
 <div class="google-reviews">
-  <h1>Google Reviews</h1>
 </div>
 
 <script type="text/javascript">
   const reviewsURL = "{{ 'reviews.json' | asset_url }}";
+
+  function getMultipleRandom(arr, num) {
+    const shuffled = [...arr].sort(() => 0.5 - Math.random());
+
+    return shuffled.slice(0, num);
+  }
+
   document.addEventListener('DOMContentLoaded', async () => {
     console.log("CALLED")
     // const resp = await fetch(`https://maps.googleapis.com/maps/api/place/details/json?placeid=${placeId}&sensor=true&key=${googleApiKey}`);
     // const data = await resp.json();
     // console.log(data);
     const resp = await fetch(reviewsURL);
-    const data = await resp.json();
-    console.log(data);
+    let { name, rating, reviews, total_reviews } = await resp.json();
+
+    if (reviews.length > 20) {
+      reviews = getMultipleRandom(reviews, 20)
+    }
+
+    const reviews__container = document.querySelector('.google-reviews');
+
+    reviews.forEach(({ reviewAuthor, reviewAuthorImage, reviewRating, reviewText, reviewDate}) => {
+
+      let stars = ``;
+      for (let i = 0; i < reviewRating; i++) {
+
+      }
+
+      reviews__container.innerHTML += `
+      <div class="reviews__review">
+         <img src="${reviewAuthorImage}" loading="lazy" alt="" />
+         <div class="content">
+            <span><b>${reviewAuthor}</b></span>
+            <div class="content__rating">
+            ${reviewDate}
+            </div>
+            <p>${reviewText}</p>
+         </div>
+      </div>
+      `;
+    });
+
   }, false);
 </script>
 
