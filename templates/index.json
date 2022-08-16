@@ -61,7 +61,7 @@
     "spacer": {
       "type": "spacer",
       "settings": {
-        "min_height": 30,
+        "min_height": 65,
         "height": 0,
         "max_height": 1200
       }
