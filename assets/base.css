@@ -19,6 +19,12 @@
   }
 }
 
+@media screen and (max-width: 750px) {
+  .addToMaps {
+    margin-top: 4rem;
+  }
+}
+
 .addToMaps .btn {
   border: none;
   border-radius: 6px;
@@ -56,24 +62,24 @@
 }
 
 .addToMaps .apple {
-  background: #000;
-  fill: #fff;
-  color: #fff;
-  white-space: nowrap;
+  background: #000 !important;
+  fill: #fff !important;
+  color: #fff !important;
+  white-space: nowrap !important;
 }
 
 .addToMaps .google {
-  white-space: nowrap;
-  background-color: #f6f6f6;
-  background-image: linear-gradient(#f6f6f6,#e9e9e9);
-  border: 1px solid #e9e9e9;
-  color: #565656;
+  white-space: nowrap !important;
+  background-color: #f6f6f6 !important;
+  background-image: linear-gradient(#f6f6f6,#e9e9e9) !important;
+  border: 1px solid #e9e9e9 !important;
+  color: #565656 !important;
 }
 
 .addToMaps .waze {
-  white-space: nowrap;
-  background-color: #32cbfe;
-  color: #fff;
+  white-space: nowrap !important;
+  background-color: #32cbfe !important;
+  color: #fff !important;
 }
 
 .membership-pricing {
