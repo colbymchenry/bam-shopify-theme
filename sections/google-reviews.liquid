@@ -53,12 +53,16 @@
     animation: marquee 20s linear infinite;
   }
 
+  .google-reviews.animate:hover {
+    animation-play-state: paused;
+  }
+
   @keyframes marquee {
     0% {
-      left: 0;
+      margin-left: 0;
     }
     100% {
-      left: -375%;
+      margin-left: -375%;
     }
   }
 
@@ -68,7 +72,7 @@
   <div class="google-reviews first-half animate" style="flex-basis: 50%;">
 
   </div>
-  <div class="google-reviews second-half" style="flex-basis: 50%;">
+  <div class="google-reviews second-half animate" style="flex-basis: 50%;">
 
   </div>
 </div>
