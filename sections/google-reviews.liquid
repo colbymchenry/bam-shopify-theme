@@ -23,6 +23,12 @@
     gap: 10px;
   }
 
+  .google-reviews .content__rating svg {
+    transform: scale(0.5);
+    fill: #DFB67A;
+    color: #DFB67A;
+  }
+
   .google-reviews .reviews__review img {
     flex-shrink: 1;
     width: 42px;
@@ -42,8 +48,8 @@
 <div class="google-reviews">
 </div>
 
-<div id="full-star">{% include 'icon-star' %}</div>
-<div id="half-star">{% include 'icon-star__half' %}</div>
+<div id="full-star" style="display: none;">{% include 'icon-star' %}</div>
+<div id="half-star" style="display: none;">{% include 'icon-star__half' %}</div>
 
 <script type="text/javascript">
   const reviewsURL = "{{ 'reviews.json' | asset_url }}";
