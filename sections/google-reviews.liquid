@@ -9,7 +9,7 @@
 </div>
 
 <script type="text/javascript">
-  const reviewsURL = {{ 'reviews.json' | asset_url }};
+  const reviewsURL = "{{ 'reviews.json' | asset_url }}";
   document.addEventListener('DOMContentLoaded', async () => {
     console.log("CALLED")
     // const resp = await fetch(`https://maps.googleapis.com/maps/api/place/details/json?placeid=${placeId}&sensor=true&key=${googleApiKey}`);
