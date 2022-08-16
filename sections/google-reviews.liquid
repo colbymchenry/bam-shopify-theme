@@ -98,6 +98,8 @@
 
     const reviews__container = document.querySelector('.google-reviews');
 
+    reviews__container.style.width = (500 * reviews.length) + "px";
+
     reviews.forEach(({ reviewAuthor, reviewAuthorImage, reviewRating, reviewText, reviewDate, reviewUrl}, index) => {
 
       let stars = '';
