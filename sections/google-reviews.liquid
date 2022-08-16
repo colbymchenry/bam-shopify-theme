@@ -96,7 +96,7 @@
       reviews = getMultipleRandom(reviews, 20)
     }
 
-    const reviews__container = document.querySelector('.google-reviews.first-half');
+    const reviews__container = document.querySelector('.google-reviews');
 
     reviews.forEach(({ reviewAuthor, reviewAuthorImage, reviewRating, reviewText, reviewDate}, index) => {
 
@@ -123,7 +123,7 @@
       </div>
 
       `;
-     
+
     });
 
   }, false);
