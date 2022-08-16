@@ -14,7 +14,7 @@
         "type": "text",
         "id": "googlePlaceId",
         "label": "Place ID",
-        "info": "Go to https://developers.google.com/maps/documentation/places/web-service/place-id search and look for the Place ID"
+        "info": "Go to https:\/\/developers.google.com\/maps\/documentation\/places\/web-service\/place-id search and look for the Place ID"
       }
     ]
   },

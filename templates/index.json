@@ -61,15 +61,23 @@
     "spacer": {
       "type": "spacer",
       "settings": {
-        "min_height": 40,
-        "height": 9.5,
+        "min_height": 30,
+        "height": 0,
         "max_height": 1200
       }
     },
     "16606772034a57272a": {
       "type": "google-reviews",
       "settings": {
-        "placeId": "ChIJj5gJNO8F9YgR3o03kysplYo"
+        "animation_speed": "20"
+      }
+    },
+    "1660682935f7e887c4": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 120,
+        "height": 0,
+        "max_height": 1200
       }
     },
     "video_with_text": {
@@ -398,6 +406,7 @@
     "video_banner",
     "spacer",
     "16606772034a57272a",
+    "1660682935f7e887c4",
     "video_with_text",
     "16567243330cc4a75b",
     "associations",
