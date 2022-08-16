@@ -60,6 +60,7 @@
     display: flex;
     align-items: center;
     gap: 16px;
+    padding: 0 8%;
   }
 
   @keyframes marquee {
@@ -77,7 +78,7 @@
   <div class="content__rating">
 
   </div>
-  <span></span>
+  <span class="header__rating-count"></span>
 </div>
 <div class="google-reviews animate">
 </div>
@@ -109,7 +110,7 @@
     }
 
     document.querySelector(".google-reviews__header .content__rating").innerHTML = `<span>${rating}</span>` + stars;
-    // document.querySelector(".google-reviews__header span").innerHTML = total_reviews + " Google reviews";
+    document.querySelector(".google-reviews__header .header__rating-count").innerHTML = total_reviews + " Google reviews";
 
     reviews = reviews.filter((review) => review["reviewText"] !== "Only rating provided.");
 
