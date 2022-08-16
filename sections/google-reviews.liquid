@@ -11,7 +11,9 @@
 <script type="text/javascript">
   const placeId = {{ section.settings.placeId | json }};
   document.addEventListener('DOMContentLoaded', () => {
+    console.log("CALLED")
     (async () => {
+      console.log("CALLED2")
       const resp = await fetch("https://api.reviewsmaker.com/gmb/?placeid=" + placeId);
       const data = await resp.json();
       console.log(data);
