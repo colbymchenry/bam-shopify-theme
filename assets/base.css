@@ -2,6 +2,66 @@
   overflow-x: hidden;
 }
 
+.addToMaps {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  grid-gap: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.addToMaps .btn {
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.addToMaps a {
+  display: flex;
+  align-items: center;
+  grid-gap: 0.5rem;
+  gap: 0.5rem;
+  height: 40px;
+  flex-basis: calc(50% - 0.5rem);
+  justify-content: center;
+}
+
+.addToMaps svg {
+  width: 18px;
+}
+
+.addToMaps .apple {
+  background: #000;
+  fill: #fff;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.addToMaps .google {
+  white-space: nowrap;
+  background-color: #f6f6f6;
+  background-image: linear-gradient(#f6f6f6,#e9e9e9);
+  border: 1px solid #e9e9e9;
+  color: #565656;
+}
+
+.addToMaps .waze {
+  white-space: nowrap;
+  background-color: #32cbfe;
+  color: #fff;
+}
+
 .membership-pricing {
   display: grid;
   grid-template-columns: 1fr;

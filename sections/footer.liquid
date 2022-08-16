@@ -144,6 +144,17 @@
           </div>
         {%- endif -%}
 
+        <div class="map-buttons">
+          <div class="addToMaps">
+            <a href="https://maps.apple.com/?address=1800%20Peachtree%20St%20NW%2C%20%23855%2C%20Atlanta%2C%20GA%2030309" class="apple btn" target="_blank" rel="noreferrer">
+              {% include 'icon-apple' %}Apple Maps</a>
+            <a href="https://www.google.com/maps/place/1800%20Peachtree%20St%20NW%2C%20%23855%2C%20Atlanta%2C%20GA%2030309" class="google btn" target="_blank" rel="noreferrer">
+              {% include 'icon-google' %}Google Maps</a>
+            <a href="https://waze.com/ul?q=1800%20Peachtree%20St%20NW%2C%20%23855%2C%20Atlanta%2C%20GA%2030309" class="waze btn" target="_blank" rel="noreferrer">
+              {% include 'icon-waze' %}Waze</a>
+          </div>
+        </div>
+
         {%- if section.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
             {%- if settings.social_twitter_link != blank -%}
@@ -331,7 +342,7 @@
         {%- endif -%}
         <div class="footer__copyright caption">
           <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-          <small class="copyright__content">{{ powered_by_link }}</small>
+          <small class="copyright__content">Developed by <a href="https://colbymchenry.com" target="_blank">Colby McHenry</a></small>
         </div>
       </div>
     </div>
