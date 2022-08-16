@@ -247,6 +247,50 @@
         "max_height": 1200
       }
     },
+    "166057728189d450e1": {
+      "type": "rich-text",
+      "blocks": {
+        "166057728042bc53f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Balanced Aesthetics Membership Agreement<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166057728042bc53f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are thrilled to have you as a BAM member! Our top priority at Balanced Aesthetics is…Your health fromthe inside out! Please review and sign the below acknowledgement of understanding.<\/p>"
+          }
+        },
+        "166057728042bc53f1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "DOWNLOAD",
+            "button_link": "https:\/\/balancedaestheticsmedspa.com\/wp-content\/uploads\/2021\/12\/BALANCED-AESTHETICS-MEMBERSHIP-AGREEMENT-upd.-12.15.21.pdf",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166057728042bc53f1-0",
+        "166057728042bc53f1-1",
+        "166057728042bc53f1-2"
+      ],
+      "settings": {
+        "testimonial": false,
+        "animation": "fade",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1659694667e6cdff92": {
       "type": "membership",
       "settings": {
@@ -261,7 +305,7 @@
       "type": "contact-form",
       "settings": {
         "heading": "Contact Us",
-        "message": "<p>Call us at <a href=\"tel:4702262390\">(470) 226-2390<\/a>for a free consultation with our team.<\/p>",
+        "message": "<p>Call us at <a href=\"tel:4702262390\">(470) 226-2390 <\/a>for a free consultation with our team.<\/p>",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "padding_top": 36,
@@ -292,6 +336,7 @@
     "1660565522978319dd",
     "166056920213f0536b",
     "16605692167d31e02d",
+    "166057728189d450e1",
     "1659694667e6cdff92",
     "form",
     "main"
