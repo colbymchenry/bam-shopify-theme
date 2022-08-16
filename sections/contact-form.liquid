@@ -52,10 +52,10 @@
       {%- if form.posted_successfully? -%}
       <script type="text/javascript">
         Swal.fire({
-          title: 'Error!',
-          text: 'Do you want to continue',
-          icon: 'error',
-          confirmButtonText: 'Cool'
+          title: 'Submission successful!',
+          text: 'Thank you! We will get back to you as soon as possible.',
+          icon: 'success',
+          showCancelButton: true,
         })
       </script>
         {% comment %}<h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</h2>{% endcomment %}
