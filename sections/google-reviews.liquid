@@ -4,10 +4,23 @@
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
+    gap: 20px;
   }
 
   .google-reviews .reviews__review {
     display: flex;
+    overflow: hidden;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 215px;
+    max-height: 215px;
+
+  }
+
+  .google-reviews .content__rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 
   .google-reviews .reviews__review img {
@@ -20,13 +33,17 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    padding-left: 20px;
   }
 
 {% endstyle %}
 
 <div class="google-reviews">
 </div>
+
+<div id="full-star">{% include 'icon-star' %}</div>
+<div id="half-star">{% include 'icon-star__half' %}</div>
 
 <script type="text/javascript">
   const reviewsURL = "{{ 'reviews.json' | asset_url }}";
@@ -38,10 +55,6 @@
   }
 
   document.addEventListener('DOMContentLoaded', async () => {
-    console.log("CALLED")
-    // const resp = await fetch(`https://maps.googleapis.com/maps/api/place/details/json?placeid=${placeId}&sensor=true&key=${googleApiKey}`);
-    // const data = await resp.json();
-    // console.log(data);
     const resp = await fetch(reviewsURL);
     let { name, rating, reviews, total_reviews } = await resp.json();
 
@@ -53,9 +66,14 @@
 
     reviews.forEach(({ reviewAuthor, reviewAuthorImage, reviewRating, reviewText, reviewDate}) => {
 
-      let stars = ``;
-      for (let i = 0; i < reviewRating; i++) {
+      let stars = '';
 
+      for (let i = 0; i < reviewRating; i++) {
+        stars += document.getElementById("full-star").innerHTML;
+      }
+
+      if (("" + reviewRating).includes(".")) {
+        stars += document.getElementById("half-star").innerHTML;
       }
 
       reviews__container.innerHTML += `
@@ -64,7 +82,7 @@
          <div class="content">
             <span><b>${reviewAuthor}</b></span>
             <div class="content__rating">
-            ${reviewDate}
+            ${stars} ${reviewDate}
             </div>
             <p>${reviewText.length > 150 ? reviewText.substring(0, 150) + "..." : reviewText}</p>
          </div>
