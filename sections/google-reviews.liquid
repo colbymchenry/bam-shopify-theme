@@ -98,7 +98,7 @@
 
     const reviews__container = document.querySelector('.google-reviews');
 
-    reviews.forEach(({ reviewAuthor, reviewAuthorImage, reviewRating, reviewText, reviewDate}, index) => {
+    reviews.forEach(({ reviewAuthor, reviewAuthorImage, reviewRating, reviewText, reviewDate, reviewUrl}, index) => {
 
       let stars = '';
 
@@ -118,7 +118,7 @@
             <div class="content__rating">
             <div>${stars}</div> ${reviewDate}
             </div>
-            <p>${reviewText.length > 150 ? reviewText.substring(0, 150) + "..." : reviewText}</p>
+            <p>${reviewText.length > 150 ? reviewText.substring(0, 150) + `... <a href="${reviewUrl}" target="_blank">More</a>` : reviewText}</p>
          </div>
       </div>
 
