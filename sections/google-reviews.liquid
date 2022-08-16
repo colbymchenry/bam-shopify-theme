@@ -52,6 +52,12 @@
 {% endstyle %}
 
 <div class="google-reviews">
+  <div class="google-reviews first-half">
+
+  </div>
+  <div class="google-reviews second-half">
+
+  </div>
 </div>
 
 <div id="full-star" style="display: none;">{% include 'icon-star' %}</div>
@@ -76,9 +82,10 @@
       reviews = getMultipleRandom(reviews, 20)
     }
 
-    const reviews__container = document.querySelector('.google-reviews');
+    const reviews__container1 = document.querySelector('.google-reviews.first-half');
+    const reviews__container2 = document.querySelector('.google-reviews.second-half');
 
-    reviews.forEach(({ reviewAuthor, reviewAuthorImage, reviewRating, reviewText, reviewDate}) => {
+    reviews.forEach(({ reviewAuthor, reviewAuthorImage, reviewRating, reviewText, reviewDate}, index) => {
 
       let stars = '';
 
@@ -90,7 +97,8 @@
         stars += document.getElementById("half-star").innerHTML;
       }
 
-      reviews__container.innerHTML += `
+      if (index < 10) {
+        reviews__container1.innerHTML += `
       <div class="reviews__review">
          <img src="${reviewAuthorImage}" loading="lazy" alt="" />
          <div class="content">
@@ -101,7 +109,21 @@
             <p>${reviewText.length > 150 ? reviewText.substring(0, 150) + "..." : reviewText}</p>
          </div>
       </div>
+
       `;
+      } else {
+        reviews__container2.innerHTML += `
+      <div class="reviews__review">
+         <img src="${reviewAuthorImage}" loading="lazy" alt="" />
+         <div class="content">
+            <span><b>${reviewAuthor}</b></span>
+            <div class="content__rating">
+            <div>${stars}</div> ${reviewDate}
+            </div>
+            <p>${reviewText.length > 150 ? reviewText.substring(0, 150) + "..." : reviewText}</p>
+         </div>
+      </div>
+      }
     });
 
   }, false);
