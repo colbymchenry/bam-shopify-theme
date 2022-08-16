@@ -49,13 +49,26 @@
     padding-left: 20px;
   }
 
+  .google-reviews.animate {
+    animation: marquee 20s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -375%;
+    }
+  }
+
 {% endstyle %}
 
 <div class="google-reviews">
-  <div class="google-reviews first-half">
+  <div class="google-reviews first-half animate" style="flex-basis: 50%;">
 
   </div>
-  <div class="google-reviews second-half">
+  <div class="google-reviews second-half" style="flex-basis: 50%;">
 
   </div>
 </div>
