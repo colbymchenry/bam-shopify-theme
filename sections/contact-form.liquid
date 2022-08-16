@@ -106,6 +106,10 @@
             {% render 'icon-caret' %}
           </div>
         </div>
+        {% else %}
+          <select id="ContactForm-service" class="select__select" name="contact[service]" style="font-size: 16px;display: none;">
+            <option value="BAMFAM Membership" selected>BAMFAM Membership</option>
+          </select>
         {% endif %}
       </div>
 
