@@ -27,7 +27,7 @@
     align-items: center;
   }
 
-  .google-reviews .content__rating svg {
+  .content__rating svg {
     transform: scale(0.5);
     fill: #DFB67A;
     color: #DFB67A;
@@ -56,6 +56,12 @@
     animation-play-state: paused;
   }
 
+  .google-reviews__header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
   @keyframes marquee {
     0% {
       margin-left: 0;
@@ -67,10 +73,14 @@
 
 {% endstyle %}
 
-<div class="google-reviews">
-  <div class="google-reviews animate">
+<div class="google-reviews__header">
+  <h4></h4>
+  <div class="content__rating">
 
   </div>
+  <span></span>
+</div>
+<div class="google-reviews">
 </div>
 
 <div id="full-star" style="display: none;">{% include 'icon-star' %}</div>
@@ -88,6 +98,21 @@
   document.addEventListener('DOMContentLoaded', async () => {
     const resp = await fetch(reviewsURL);
     let { name, rating, reviews, total_reviews } = await resp.json();
+
+    document.querySelector(".google-reviews__header h4").innerHTML = name;
+
+    let stars = '';
+
+    for (let i = 0; i < rating; i++) {
+      stars += document.getElementById("full-star").innerHTML;
+    }
+
+    if (("" + rating).includes(".")) {
+      stars += document.getElementById("half-star").innerHTML;
+    }
+
+    document.querySelector(".google-reviews__header .content__rating").innerHTML = stars;
+    document.querySelector(".google-reviews__header span").innerHTML = total_reviews;
 
     reviews = reviews.filter((review) => review["reviewText"] !== "Only rating provided.");
 
