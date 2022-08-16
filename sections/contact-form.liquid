@@ -50,21 +50,14 @@
     
     {%- form 'contact', id: id, class: 'isolate' -%}
       {%- if form.posted_successfully? -%}
-
-      <div style="display:block" class="modal">
-        <div class="modal__overlay"></div>
-        <div class="modal__container">
-          <h1 id="w-node-_86070131-2df0-f72d-5075-7d828102d510-56a824aa" class="modal__header">Submission Successful!</h1>
-          <div id="w-node-e6d3d808-f52c-0335-a0c9-b91f71a3cf81-56a824aa" data-w-id="e6d3d808-f52c-0335-a0c9-b91f71a3cf81" class="modal__close-btn w-embed"><svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" fill="currentColor">
-              <path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z"></path>
-            </svg></div>
-          <div id="w-node-_3838dea7-9d8e-f5e9-9e2e-a710df4ea573-56a824aa" class="modal__content">
-            <div>Thank you for your submission!</div>
-          </div>
-        </div>
-      </div>
-
-
+      <script type="text/javascript">
+        Swal.fire({
+          title: 'Error!',
+          text: 'Do you want to continue',
+          icon: 'error',
+          confirmButtonText: 'Cool'
+        })
+      </script>
         {% comment %}<h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</h2>{% endcomment %}
       {%- elsif form.errors -%}
         <div class="form__message">
