@@ -50,7 +50,7 @@
   }
 
   .google-reviews.animate {
-    animation: marquee 20s linear infinite;
+    animation: marquee {{ section.settings.animation_speed }}s linear infinite;
   }
 
   .google-reviews.animate:hover {
@@ -133,7 +133,12 @@
 {
   "name": "Google Reviews",
   "settings": [
-
+    {
+      "type": "text",
+      "id": "animation_speed",
+      "label": "Animation Speed in seconds",
+      "default": 20
+    }
   ],
   "presets": [{
     "name": "Google Reviews",
