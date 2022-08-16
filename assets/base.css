@@ -54,7 +54,7 @@
 
 .addToMaps a:hover, .addToMaps a:visited {
   text-decoration: none !important;
-  color: inherit !important;
+  color: inherit;
 }
 
 .addToMaps svg {
@@ -66,6 +66,11 @@
   fill: #fff !important;
   color: #fff !important;
   white-space: nowrap !important;
+}
+
+.addToMaps .apple:hover {
+  color: white !important;
+  fill: white !important;
 }
 
 .addToMaps .google {
