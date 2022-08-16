@@ -21,6 +21,12 @@
   }
 {%- endstyle -%}
 
+{% assign id = "ContactForm" %}
+
+{% if section.settings["is__membership"] %}
+  {% assign id = "MembershipForm" %}
+{% endif %}
+
 <div class="color-{{ section.settings.color_scheme }} gradient contact-form-container">  
   <div class="contact page-width section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
@@ -42,7 +48,7 @@
         width: 75px;
 " />
     
-    {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
+    {%- form 'contact', id: id, class: 'isolate' -%}
       {%- if form.posted_successfully? -%}
         <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</h2>
       {%- elsif form.errors -%}
