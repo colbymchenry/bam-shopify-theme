@@ -93,6 +93,7 @@
           <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
           <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
         </div>
+        {% if section.settings["is__membership"] == false %}
         <div class="field">
           <div class="select">
             {% assign services = settings.bookable_services | newline_to_br | split: '<br />' %}
@@ -105,8 +106,10 @@
             {% render 'icon-caret' %}
           </div>
         </div>
+        {% endif %}
       </div>
 
+      {% if section.settings["is__membership"] == false %}
       <div class="field">
         <textarea
           rows="10"
@@ -119,6 +122,7 @@
         </textarea>
         <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label>
       </div>
+      {% endif %}
       <div class="contact__button">
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
@@ -192,6 +196,12 @@
       ],
       "default": "background-1",
       "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "is__membership",
+      "default": false,
+      "label": "Is Membership Form?"
     },
     {
       "type": "header",
