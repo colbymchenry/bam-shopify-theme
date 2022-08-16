@@ -61,6 +61,7 @@
     align-items: center;
     gap: 16px;
     padding: 0 8%;
+    margin-bottom: 2rem;
   }
 
   @keyframes marquee {
@@ -109,8 +110,8 @@
       stars += document.getElementById("half-star").innerHTML;
     }
 
-    document.querySelector(".google-reviews__header .content__rating").innerHTML = `<span>${rating}</span>` + stars;
-    document.querySelector(".google-reviews__header .header__rating-count").innerHTML = total_reviews + " Google reviews";
+    document.querySelector(".google-reviews__header .content__rating").innerHTML = stars;
+    document.querySelector(".google-reviews__header .header__rating-count").innerHTML =  `${total_reviews} Google reviews`;
 
     reviews = reviews.filter((review) => review["reviewText"] !== "Only rating provided.");
 
