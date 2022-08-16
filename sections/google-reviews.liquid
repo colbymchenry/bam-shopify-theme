@@ -68,7 +68,8 @@
 
   document.addEventListener('DOMContentLoaded', async () => {
     const resp = await fetch(reviewsURL);
-    let { name, rating, reviews, total_reviews } = await resp.json();
+    const data = await resp.json();
+    let { name, rating, reviews, total_reviews } = data.filter((review) => review["reviewText"] !== "Only rating provided.");
 
     if (reviews.length > 20) {
       reviews = getMultipleRandom(reviews, 20)
