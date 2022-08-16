@@ -3,12 +3,20 @@
 }
 
 .addToMaps {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   align-items: center;
   margin-top: 1rem;
   grid-gap: 1rem;
   gap: 1rem;
-  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .addToMaps {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 }
 
 .addToMaps .btn {
@@ -35,6 +43,12 @@
   height: 40px;
   flex-basis: calc(50% - 0.5rem);
   justify-content: center;
+  text-decoration: none;
+}
+
+.addToMaps a:hover, .addToMaps a:visited {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 .addToMaps svg {
