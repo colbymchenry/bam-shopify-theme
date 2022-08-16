@@ -74,13 +74,12 @@
 {% endstyle %}
 
 <div class="google-reviews__header">
-  <h4></h4>
   <div class="content__rating">
 
   </div>
   <span></span>
 </div>
-<div class="google-reviews">
+<div class="google-reviews animate">
 </div>
 
 <div id="full-star" style="display: none;">{% include 'icon-star' %}</div>
@@ -98,8 +97,6 @@
   document.addEventListener('DOMContentLoaded', async () => {
     const resp = await fetch(reviewsURL);
     let { name, rating, reviews, total_reviews } = await resp.json();
-
-    document.querySelector(".google-reviews__header h4").innerHTML = name;
 
     let stars = '';
 
