@@ -43,7 +43,7 @@
         "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "show_text_below": true
       }
     },
@@ -78,6 +78,7 @@
     "1659694180b65bf791": {
       "type": "two-column",
       "settings": {
+        "is--grid": false,
         "justifyContent": "center",
         "alignItems": "center",
         "wrap": "nowrap",
@@ -114,6 +115,7 @@
         "1659694191c377ea67-1"
       ],
       "settings": {
+        "testimonial": false,
         "animation": "fade-right",
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -145,6 +147,7 @@
         "165969419823df36ea-1"
       ],
       "settings": {
+        "testimonial": false,
         "animation": "fade-left",
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -206,6 +209,7 @@
         "message": "<p>Call us at <a href=\"tel:4702262390\">(470) 226-2390<\/a>for a free consultation with our team.<\/p>",
         "heading_size": "h1",
         "color_scheme": "background-1",
+        "is__membership": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
