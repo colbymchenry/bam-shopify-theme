@@ -9,10 +9,13 @@
 </div>
 
 <script type="text/javascript">
-  const placeId = {{ section.settings.placeId | json }};
+  const reviewsURL = {{ 'reviews.json' | asset_url }};
   document.addEventListener('DOMContentLoaded', async () => {
     console.log("CALLED")
-    const resp = await fetch("https://api.reviewsmaker.com/gmb/?placeid=" + placeId);
+    // const resp = await fetch(`https://maps.googleapis.com/maps/api/place/details/json?placeid=${placeId}&sensor=true&key=${googleApiKey}`);
+    // const data = await resp.json();
+    // console.log(data);
+    const resp = await fetch(reviewsURL);
     const data = await resp.json();
     console.log(data);
   }, false);
@@ -22,13 +25,7 @@
 {
   "name": "Google Reviews",
   "settings": [
-    {
-      "type": "text",
-      "id": "placeId",
-      "label": "Place ID",
-      "info": "Go to https://developers.google.com/maps/documentation/places/web-service/place-id search and look for the Place ID",
-      "default": "ChIJj5gJNO8F9YgR3o03kysplYo"
-    }
+
   ],
   "presets": [{
     "name": "Google Reviews",

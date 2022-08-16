@@ -8,6 +8,17 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
+    "name": "GOOGLE REVIEWS",
+    "settings": [
+      {
+        "type": "text",
+        "id": "googlePlaceId",
+        "label": "Place ID",
+        "info": "Go to https://developers.google.com/maps/documentation/places/web-service/place-id search and look for the Place ID"
+      }
+    ]
+  },
+  {
     "name": "CONTACT FORM",
     "settings": [
       {
