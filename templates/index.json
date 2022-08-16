@@ -66,6 +66,12 @@
         "max_height": 1200
       }
     },
+    "16606772034a57272a": {
+      "type": "google-reviews",
+      "settings": {
+        "placeId": "ChIJj5gJNO8F9YgR3o03kysplYo"
+      }
+    },
     "video_with_text": {
       "type": "video-with-text",
       "settings": {
@@ -144,7 +150,8 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
-            "label": "INDIVIDUALIZED CARE"
+            "label": "INDIVIDUALIZED CARE",
+            "width": 0
           }
         },
         "heading": {
@@ -167,6 +174,7 @@
         "text"
       ],
       "settings": {
+        "testimonial": false,
         "animation": "fade",
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -307,6 +315,7 @@
     "16569535500d6ede54": {
       "type": "two-column",
       "settings": {
+        "is--grid": false,
         "justifyContent": "space-between",
         "alignItems": "flex-start",
         "wrap": "wrap",
@@ -379,6 +388,7 @@
         "message": "",
         "heading_size": "h1",
         "color_scheme": "background-1",
+        "is__membership": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -387,6 +397,7 @@
   "order": [
     "video_banner",
     "spacer",
+    "16606772034a57272a",
     "video_with_text",
     "16567243330cc4a75b",
     "associations",
