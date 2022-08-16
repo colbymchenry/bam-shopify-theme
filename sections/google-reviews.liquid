@@ -66,7 +66,7 @@
             <div class="content__rating">
             ${reviewDate}
             </div>
-            <p>${reviewText}</p>
+            <p>${reviewText.length > 150 ? reviewText.substring(0, 150) + "..." : reviewText}</p>
          </div>
       </div>
       `;
