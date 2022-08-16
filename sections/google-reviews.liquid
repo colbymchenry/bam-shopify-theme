@@ -1,0 +1,39 @@
+{% style %}
+
+
+
+{% endstyle %}
+
+<div class="google-reviews">
+  <h1>Google Reviews</h1>
+</div>
+
+<script type="text/javascript">
+  const placeId = {{ section.settings.placeId | json }};
+  document.addEventListener('DOMContentLoaded', () => {
+    (async () => {
+      const resp = await fetch("https://api.reviewsmaker.com/gmb/?placeid=" + placeId);
+      const data = await resp.json();
+      console.log(data);
+    })();
+  }, false);
+</script>
+
+{% schema %}
+{
+  "name": "Google Reviews",
+  "settings": [
+    {
+      "type": "text",
+      "id": "placeId",
+      "label": "Place ID",
+      "info": "Go to https://developers.google.com/maps/documentation/places/web-service/place-id search and look for the Place ID",
+      "default": "ChIJj5gJNO8F9YgR3o03kysplYo"
+    }
+  ],
+  "presets": [{
+    "name": "Two column",
+    "category": "Text"
+  }]
+}
+{% endschema %}
