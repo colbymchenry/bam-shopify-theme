@@ -316,7 +316,7 @@ header.bottom-header {
 .bottom-header a {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .bottom-header .socials {
