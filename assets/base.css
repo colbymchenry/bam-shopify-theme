@@ -4,6 +4,11 @@
 
 .booking-url {
   white-space: nowrap;
+  flex-grow: 1;
+}
+
+header .socials {
+  flex-shrink: 1;
 }
 
 .banner__media.media.placeholder {
