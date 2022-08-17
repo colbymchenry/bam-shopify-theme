@@ -2,6 +2,10 @@
   overflow-x: hidden;
 }
 
+.banner__media.media.placeholder {
+  display: none !important;
+}
+
 .addToMaps {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
