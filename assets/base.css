@@ -2,6 +2,10 @@
   overflow-x: hidden;
 }
 
+.booking-url {
+  white-space: nowrap;
+}
+
 .banner__media.media.placeholder {
   display: none !important;
 }
