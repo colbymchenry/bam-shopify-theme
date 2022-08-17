@@ -35,7 +35,7 @@
         "165886772106df2000-2"
       ],
       "settings": {
-        "image_overlay_opacity": 20,
+        "image_overlay_opacity": 60,
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-right",
