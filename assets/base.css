@@ -301,9 +301,10 @@ header .socials {
 }
 
 header.bottom-header {
-  display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
+  grid-template-columns: 1fr 1fr !important;
+  column-gap: 20px;
 }
 
 .bottom-header .booking-url,.bottom-header .booking-url:hover,.bottom-header .booking-url:visited {
