@@ -300,6 +300,10 @@ header .socials {
 
 }
 
+.contact-form-container {
+  margin-top: 20rem;
+}
+
 header.bottom-header {
   justify-content: space-between !important;
   align-items: center !important;
