@@ -2,7 +2,7 @@
   overflow-x: hidden;
 }
 
-.two-column .contact-form-container {
+.shopify-section.two-column section .contact-form-container {
   margin-top: 0 !important;
 }
 
