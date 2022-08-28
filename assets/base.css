@@ -2,6 +2,10 @@
   overflow-x: hidden;
 }
 
+.two-column .contact-form-container {
+  margin-top: 0 !important;
+}
+
 .booking-url {
   white-space: nowrap;
   flex-grow: 1;
