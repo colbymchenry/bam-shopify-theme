@@ -382,6 +382,13 @@
             "question": "How to submit a refill request",
             "answer": "<p>You can:<\/p><p><strong>1.<\/strong> Call the main office number at <a href=\"tel:470-226-2390\" title=\"tel:470-226-2390\">470-226-2390<\/a> and let any of our team members know your first and last name, date of birth and request your refill. <\/p><p><strong>2.<\/strong> For After-hours requests you can leave us a voicemail with the same information and someone from our team will give you a call back to verify we received your request. <\/p>"
           }
+        },
+        "f32e72c7-c84b-4e3c-8229-d3155eb8f3cd": {
+          "type": "question",
+          "settings": {
+            "question": "When will I be charged for my membership?",
+            "answer": "<p>All memberships are charged at the first of every month. To cancel your membership you must call the office and speak to a team member to verify your cancellation before the 1st of the month. Voicemails after hours and over the weekend will not be eligible for refunds.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -390,7 +397,8 @@
         "ded9c73a-b018-4e9f-853e-96b49e7dac49",
         "2c01fa60-35b1-4b96-866b-831151762547",
         "f8730a84-c0a4-4ef6-9453-42dfd72745a8",
-        "84b2b431-574e-4c2f-ae0f-dd8ddbe5e8c7"
+        "84b2b431-574e-4c2f-ae0f-dd8ddbe5e8c7",
+        "f32e72c7-c84b-4e3c-8229-d3155eb8f3cd"
       ],
       "settings": {
         "title": "FAQ",
