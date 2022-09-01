@@ -75,6 +75,20 @@
         "max_height": 1200
       }
     },
+    "1662075853b02199fb": {
+      "type": "video",
+      "settings": {
+        "heading": "How to safely and correctly use your new peptides.",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Regenerative-Medicine-Atlanta1.jpg",
+        "video_url": "https:\/\/youtu.be\/12WzdkqoezM",
+        "description": "How to safely and correctly use your new peptides.",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1659710747c65cb088": {
       "type": "peptide-combinations",
       "blocks": {
@@ -348,6 +362,7 @@
         "message": "<p>Call us at <a href=\"tel:4702262390\">(470) 226-2390<\/a>for a free consultation with our team.<\/p>",
         "heading_size": "h1",
         "color_scheme": "background-1",
+        "is__membership": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -366,6 +381,7 @@
     "16596941544a416177",
     "165886873165e4dfff",
     "16596943757cd95565",
+    "1662075853b02199fb",
     "1659710747c65cb088",
     "165969439736fc51d2",
     "165971300106b3fa65",
