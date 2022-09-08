@@ -12,11 +12,11 @@
       "type": "two-column",
       "settings": {
         "is--grid": false,
-        "justifyContent": "space-between",
+        "justifyContent": "center",
         "alignItems": "center",
         "wrap": "nowrap",
         "wrapWidth": 500,
-        "gap": 7,
+        "gap": 3,
         "minWidth": 300,
         "width": 50,
         "maxWidth": 1680,
