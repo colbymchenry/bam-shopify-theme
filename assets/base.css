@@ -7,6 +7,11 @@ a {
   text-decoration: none !important;
 }
 
+.footer-block__details-content.rte a:last-of-type {
+  color: #DFB67A !important;
+  text-decoration: none !important;
+}
+
 .shopify-section.two-column section .contact-form-container {
   margin-top: 0 !important;
 }
