@@ -87,6 +87,22 @@
         {% if section.settings.body %}
             {{ section.settings.body }}
         {% endif %}
+        {% if section.settings.semaglutide %}
+          <div class="semaglutide">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M14.25 44V25.6q-2.6-.55-4.425-2.625Q8 20.9 8 18V4h3v14h3.25V4h3v14h3.25V4h3v14q0 2.9-1.825 4.975Q19.85 25.05 17.25 25.6V44ZM35 44V28h-5.75V12.75q0-3.95 2.4-6.35Q34.05 4 38 4v40Z"/></svg>
+                <span><b>No restrictive diet</b> or intense exercise</span>
+              </div>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M24.05 23.55q2.5 0 4.175-1.675Q29.9 20.2 29.9 17.65q0-2.5-1.675-4.2-1.675-1.7-4.175-1.7-2.55 0-4.25 1.7-1.7 1.7-1.7 4.2 0 2.55 1.7 4.225 1.7 1.675 4.25 1.675Zm-3.2-4.9q-.4 0-.7-.3-.3-.3-.3-.7 0-.4.3-.7.3-.3.7-.3.4 0 .7.3.3.3.3.7 0 .4-.3.7-.3.3-.7.3Zm3.15 0q-.4 0-.7-.3-.3-.3-.3-.7 0-.4.3-.7.3-.3.7-.3.4 0 .7.3.3.3.3.7 0 .4-.3.7-.3.3-.7.3Zm3.15 0q-.4 0-.7-.3-.3-.3-.3-.7 0-.4.3-.7.3-.3.7-.3.4 0 .7.3.3.3.3.7 0 .4-.3.7-.3.3-.7.3ZM9 42q-1.2 0-2.1-.9Q6 40.2 6 39V9q0-1.2.9-2.1Q7.8 6 9 6h30q1.2 0 2.1.9.9.9.9 2.1v30q0 1.2-.9 2.1-.9.9-2.1.9Z"/></svg>
+                <span>Our members <b>on average see 21% weight loss</b></span>
+              </div>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M22 35h4v-6h6v-4h-6v-6h-4v6h-6v4h6Zm-9 7q-1.25 0-2.125-.875T10 39V15.05q0-1.25.875-2.125T13 12.05h22q1.25 0 2.125.875T38 15.05V39q0 1.25-.875 2.125T35 42ZM12 9V6h24v3Z"/></svg>
+                <span><b>Science backed</b> FDA Approved medication</span>
+              </div>
+          </div>
+        {% endif %}
     </div>
     <div class="right" data-aos="fade-left">
         {% if section.settings.video_url != blank %}
