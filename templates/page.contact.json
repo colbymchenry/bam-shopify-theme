@@ -22,7 +22,7 @@
         "is--grid": false,
         "justifyContent": "center",
         "alignItems": "center",
-        "wrap": "nowrap",
+        "wrap": "wrap-reverse",
         "wrapWidth": 500,
         "gap": 3,
         "minWidth": 300,
