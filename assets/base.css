@@ -2,6 +2,10 @@
   overflow-x: hidden;
 }
 
+a {
+  color: #DFB67A;
+}
+
 .shopify-section.two-column section .contact-form-container {
   margin-top: 0 !important;
 }
