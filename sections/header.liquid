@@ -605,6 +605,7 @@
     {% if section.settings.booking_url != blank %}
     <a href="{{ section.settings.booking_url }}" target="_blank" class="booking-url">{{ section.settings.booking_label }} {% include 'svg-book' %}</a>
     {% endif %}
+    <a href="tel:+14702054019" class="booking-url">{% include 'svg-book' %}</a>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
