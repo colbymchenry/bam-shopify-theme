@@ -1,1 +1,64 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":36}},"form":{"type":"contact-form","settings":{"heading":"","heading_size":"h1","color_scheme":"background-1","padding_top":36,"padding_bottom":36}}},"order":["main","form"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166266376054333f03": {
+      "type": "two-column",
+      "settings": {
+        "is--grid": false,
+        "justifyContent": "center",
+        "alignItems": "center",
+        "wrap": "nowrap",
+        "wrapWidth": 500,
+        "gap": 2,
+        "minWidth": 300,
+        "width": 50,
+        "maxWidth": 1680,
+        "minWidthFirstChild": 300,
+        "widthFirstChild": 50,
+        "minWidthLastChild": 300,
+        "widthLastChild": 50
+      }
+    },
+    "16626637488516e96b": {
+      "type": "google-maps",
+      "blocks": {
+        "6279a81b-d605-40dd-b507-92aa69bd180b": {
+          "type": "url",
+          "settings": {
+            "url": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3315.3374825986616!2d-84.39618448434955!3d33.8036029382385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f505ef3409988f%3A0x8a95292b93378dde!2sBalanced%20Aesthetics%20Med%20Spa!5e0!3m2!1sen!2sus!4v1662663556492!5m2!1sen!2sus"
+          }
+        }
+      },
+      "block_order": [
+        "6279a81b-d605-40dd-b507-92aa69bd180b"
+      ],
+      "settings": {
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact Us",
+        "message": "<p>Feel free to call us any time!<\/p>",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "is__membership": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166266376054333f03",
+    "16626637488516e96b",
+    "form"
+  ]
+}
