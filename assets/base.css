@@ -4,6 +4,7 @@
 
 a {
   color: #DFB67A;
+  text-decoration: none !important;
 }
 
 .shopify-section.two-column section .contact-form-container {
