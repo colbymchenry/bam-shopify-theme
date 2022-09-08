@@ -8,6 +8,14 @@
         "padding_bottom": 36
       }
     },
+    "1662663823b7b5cc05": {
+      "type": "spacer",
+      "settings": {
+        "min_height": 70,
+        "height": 0,
+        "max_height": 1200
+      }
+    },
     "166266376054333f03": {
       "type": "two-column",
       "settings": {
@@ -57,6 +65,7 @@
   },
   "order": [
     "main",
+    "1662663823b7b5cc05",
     "166266376054333f03",
     "16626637488516e96b",
     "form"
