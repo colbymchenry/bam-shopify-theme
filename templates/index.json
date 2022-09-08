@@ -23,8 +23,8 @@
             "button_label_1": "Book Now",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
-            "button_label_2": "Wellness Quiz",
-            "button_link_2": "",
+            "button_label_2": "Call Us",
+            "button_link_2": "tel:+14702054019",
             "button_style_secondary_2": true
           }
         },
