@@ -23,7 +23,7 @@
         "justifyContent": "center",
         "alignItems": "center",
         "wrap": "wrap-reverse",
-        "wrapWidth": 500,
+        "wrapWidth": 1000,
         "gap": 3,
         "minWidth": 300,
         "width": 50,
