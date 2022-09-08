@@ -19,7 +19,7 @@
   {% if section.settings.wrapWidth != blank %}
   @media screen and (max-width: {{ section.settings.wrapWidth }}px) {
     #shopify-section-{{ section.id }} {
-      flex-wrap: wrap !important;
+      flex-wrap: {{ section.settings.wrap }} !important;
     }
 
     #shopify-section-{{ section.id }} > *:first-child {
