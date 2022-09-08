@@ -58,6 +58,7 @@
     "165886873165e4dfff": {
       "type": "video-with-text",
       "settings": {
+        "semaglutide": true,
         "heading_logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
         "heading": "A BEAUTIFUL YOU, INSIDE AND OUT",
         "title": "Weight Loss",
