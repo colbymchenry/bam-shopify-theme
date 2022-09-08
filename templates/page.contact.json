@@ -54,7 +54,7 @@
       "type": "contact-form",
       "settings": {
         "heading": "Contact Us",
-        "message": "<p>Feel free to call us any time!<\/p>",
+        "message": "<p>Feel free to call us any time!<\/p><p><a href=\"tel:+14702054019\" title=\"tel:+14702054019\">(470) 205 - 4019<\/a><\/p>",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "is__membership": false,
