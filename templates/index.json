@@ -83,6 +83,7 @@
     "video_with_text": {
       "type": "video-with-text",
       "settings": {
+        "semaglutide": false,
         "heading_logo": "shopify:\/\/shop_images\/BalancedAestheticsLogo_Color2_2020-01-3.png",
         "heading": "OUR STORY",
         "title": "Balanced Aesthetics' Unique Model Created For You",
@@ -306,9 +307,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2022-07-02_114435.png",
-        "heading": "SKILLED, CARING PROFESSIONALS",
+        "heading": "the best aesthetic membership in atlanta",
         "title": "BAMFAM Membership",
-        "body": "<p>For only $100 per month, start your membership today and begin enjoying all of the benefits of becoming part of the BAMFAM! Receive monthly, complimentary BAM Signature Facial treatments, discounts on retail products, and more.<\/p>",
+        "body": "<p>Starting at only $99 per month, you can start your membership today and begin enjoying all of the benefits of becoming part of the BAMFAM! Receive monthly, complimentary facial treatments, discounts on all services, injectables, low per unit pricing on Xeomin and Botox, discounts on medical grade skincare products and more.<\/p>",
         "signup_url": "shopify:\/\/pages\/contact"
       }
     },
