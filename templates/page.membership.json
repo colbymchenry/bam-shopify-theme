@@ -13,26 +13,14 @@
         "165886772106df2000-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Become a member",
             "text_style": "body"
-          }
-        },
-        "165886772106df2000-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Save $400 & BOOK NOW WITH 3 FREE MONTHS OF ULTRABURN",
-            "button_link_1": "https:\/\/booking.appointy.com\/Balancedaesthetics?sr=856388",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "165886772106df2000-0",
-        "165886772106df2000-1",
-        "165886772106df2000-2"
+        "165886772106df2000-1"
       ],
       "settings": {
         "image_overlay_opacity": 80,
@@ -58,6 +46,7 @@
     "165886873165e4dfff": {
       "type": "video-with-text",
       "settings": {
+        "semaglutide": false,
         "heading_logo": "shopify:\/\/shop_images\/sf-4-1-1.png",
         "heading": "SKILLED, CARING PROFESSIONALS",
         "title": "Why Become a Monthly Member?",
@@ -118,7 +107,7 @@
         "1659694191c377ea67-1": {
           "type": "text",
           "settings": {
-            "text": "<p>For $100 a month, your BAMFAM membership gives you access to some of the best Aesthetics and Wellness treatments anywhere. The wide selection of treatments means there’s value for anyone in becoming part of the BAM fam!<\/p>"
+            "text": "<p>Our members enjoy member-only access to monthly promotions with exclusive pricing and perks.<br\/>Check out the membership options to see which one is right for you. <\/p><p>Not sure which one you need? Call or book your complimentary Total Aesthetic consultation<br\/>with our experts to review your goals and wishes, and receive a tailored, comprehensive treatment plan including the timeframe, the aesthetic services, the products and the wellness services you will need to help you achieve your goals.<\/p>"
           }
         }
       },
