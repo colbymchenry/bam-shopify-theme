@@ -58,6 +58,7 @@
     },
     "16596943757cd95565": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "min_height": 120,
         "height": 0,
@@ -66,6 +67,7 @@
     },
     "166052319660b0ff47": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -141,8 +143,8 @@
         "19d18657-cf81-4a11-9cd6-60a7b19db36a": {
           "type": "question",
           "settings": {
-            "question": "MEMBERSHIP TIER 1",
-            "answer": "<p>for $100 a month we include Weekly B12, Monthly BAM Facial, Discounts on Services and Products (10%-40% off)<\/p>"
+            "question": "Defined Membership $99",
+            "answer": "<p>\/ BAM Signature Express Facial or<br\/> Dermaplaning Facial ($125 value)<\/p><p>\/ Average of 20-35% off additional services -see member pricing sheet<\/p><p>\/ Botox and Xeomin $11 per unit (20+ units)<\/p><p>\/ 10% off Filler 10% off retail and medical grade skincare<\/p><p>\/ Weekly wellness B12 shot<\/p>"
           }
         },
         "62e2dd4d-b91e-45cb-8a5c-361e4cac1c60": {
